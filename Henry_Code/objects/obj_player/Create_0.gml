@@ -1,0 +1,1 @@
+WALK_SPEED = 3;
