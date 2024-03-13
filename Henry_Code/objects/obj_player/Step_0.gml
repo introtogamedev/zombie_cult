@@ -2,21 +2,27 @@
 var new_y = y;
 var new_x = x;
 
+hsp = 0;
+vsp = 0;
+
 if obj_god.up {
-	new_y -= WALK_SPEED;
+	vsp = -PLR_WALK_SPD;
 }
 
 if obj_god.down {
-	new_y += WALK_SPEED;
+	vsp = PLR_WALK_SPD;
 }
 
 if obj_god.left {
-	new_x -= WALK_SPEED;
+	hsp = -PLR_WALK_SPD;
 }
 
 if obj_god.right {
-	new_x += WALK_SPEED;
+	hsp = PLR_WALK_SPD;
 }
+
+new_x += hsp;
+new_y += vsp;
 
 var ydir = sign(new_y);
 var xdir = sign(new_x);

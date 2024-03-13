@@ -1,3 +1,5 @@
+show_debug_message("hi");
+
 #region config
 //DON'T DELETE THIS IT MAKES THINGS LOOK GOOD PLEASE DELETING THIS KILLS EVERYONE
 gpu_set_tex_filter(false);
@@ -13,8 +15,7 @@ left = false
 
 
 //possible game states
-DEATH = 0;
-EXPLORE = 1;
-SHELF = 2;
-COMBAT = 3;
-WIN = 4; 
+Setup_Macros();
+
+current_state = EXPLORE;
+new_state = EXPLORE;

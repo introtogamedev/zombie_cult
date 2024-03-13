@@ -32,6 +32,7 @@
     {"id":{"name":"bkg_death","path":"sprites/bkg_death/bkg_death.yy",},},
     {"id":{"name":"Death","path":"rooms/Death/Death.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
+    {"id":{"name":"Setup_Macros","path":"scripts/Setup_Macros/Setup_Macros.yy",},},
     {"id":{"name":"spr_pin","path":"sprites/spr_pin/spr_pin.yy",},},
     {"id":{"name":"spr_zombie","path":"sprites/spr_zombie/spr_zombie.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
