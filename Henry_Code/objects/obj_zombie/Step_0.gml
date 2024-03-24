@@ -16,10 +16,10 @@ if point_distance(_zomb_x, _zomb_y, _plr_x, _plr_y) < 16 {
 
 
 if point_distance(_zomb_x, _zomb_y, _plr_x, _plr_y) < 230 {
-	if sign (_zomb_x - _plr_x) == 1 { hsp = -ZOMB_WALK_SPD; }
-	if sign (_zomb_x - _plr_x) == -1 { hsp = ZOMB_WALK_SPD; }
-	if sign (_zomb_y - _plr_y) == 1 { vsp = -ZOMB_WALK_SPD; }
-	if sign (_zomb_y - _plr_y) == -1 { vsp = ZOMB_WALK_SPD; }
+	if (sign (_zomb_x - _plr_x) == 1 && !place_meeting(self.x - 16,self.y,obj_solid)) { hsp = -ZOMB_WALK_SPD; }
+	if (sign (_zomb_x - _plr_x) == -1 && !place_meeting(self.x + 16,self.y,obj_solid))  { hsp = ZOMB_WALK_SPD; }
+	if (sign (_zomb_y - _plr_y) == 1 && !place_meeting(self.x,self.y - 16,obj_solid))  { vsp = -ZOMB_WALK_SPD; }
+	if (sign (_zomb_y - _plr_y) == -1 && !place_meeting(self.x,self.y + 16,obj_solid))  { vsp = ZOMB_WALK_SPD; }
 }
 
 
