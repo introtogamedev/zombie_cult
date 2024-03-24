@@ -7,11 +7,11 @@ gpu_set_tex_filter(false);
 
 //check keyboard input
 //horzinotal
-up =false
-down = false
+up =false;
+down = false;
 //verticle
-right = false
-left = false
+right = false;
+left = false;
 
 
 //possible game states
@@ -19,3 +19,6 @@ Setup_Macros();
 
 current_state = EXPLORE;
 new_state = EXPLORE;
+
+total_checks = 5;
+checks = 0;
