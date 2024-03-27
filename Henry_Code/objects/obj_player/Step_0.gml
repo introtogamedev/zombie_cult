@@ -30,6 +30,8 @@ if obj_god.current_state == EXPLORE{
 		}
 	}
 
+		}
+//cool comment
 	_new_x += hsp;
 	_new_y += vsp;
 
