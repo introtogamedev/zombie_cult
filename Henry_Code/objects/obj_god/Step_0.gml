@@ -7,17 +7,23 @@ if keyboard_check_pressed(ord("R")) {
 
 //check keyboard input
 //horzinotal
-up = keyboard_check(ord("W"));
-down = keyboard_check(ord("S"));
+up = keyboard_check(ord("W"))
+	
+
+down = keyboard_check(ord("S"))
+	
 //verticle
-right = keyboard_check(ord("D"));
-left = keyboard_check(ord("A"));
+right=keyboard_check(ord("D"))
+	
+left = keyboard_check(ord("A"))
+
+
 
 #region room controller
 if current_state != new_state {
 	if new_state = DEATH {
 		show_debug_message("DIE");
-		room_goto(Death)
+		room_goto(Death);
 	}
 	if new_state = EXPLORE {
 		room_goto(Explore);
