@@ -8,9 +8,6 @@ function Setup_Macros(){
 	#macro WIN 4
 	
 	#macro PLR_WALK_SPD 3
-<<<<<<< HEAD
 	#macro ZOMB_WALK_SPD 1.5
-=======
-	#macro ZOMB_WALK_SPD 1
->>>>>>> 3a91c64474ba47bab7fd513f776329271308d199
+
 }
