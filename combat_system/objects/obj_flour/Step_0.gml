@@ -12,7 +12,7 @@ if (global.selected_object != obj_flour){
 
 
 if (global.timer = 0 && obj_flour.visible = true && global.selected_object = obj_flour && keyboard_check_released(vk_enter)){
-		global.current = global.flour;
+		global.current = global.flour_effect;
 	
 		global.timer += 10;
 		

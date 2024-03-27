@@ -7,6 +7,7 @@ yPos = global.AyPos[2];
 
 
 global.lid = "";
+
 global.lid_effect = "YOU USE A GARBAGE LID AS A SHIELD.\nYOU TAKE REDUCED DAMAGE THIS BATTLE!";
 
 

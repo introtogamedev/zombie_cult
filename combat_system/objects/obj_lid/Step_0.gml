@@ -5,14 +5,14 @@ if (global.current = global.item){
 }
 
 if (global.selected_object != obj_lid){
-	global.bar = "GARBAGE LID";
+	global.lid = "GARBAGE LID";
 } else{
-	global.bar = "GARBAGE LID- INCREASE YOUR DEFENSES!";
+	global.lid = "GARBAGE LID- DECREASE INCOMING DMG!";
 }
 
 
 if (global.timer = 0 && obj_lid.visible = true && global.selected_object = obj_lid && keyboard_check_released(vk_enter)){
-	global.current = global.lid;
+	global.current = global.lid_effect;
 	global.status_resistance = true;
 	
 	global.timer += 10;
