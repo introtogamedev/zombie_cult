@@ -1,7 +1,7 @@
 {
   "resourceType": "GMProject",
   "resourceVersion": "1.7",
-  "name": "test turn based battle",
+  "name": "combat_system",
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
@@ -33,7 +33,7 @@
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"hp_enemy","path":"objects/hp_enemy/hp_enemy.yy",},},
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},},
-    {"id":{"name":"obj_garbage_lid","path":"objects/obj_garbage_lid/obj_garbage_lid.yy",},},
+    {"id":{"name":"obj_lid","path":"objects/obj_lid/obj_lid.yy",},},
     {"id":{"name":"obj_bar","path":"objects/obj_bar/obj_bar.yy",},},
     {"id":{"name":"act_skip","path":"objects/act_skip/act_skip.yy",},},
     {"id":{"name":"spr_selection","path":"sprites/spr_selection/spr_selection.yy",},},

@@ -14,7 +14,7 @@
     {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"hp_enemy","order":1,"path":"objects/hp_enemy/hp_enemy.yy",},
     {"name":"obj_text","order":4,"path":"objects/obj_text/obj_text.yy",},
-    {"name":"obj_garbage_lid","order":1,"path":"objects/obj_garbage_lid/obj_garbage_lid.yy",},
+    {"name":"obj_lid","order":1,"path":"objects/obj_lid/obj_lid.yy",},
     {"name":"act_skip","order":3,"path":"objects/act_skip/act_skip.yy",},
     {"name":"spr_selection","order":6,"path":"sprites/spr_selection/spr_selection.yy",},
     {"name":"obj_selection","order":7,"path":"objects/obj_selection/obj_selection.yy",},
