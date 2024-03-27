@@ -17,7 +17,7 @@ if (global.current = global.attack){
 }
 
 if (global.current = global.item){
-	global.array_limit = 1;
+	global.array_limit = 2;
 }
 
 if ((keyboard_check_released(vk_enter) && global.timer = 0 && global.player_turn = true)){

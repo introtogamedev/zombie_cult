@@ -7,7 +7,7 @@ enemy_selection = 4;
 
 function random_enemy_turn(){
 	randomise();
-	var i = random_range(0.51,3.49);
+	var i = irandom_range(1,3);
 	i = round(i);
 	
 	return i;
@@ -16,14 +16,9 @@ function random_enemy_turn(){
 
 enemy_dmg = 4;
 
-if (global.status_resistance = true){
-	enemy_dmg /= 2;
-}else{
-	enemy_dmg = 4;
-}
 
 global.enemy_heal = "ANGRY MAN SCREAMS LOUDLY, RESTORING 3 HP!"
-global.enemy_attack = "ANGRY MAN SLAPS YOU IN THE FACE!\nHE DEALS " + string(enemy_dmg) + " DMG!"
+
 global.enemy_skip = "ANGRY MAN IS TOO ANGRY TO DO ANYTHING!\nHE SKIPS HIS TURN!"
 
 global.enemy_death = "ANGRY MAN PERISHES! HE WAS\nTOO ANGRY FOR HIS OWN GOOD..";

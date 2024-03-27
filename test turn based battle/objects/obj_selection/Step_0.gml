@@ -51,10 +51,13 @@ if  (global.current = global.attack){
 
 if  (global.current = global.item){
 	if ((obj_selection.y = global.AyPos[0] + 10)){
-		global.selected_object = obj_energy_bar;
+		global.selected_object = obj_bar;
 	}
 
 	if ((obj_selection.y = global.AyPos[1] + 10)){
+		global.selected_object = obj_flour;
+	}
+	if ((obj_selection.y = global.AyPos[2] + 10)){
 		global.selected_object = obj_garbage_lid;
 	}
 }

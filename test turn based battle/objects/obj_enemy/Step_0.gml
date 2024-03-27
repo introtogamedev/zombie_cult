@@ -1,8 +1,18 @@
+global.enemy_attack = "ANGRY MAN SLAPS YOU IN THE FACE!\nHE DEALS " + string(enemy_dmg) + " DMG!"
+
+
 if (global.enemy_health < 1){
 	sprite_index = spr_enemy_dead;
 }
 
- if (sprite_index = spr_enemy_idle && global.timer = 0 && global.player_turn = false && keyboard_check_released(vk_enter)){
+if (global.status_resistance = true){
+	enemy_dmg = 2;
+}
+
+
+show_debug_message(global.status_resistance);
+
+if (sprite_index = spr_enemy_idle && global.timer = 0 && global.player_turn = false && keyboard_check_released(vk_enter)){
 
 	if (global.current != global.enemy_start){
 		global.timer += 10;

@@ -1,5 +1,3 @@
-show_debug_message("hi");
-
 #region config
 //DON'T DELETE THIS IT MAKES THINGS LOOK GOOD PLEASE DELETING THIS KILLS EVERYONE
 gpu_set_tex_filter(false);
@@ -20,5 +18,7 @@ Setup_Macros();
 current_state = EXPLORE;
 new_state = EXPLORE;
 
-total_checks = 5;
+total_checks = 7;
 checks = 0;
+
+draw_set_font(ScoreFont);
