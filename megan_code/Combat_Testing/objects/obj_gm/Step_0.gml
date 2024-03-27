@@ -67,6 +67,7 @@ if(player_turn)
 	{
 		player_turn = false;
 		enemy_turn = true;
+		result = false;
 		
 		fight_option = false;
 		fled = false;
@@ -141,7 +142,7 @@ if(player_turn)
 	
 	/////Support/////
 	//Potion
-	if(keyboard_check(ord("O")) && support_option)
+	if(keyboard_check(ord("O")) && support_option && potion_count > 0)
 	{
 		if(obj_meter.meter_value >= 1)
 		{
@@ -150,11 +151,12 @@ if(player_turn)
 			obj_combatsystem.can_flip = true;
 			support_option = false;
 			support_p = true;
+			potion_count -= 1;
 		}
 		else
 		{
 			obj_combatsystem.page = 90;
-		}
+		}		
 		
 	}
 	if(obj_combatsystem.page == 41 && obj_combatsystem.accept_key)
@@ -247,26 +249,33 @@ if(enemy_turn)
 	}*/
 	if(!result)
 	{
-		enemy_choice = choice();
-		result = true;
+		choice();
 	}
-	if(result && enemy_choice <= 5 && !enemy_moved)
+	if(result && enemy_choice == 0 && !enemy_moved)
 	{
 		enemy_fight = true;
 		obj_combatsystem.page = 50;
 		obj_combatsystem.can_flip = true;
 		enemy_moved = true;
+		result = false;
 	}
-	else if(result && enemy_choice >= 6 && !enemy_moved)
+	else if(result && enemy_choice == 1 && !enemy_moved)
 	{
 		enemy_heal = true;
 		obj_combatsystem.page = 60;
-		obj_combatsystem.can_flip = true;		
+		obj_combatsystem.can_flip = true;	
+		enemy_moved = true;
+		result = false;
 	}
 	
 	if(enemy_fight && obj_combatsystem.accept_key && obj_combatsystem.page == 51)
 	{
 		global.player_hp -= 3;
+		obj_player.sprite_index = spr_player_hurt;
+	}
+	
+	if(enemy_fight && obj_combatsystem.page == 51)
+	{
 		obj_player.sprite_index = spr_player_hurt;
 	}
 	else
@@ -287,27 +296,45 @@ if(enemy_turn)
 		starting_screen = true;
 		obj_combatsystem.page = 1;
 		obj_combatsystem.can_flip = false;
-		obj_meter.meter_value += 3;
+		result = false;
+		
+		if(obj_meter.meter_value + 3 >= 5)
+		{
+			obj_meter.meter_value = 5;
+		}
+		else
+		{
+			obj_meter.meter_value += 3;
+		}
 	}
 	
 	if(obj_combatsystem.page > 61 && obj_combatsystem.accept_key && enemy_heal)
 	{
-		enemy_turn = false;
-		player_turn = true;
 		enemy_heal = false;
 		enemy_moved = false;
+		enemy_turn = false;
+		player_turn = true;
 		starting_screen = true;
 		obj_combatsystem.page = 1;
 		obj_combatsystem.can_flip = false;
-		obj_meter.meter_value += 3;
 		result = false;
+		
+		if(obj_meter.meter_value + 3 >= 5)
+		{
+			obj_meter.meter_value = 5;
+		}
+		else
+		{
+			obj_meter.meter_value += 3;
+		}
 	}
 }
 
 function choice()
 {
-	 var _result = irandom_range(0, 10);
-	return _result;
+	enemy_choice = irandom_range(0, 1);
+	result = true;
+	return;
 }
 
 //WINNER
@@ -329,8 +356,6 @@ if(obj_combatsystem.page == 100)
 {
 	obj_combatsystem.can_flip = false;
 }
-
-show_debug_message(enemy_moved);
 
 
 

@@ -92,8 +92,17 @@ if(obj_gm.player_turn)
 	}
 	else if(obj_gm.support_option)
 	{
-		draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + 590 + border, "POTION (O)", line_sep, line_width);
 		draw_text_ext(textbox_x + text_x_offset[page] + border + 800, textbox_y + 590 + border, "EXPLOSIVE (P)", line_sep, line_width);
+		
+		if(obj_gm.potion_count > 0)
+		{
+			draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y + 590 + border, "POTION (O)", line_sep, line_width);
+		}
+		else
+		{
+			draw_line((textbox_x + text_x_offset[page] + border)/2 + 50, textbox_y + 620,(textbox_x + text_x_offset[page] + border)/2 + 250, textbox_y + 620);
+			draw_text_ext_color(textbox_x + text_x_offset[page] + border, textbox_y + 590 + border, "POTION (O)", line_sep, line_width, c_gray, c_gray, c_gray, c_gray, 1);
+		}
 	}
 	
 }

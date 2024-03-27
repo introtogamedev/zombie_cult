@@ -53,7 +53,8 @@ text[70] = "ENEMY IS DEFEATED, PLAYER WINS!";
 //Player flees
 text[80] = "PLAYER ESCAPES SUCCESSFULLY!";
 //Player has no mana
-text[90] = "YOU DON'T HAVE ENOUGH MANA!";
+text[90] = "YOU DON'T HAVE ENOUGH STAMINA!";
+text[91] = "YOU HAVE NO MORE POTIONS!";
 //Player dies
 text[100] = "YOU LOST! D:";
 
