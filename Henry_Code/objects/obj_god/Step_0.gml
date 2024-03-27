@@ -4,6 +4,11 @@ if keyboard_check_pressed(ord("R")) {
 	new_state = EXPLORE;
 	show_debug_message("HI")
 }
+if keyboard_check_pressed(ord("T")) {
+	//game_restart()
+	new_state = DEATH;
+	show_debug_message("HI")
+}
 
 //check keyboard input
 //horzinotal
