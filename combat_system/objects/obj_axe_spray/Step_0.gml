@@ -12,18 +12,31 @@ if (global.selected_object != obj_axe_spray){
 
 
 if (global.timer = 0 && obj_axe_spray.visible = true && global.selected_object = obj_axe_spray && keyboard_check_released(vk_enter)){
+	
+	if(obj_meter.meter_value < 2)
+	{
+		global.current = global.no_stamina;
+		global.timer += 10;
+	}
+	else
+	{
 		global.current = global.spray_effect;
 		global.enemy_health -= 1;
 		global.timer += 10;
-		
-		global.player_turn = true;
+		obj_meter.meter_value -= 2;
+	}
 	
 
 }	
-if (global.timer = 0 && global.current = global.spray  && keyboard_check_released(vk_enter)){		
+/*if (global.timer = 0 && global.current = global.spray  && keyboard_check_released(vk_enter)){		
 		global.current = global.player_start;
 		
 		global.timer += 10;
+}*/
+if(global.timer = 0 && global.current = global.spray_effect && keyboard_check_released(vk_enter))
+{
+	global.selected_object = obj_selection;
+	global.current = global.action;
 }
 
 

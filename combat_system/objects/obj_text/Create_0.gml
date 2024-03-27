@@ -11,6 +11,7 @@ global.player_turn = true;
 
 global.action = "WHAT WILL YOU DO?";
 
+global.no_stamina = "YOU RAN OUT OF STAMINA";
 
 global.player_start = "IT'S YOUR TURN!"
 
