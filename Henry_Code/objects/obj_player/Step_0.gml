@@ -29,7 +29,7 @@ if obj_god.current_state == EXPLORE{
 			hsp = PLR_WALK_SPD;
 		}
 		}
-
+//cool comment
 	_new_x += hsp;
 	_new_y += vsp;
 
