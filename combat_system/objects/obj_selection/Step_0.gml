@@ -55,7 +55,7 @@ if  (global.current = global.item){
 	}
 
 	if ((obj_selection.y = global.AyPos[1] + 10)){
-		global.selected_object = obj_flour;
+		global.selected_object = obj_axe_spray;
 	}
 	if ((obj_selection.y = global.AyPos[2] + 10)){
 		global.selected_object = obj_lid;

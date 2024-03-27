@@ -48,7 +48,7 @@
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"act_item","path":"objects/act_item/act_item.yy",},},
     {"id":{"name":"obj_barbed_wire_bat","path":"objects/obj_barbed_wire_bat/obj_barbed_wire_bat.yy",},},
-    {"id":{"name":"obj_flour","path":"objects/obj_flour/obj_flour.yy",},},
+    {"id":{"name":"obj_axe_spray","path":"objects/obj_axe_spray/obj_axe_spray.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
   ],
   "RoomOrderNodes": [
