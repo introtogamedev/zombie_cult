@@ -15,10 +15,11 @@ talk = false;
 support_option = false;
 support_p = false;
 support_e = false;
+potion_count = 2;
 
 enemy_choice = 0;
 enemy_moved = false;
-result = true;
+result = false;
 enemy_fight = false;
 enemy_heal = false;
 
