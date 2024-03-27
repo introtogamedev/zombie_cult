@@ -5,6 +5,7 @@ if obj_god.current_state == EXPLORE{
 
 	hsp = 0;
 	vsp = 0;
+
 	if (!place_meeting(self.x, self.y - 8, obj_solid))
 		{
 		if obj_god.up {
@@ -30,20 +31,25 @@ if obj_god.current_state == EXPLORE{
 		}
 	}
 
-		
-//cool comment
 	_new_x += hsp;
 	_new_y += vsp;
+	
+	
+	//if place_meeting(
 
 	var _ydir = sign(vsp);
 	var _xdir = sign(hsp);
+	
+	
 
-	var _closest_solid = instance_nearest(x, y, obj_solid);
+	//var _closest_solid = instance_nearest(x, y, obj_solid);
 	
 	
 
 	y = _new_y;
 	x = _new_x;
+
+	show_debug_message(string(x) + ", " + string(y));
 
 }
 

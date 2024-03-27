@@ -39,11 +39,13 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_pin","path":"objects/obj_pin/obj_pin.yy",},},
     {"id":{"name":"obj_god","path":"objects/obj_god/obj_god.yy",},},
+    {"id":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
     {"id":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"roomId":{"name":"Death","path":"rooms/Death/Death.yy",},},
+    {"roomId":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
