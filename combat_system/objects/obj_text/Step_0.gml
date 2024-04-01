@@ -5,7 +5,11 @@ if (keyboard_check_released(vk_enter) && global.current = battle_start){
 	global.timer += 10;
 }
 
-
+if(keyboard_check_released(ord("E")))
+{
+	global.timer += 10;
+	global.current = global.action;
+}
 
 //ARRAY LIMITS
 if (global.current = global.action){
