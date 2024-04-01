@@ -12,7 +12,7 @@ if obj_god.current_state == EXPLORE{
 
 
 	if point_distance(_zomb_x, _zomb_y, _plr_x, _plr_y) < 16 {
-		obj_god.new_state = DEATH;
+		obj_god.new_state = COMBAT;
 	}
 
 

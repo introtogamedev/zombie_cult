@@ -35,7 +35,7 @@ if current_state != new_state {
 	}
 	current_state = new_state;
 	
-	if new_state = EXPLORE {
+	if new_state = COMBAT {
 		room_goto(Combat);
 	}
 	current_state = new_state;
