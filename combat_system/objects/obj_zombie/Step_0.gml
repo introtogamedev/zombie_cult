@@ -11,7 +11,7 @@ if obj_god.current_state == EXPLORE{
 	
 
 
-	if point_distance(_zomb_x, _zomb_y, _plr_x, _plr_y) < 16 {
+	if (point_distance(_zomb_x, _zomb_y, _plr_x, _plr_y) < 16) && (!cooldown) {
 		obj_god.new_state = COMBAT;
 	}
 
@@ -29,9 +29,4 @@ if obj_god.current_state == EXPLORE{
 	
 	y = new_y;
 	x = new_x;
-}
-if obj_god.current_state == COMBAT{
-	if keyboard_check_pressed(ord("R")){
-		x += 500;
-	}
 }
