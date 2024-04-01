@@ -4,6 +4,7 @@ xPos = global.AxPos[0];
 
 yPos = global.AyPos[1];
 
+used = false;
 
 global.spray = "";
 

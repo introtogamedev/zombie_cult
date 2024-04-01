@@ -23,6 +23,16 @@ if (global.current = global.item){
 if ((keyboard_check_released(vk_enter) && global.timer = 0 && global.player_turn = true)){
 	if (global.current = global.enemy_attack || global.current = global.enemy_heal || global.current = global.enemy_skip){
 		global.current = global.player_start;
+		
+		//meter cap
+		if(obj_meter.meter_value + 3 >= 5)
+		{
+			obj_meter.meter_value = 5;
+		}
+		else
+		{
+			obj_meter.meter_value += 3;
+		}
 	
 	
 		
