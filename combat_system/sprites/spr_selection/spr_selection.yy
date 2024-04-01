@@ -28,7 +28,7 @@
   "origin": 4,
   "parent": {
     "name": "Textbox",
-    "path": "folders/Textbox.yy",
+    "path": "folders/COMBAT/Textbox.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

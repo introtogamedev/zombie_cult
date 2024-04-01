@@ -32,6 +32,7 @@ if current_state != new_state {
 	}
 	if new_state = EXPLORE {
 		room_goto(Explore);
+		show_debug_message("u r here");
 	}
 	current_state = new_state;
 	

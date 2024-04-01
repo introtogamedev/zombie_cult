@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "actions",
-    "path": "folders/Textbox/actions.yy",
+    "path": "folders/COMBAT/Textbox/actions.yy",
   },
   "parentObjectId": null,
   "persistent": false,

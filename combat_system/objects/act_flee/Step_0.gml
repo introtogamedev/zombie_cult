@@ -13,7 +13,8 @@ if (global.timer = 0 && act_flee.visible = true && global.selected_object = act_
 }
 
 if (global.timer = 0 && global.current = global.flee && keyboard_check_released(vk_enter)){
-	game_end();
+	obj_god.new_state = EXPLORE;
+	show_debug_message("heloooo");
 }
 
 

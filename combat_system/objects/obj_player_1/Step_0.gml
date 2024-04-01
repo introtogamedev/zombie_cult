@@ -49,7 +49,7 @@ if obj_god.current_state == EXPLORE{
 	y = _new_y;
 	x = _new_x;
 
-	show_debug_message(string(x) + ", " + string(y));
+	//show_debug_message(string(x) + ", " + string(y));
 
 }
 

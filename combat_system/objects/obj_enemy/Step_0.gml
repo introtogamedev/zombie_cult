@@ -10,7 +10,7 @@ if (global.status_resistance = true){
 }
 
 
-show_debug_message(global.status_resistance);
+//show_debug_message(global.status_resistance);
 
 if (sprite_index = spr_enemy_idle && global.timer = 0 && global.player_turn = false && keyboard_check_released(vk_enter)){
 

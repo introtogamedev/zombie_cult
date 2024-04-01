@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Meter",
-    "path": "folders/Meter.yy",
+    "path": "folders/COMBAT/Meter.yy",
   },
   "parentObjectId": null,
   "persistent": false,

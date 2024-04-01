@@ -120,7 +120,7 @@
   "maintainGms1Font": false,
   "parent": {
     "name": "Text",
-    "path": "folders/Text.yy",
+    "path": "folders/COMBAT/Text.yy",
   },
   "pointRounding": 0,
   "ranges": [

@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Health",
-    "path": "folders/Health.yy",
+    "path": "folders/COMBAT/Health.yy",
   },
   "parentObjectId": null,
   "persistent": false,

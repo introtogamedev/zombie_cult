@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Meter",
-    "path": "folders/Meter.yy",
+    "path": "folders/COMBAT/Meter.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

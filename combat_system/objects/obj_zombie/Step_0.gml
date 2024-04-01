@@ -30,8 +30,8 @@ if obj_god.current_state == EXPLORE{
 	y = new_y;
 	x = new_x;
 }
-if obj_god.current_state == DEATH{
+if obj_god.current_state == COMBAT{
 	if keyboard_check_pressed(ord("R")){
-		x += 50;
+		x += 500;
 	}
 }

@@ -28,7 +28,7 @@
   "origin": 0,
   "parent": {
     "name": "Enemy",
-    "path": "folders/Enemy.yy",
+    "path": "folders/COMBAT/Enemy.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
