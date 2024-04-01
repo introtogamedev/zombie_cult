@@ -4,7 +4,7 @@ xPos = global.AxPos[0];
 
 yPos = global.AyPos[2];
 
-
+used = false;
 
 global.lid = "";
 

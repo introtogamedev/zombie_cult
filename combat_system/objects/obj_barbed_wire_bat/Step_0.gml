@@ -23,11 +23,13 @@ if (global.timer = 0 && obj_barbed_wire_bat.visible = true && global.selected_ob
 if(global.timer = 0 && global.current = global.bat && keyboard_check_released(vk_enter))
 {
 	global.selected_object = obj_selection;
+	global.timer += 10;
 	global.current = global.action;
 }
 if(global.timer = 0 && global.current = global.no_stamina && keyboard_check_released(vk_enter))
 {
 	global.selected_object = obj_selection;
+	global.timer += 10;
 	global.current = global.action;
 }
 

@@ -2,12 +2,12 @@
   "FolderOrderSettings": [
     {"name":"Enemy","order":2,"path":"folders/Enemy.yy",},
     {"name":"Health","order":5,"path":"folders/Health.yy",},
+    {"name":"Meter","order":6,"path":"folders/Meter.yy",},
     {"name":"Text","order":4,"path":"folders/Text.yy",},
     {"name":"Textbox","order":3,"path":"folders/Textbox.yy",},
     {"name":"actions","order":5,"path":"folders/Textbox/actions.yy",},
     {"name":"attack","order":8,"path":"folders/Textbox/attack.yy",},
     {"name":"items","order":9,"path":"folders/Textbox/items.yy",},
-    {"name":"Meter","order":6,"path":"folders/Meter.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_meter3","order":3,"path":"sprites/spr_meter3/spr_meter3.yy",},
