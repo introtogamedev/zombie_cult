@@ -16,6 +16,7 @@
     {"name":"obj_solid","order":2,"path":"objects/obj_solid/obj_solid.yy",},
     {"name":"spr_pin","order":2,"path":"sprites/spr_pin/spr_pin.yy",},
     {"name":"spr_zombie","order":3,"path":"sprites/spr_zombie/spr_zombie.yy",},
+    {"name":"spr_shelf","order":5,"path":"sprites/spr_shelf/spr_shelf.yy",},
     {"name":"obj_pin","order":3,"path":"objects/obj_pin/obj_pin.yy",},
     {"name":"obj_god","order":1,"path":"objects/obj_god/obj_god.yy",},
     {"name":"Shelf","order":2,"path":"rooms/Shelf/Shelf.yy",},

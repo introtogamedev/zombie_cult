@@ -37,6 +37,7 @@
     {"id":{"name":"ScoreFont","path":"fonts/ScoreFont/ScoreFont.yy",},},
     {"id":{"name":"spr_zombie","path":"sprites/spr_zombie/spr_zombie.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_shelf","path":"sprites/spr_shelf/spr_shelf.yy",},},
     {"id":{"name":"obj_pin","path":"objects/obj_pin/obj_pin.yy",},},
     {"id":{"name":"obj_god","path":"objects/obj_god/obj_god.yy",},},
     {"id":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
