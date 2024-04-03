@@ -1,32 +1,32 @@
 
 //BEFORE ACTION SELECTION, TIMER AS TO NOT INSTA-SELECT
-if (keyboard_check_released(vk_enter) && global.current = battle_start){
-	global.current = global.action;
-	global.timer += 10;
+if (keyboard_check_released(vk_enter) && current = battle_start){
+	current = action;
+	timer += 10;
 }
 
 if(keyboard_check_released(ord("E")))
 {
-	global.timer += 10;
-	global.current = global.action;
+	timer += 10;
+	current = action;
 }
 
 //ARRAY LIMITS
-if (global.current = global.action){
+if (current = action){
 	global.array_limit = 3;
 }
 
-if (global.current = global.attack){
+if (current = obj_attack.text){
 	global.array_limit = 1;
 }
 
-if (global.current = global.item){
+if (current = obj_item.text){
 	global.array_limit = 2;
 }
 
-if ((keyboard_check_released(vk_enter) && global.timer = 0 && global.player_turn = true)){
-	if (global.current = global.enemy_attack || global.current = global.enemy_heal || global.current = global.enemy_skip){
-		global.current = global.player_start;
+if ((keyboard_check_released(vk_enter) && timer = 0 && player_turn = true)){
+	if (current = obj_enemy.enemy_attack_text || current = obj_enemy.enemy_heal_text || current = obj_enemy.enemy_skip_text){
+		current = player_start;
 		
 		//meter cap
 		if(obj_meter.meter_value + 3 >= 5)
@@ -40,25 +40,25 @@ if ((keyboard_check_released(vk_enter) && global.timer = 0 && global.player_turn
 	
 	
 		
-	}else if (global.current = global.player_start){
+	}else if (current = player_start){
 	
-		global.current = global.action;
-		global.timer += 10;
-		global.selected_object = obj_selection;
+		current = action;
+		timer += 10;
+		obj_selection.selected_object = obj_selection;
 	}
 
 }
 
 
 //DISPLAY THE CURRENT TEXT
-obj_textbox.Activate_Text_Box(global.current);
+obj_textbox.Activate_Text_Box(current);
 
 
 //show_debug_message(string(global.player_turn));
 
 //show_debug_message(string(global.timer));
 
-if (global.timer > 0){
-	global.timer --
+if (timer > 0){
+	timer --
 }
 

@@ -1,10 +1,10 @@
 if obj_god.current_state == COMBAT{
 
 
-	if (global.current = global.action || global.current = global.attack  || global.current = global.item ){
+	if (obj_text.current = obj_text.action || obj_text.current = obj_attack.text  || obj_text.current =obj_item.text ){
 		visible = true;
 		x = global.AxPos[0] - 10;
-		y = global.AyPos[0 + global.modifier] + 10;
+		y = global.AyPos[0 + modifier] + 10;
 	}else{
 		visible = false;
 		x = 0;
@@ -12,56 +12,58 @@ if obj_god.current_state == COMBAT{
 	}
 
 
-	if ((keyboard_check_released(ord("S"))) && global.modifier < global.array_limit){
-		global.modifier += 1;
+	if ((keyboard_check_released(ord("S"))) && modifier < global.array_limit){
+		modifier += 1;
 	}
 
-	if ((keyboard_check_released(ord("W"))) && global.modifier > 0){
-		global.modifier -= 1;
+	if ((keyboard_check_released(ord("W"))) && modifier > 0){
+		modifier -= 1;
 	}
 
 
-	if (global.current = global.action){
+
+//REPLACE THIS LATER WHEN WE GET A WORKING INVENTORY SYSTEM
+	if (obj_text.current = obj_text.action){
 		if ((obj_selection.y = global.AyPos[0] + 10)){
-			global.selected_object = act_attack;
+			selected_object = obj_attack;
 		}
 
 		if ((obj_selection.y = global.AyPos[1] + 10)){
-			global.selected_object = act_flee;
+			selected_object = obj_flee;
 		}
 
 		if ((obj_selection.y = global.AyPos[2] + 10)){
-			global.selected_object = act_item;
+			selected_object = obj_item;
 		}
 		if ((obj_selection.y = global.AyPos[3] + 10)){
-			global.selected_object = act_skip;
+			selected_object = obj_skip;
 		}
 	}
 
 
 
-	if  (global.current = global.attack){
+	if  (obj_text.current = obj_attack.text){
 		if ((obj_selection.y = global.AyPos[0] + 10)){
-			global.selected_object = obj_barbed_wire_bat;
+			selected_object = atk_barbed_wire_bat;
 		}
 
 		if ((obj_selection.y = global.AyPos[1] + 10)){
-			global.selected_object = obj_emotional_trauma;
+			selected_object = atk_emotional_trauma;
 		}
 	}
 
 
 
-	if  (global.current = global.item){
+	if  (obj_text.current = obj_item.text){
 		if ((obj_selection.y = global.AyPos[0] + 10)){
-			global.selected_object = obj_bar;
+			selected_object = item_bar;
 		}
 
 		if ((obj_selection.y = global.AyPos[1] + 10)){
-			global.selected_object = obj_axe_spray;
+			selected_object = item_axe_spray;
 		}
 		if ((obj_selection.y = global.AyPos[2] + 10)){
-			global.selected_object = obj_lid;
+			selected_object = item_lid;
 		}
 	}
 

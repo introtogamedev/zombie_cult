@@ -1,3 +1,3 @@
-global.status_resistance = false;
+obj_player.status_resistance = false;
 
 
