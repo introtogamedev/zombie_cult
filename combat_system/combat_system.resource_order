@@ -1,14 +1,14 @@
 {
   "FolderOrderSettings": [
     {"name":"COMBAT","order":15,"path":"folders/COMBAT.yy",},
+    {"name":"Actions","order":6,"path":"folders/COMBAT/Actions.yy",},
+    {"name":"Attacks","order":8,"path":"folders/COMBAT/Attacks.yy",},
     {"name":"Health","order":1,"path":"folders/COMBAT/Health.yy",},
+    {"name":"Items","order":7,"path":"folders/COMBAT/Items.yy",},
     {"name":"Meter","order":2,"path":"folders/COMBAT/Meter.yy",},
     {"name":"Player","order":3,"path":"folders/COMBAT/Player.yy",},
     {"name":"Text","order":4,"path":"folders/COMBAT/Text.yy",},
     {"name":"Textbox","order":5,"path":"folders/COMBAT/Textbox.yy",},
-    {"name":"Actions","order":6,"path":"folders/COMBAT/Actions.yy",},
-    {"name":"Attacks","order":8,"path":"folders/COMBAT/Attacks.yy",},
-    {"name":"Items","order":7,"path":"folders/COMBAT/Items.yy",},
     {"name":"EXPLORE","order":16,"path":"folders/EXPLORE.yy",},
     {"name":"Objects","order":1,"path":"folders/EXPLORE/Objects.yy",},
     {"name":"Scripts","order":2,"path":"folders/EXPLORE/Scripts.yy",},
