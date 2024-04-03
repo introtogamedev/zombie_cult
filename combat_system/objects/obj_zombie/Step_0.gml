@@ -9,7 +9,8 @@ if obj_god.current_state == EXPLORE{
 	var new_y = y;
 	var new_x = x;
 	
-
+	var _distance_x = _zomb_x - _plr_x;
+	var _distance_y = _zomb_y - _plr_y;
 
 	if (point_distance(_zomb_x, _zomb_y, _plr_x, _plr_y) < 16) && (!cooldown) {
 		obj_god.new_state = COMBAT;
@@ -17,15 +18,22 @@ if obj_god.current_state == EXPLORE{
 
 
 	if point_distance(_zomb_x, _zomb_y, _plr_x, _plr_y) < 230 {
-		if (sign (_zomb_x - _plr_x) == 1 && !place_meeting(self.x - 8,self.y,obj_solid)) { hsp = -ZOMB_WALK_SPD; }
-		if (sign (_zomb_x - _plr_x) == -1 && !place_meeting(self.x + 8,self.y,obj_solid))  { hsp = ZOMB_WALK_SPD; }
-		if (sign (_zomb_y - _plr_y) == 1 && !place_meeting(self.x,self.y - 8,obj_solid))  { vsp = -ZOMB_WALK_SPD; }
-		if (sign (_zomb_y - _plr_y) == -1 && !place_meeting(self.x,self.y + 8,obj_solid))  { vsp = ZOMB_WALK_SPD; }
+		if (sign (_distance_x)) == 1 { hsp = -ZOMB_WALK_SPD; }
+		if (sign (_distance_x)) == -1 { hsp = ZOMB_WALK_SPD; }
+		if (sign ( _distance_y)) == 1 { vsp = -ZOMB_WALK_SPD; }
+		if (sign ( _distance_y)) == -1 { vsp = ZOMB_WALK_SPD; }
 	}
 
 
-	new_x += hsp;
-	new_y += vsp;
+
+	if (!(place_meeting(self.x - 4,self.y,obj_solid) || place_meeting(self.x + 4,self.y,obj_solid))) && 
+	 !(abs(_distance_x) < ZOMB_WALK_SPD) {
+		new_x += hsp;
+	}
+	if !(place_meeting(self.x,self.y - 4,obj_solid) || place_meeting(self.x,self.y + 4,obj_solid)) &&
+	!(abs(_distance_y) < ZOMB_WALK_SPD){
+		new_y += vsp;
+	}
 	
 	y = new_y;
 	x = new_x;

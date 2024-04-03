@@ -7,7 +7,7 @@ function Setup_Macros(){
 	#macro COMBAT 3
 	#macro WIN 4
 	
-	#macro PLR_WALK_SPD 3
-	#macro ZOMB_WALK_SPD 1.5
+	#macro PLR_WALK_SPD 2
+	#macro ZOMB_WALK_SPD .8
 
 }

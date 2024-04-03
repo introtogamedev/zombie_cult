@@ -6,7 +6,7 @@ if obj_god.current_state == EXPLORE{
 	hsp = 0;
 	vsp = 0;
 
-	if (!place_meeting(self.x, self.y - 2, obj_solid))
+	if (!place_meeting(self.x, self.y - 3, obj_solid))
 		{
 		if obj_god.up {
 			vsp = -PLR_WALK_SPD;
