@@ -22,23 +22,30 @@ right=keyboard_check(ord("D"))
 	
 left = keyboard_check(ord("A"))
 
-
+if current_state == SHELF {
+	if keyboard_check(ord("E")) {
+		new_state = EXPLORE;
+	}
+}
 
 #region room controller
 if current_state != new_state {
 	if new_state = DEATH {
-		show_debug_message("DIE");
 		room_goto(Death);
 	}
 	if new_state = EXPLORE {
 		room_goto(Explore);
-		show_debug_message("u r here");
 	}
 	current_state = new_state;
 	
 	if new_state = COMBAT {
 		room_goto(Combat);
 	}
+	if new_state = SHELF {
+		room_goto(Shelf);
+	}
+	
+	
 	current_state = new_state;
 }
 
