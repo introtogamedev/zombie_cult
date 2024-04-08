@@ -27,10 +27,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/EXPLORE/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/EXPLORE/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
-<<<<<<< HEAD
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Inventory","folderPath":"folders/COMBAT/Inventory.yy",},
-=======
->>>>>>> a05ccaf1b481230897f401fccabbae92a0bf6fc8
+
   ],
   "IncludedFiles": [],
   "isEcma": false,

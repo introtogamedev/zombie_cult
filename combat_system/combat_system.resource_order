@@ -14,10 +14,7 @@
     {"name":"Scripts","order":2,"path":"folders/EXPLORE/Scripts.yy",},
     {"name":"Sprites","order":3,"path":"folders/EXPLORE/Sprites.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
-<<<<<<< HEAD
-    {"name":"Inventory","order":9,"path":"folders/COMBAT/Inventory.yy",},
-=======
->>>>>>> a05ccaf1b481230897f401fccabbae92a0bf6fc8
+
   ],
   "ResourceOrderSettings": [
     {"name":"spr_soap","order":10,"path":"sprites/spr_soap/spr_soap.yy",},
@@ -30,11 +27,7 @@
     {"name":"Shelf","order":2,"path":"rooms/Shelf/Shelf.yy",},
     {"name":"spr_hairspray","order":16,"path":"sprites/spr_hairspray/spr_hairspray.yy",},
     {"name":"bkg_death","order":5,"path":"sprites/bkg_death/bkg_death.yy",},
-<<<<<<< HEAD
-    {"name":"obj_list","order":3,"path":"objects/obj_list/obj_list.yy",},
-=======
-    {"name":"spr_powder_blush","order":13,"path":"sprites/spr_powder_blush/spr_powder_blush.yy",},
->>>>>>> a05ccaf1b481230897f401fccabbae92a0bf6fc8
+
     {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"Explore","order":1,"path":"rooms/Explore/Explore.yy",},
     {"name":"spr_perfume","order":15,"path":"sprites/spr_perfume/spr_perfume.yy",},
