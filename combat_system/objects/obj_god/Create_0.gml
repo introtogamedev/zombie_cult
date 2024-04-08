@@ -21,4 +21,6 @@ new_state = EXPLORE;
 total_checks = 7;
 checks = 0;
 
+zombie_death = false; 
+
 draw_set_font(ScoreFont);

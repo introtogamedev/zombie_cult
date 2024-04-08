@@ -52,7 +52,6 @@
     {"id":{"name":"spr_meter_1","path":"sprites/spr_meter_1/spr_meter_1.yy",},},
     {"id":{"name":"obj_combatsystem","path":"objects/obj_combatsystem/obj_combatsystem.yy",},},
     {"id":{"name":"spr_player_hurt","path":"sprites/spr_player_hurt/spr_player_hurt.yy",},},
-    {"id":{"name":"obj_cursor","path":"objects/obj_cursor/obj_cursor.yy",},},
     {"id":{"name":"spr_meter_5","path":"sprites/spr_meter_5/spr_meter_5.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},

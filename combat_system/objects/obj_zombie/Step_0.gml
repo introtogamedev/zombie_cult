@@ -1,4 +1,4 @@
-if obj_god.current_state == EXPLORE{
+if obj_god.current_state == EXPLORE && !is_dead{
 
 	var _zomb_x = self.x;
 	var _zomb_y = self.y;
@@ -37,4 +37,8 @@ if obj_god.current_state == EXPLORE{
 	
 	y = new_y;
 	x = new_x;
+	
+}
+else if obj_god.current_state == EXPLORE && !is_dead{
+	show_debug_message("i am ded");
 }

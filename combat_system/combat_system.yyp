@@ -26,7 +26,15 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/EXPLORE/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/EXPLORE/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/EXPLORE/Sprites.yy",},
+<<<<<<< HEAD
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"INVENTORY","folderPath":"folders/INVENTORY.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+=======
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+<<<<<<< HEAD
+=======
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Inventory","folderPath":"folders/COMBAT/Inventory.yy",},
+>>>>>>> 81559e8a4d422d640e1197ab9e8155ebf5d6c2c7
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -43,6 +51,7 @@
     {"id":{"name":"item_functions","path":"scripts/item_functions/item_functions.yy",},},
     {"id":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
     {"id":{"name":"bkg_death","path":"sprites/bkg_death/bkg_death.yy",},},
+    {"id":{"name":"obj_list","path":"objects/obj_list/obj_list.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"id":{"name":"hp_enemy","path":"objects/hp_enemy/hp_enemy.yy",},},
