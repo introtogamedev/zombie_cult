@@ -26,8 +26,13 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/EXPLORE/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/EXPLORE/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/EXPLORE/Sprites.yy",},
+<<<<<<< HEAD
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"INVENTORY","folderPath":"folders/INVENTORY.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+=======
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Inventory","folderPath":"folders/COMBAT/Inventory.yy",},
+>>>>>>> 81559e8a4d422d640e1197ab9e8155ebf5d6c2c7
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -38,13 +43,13 @@
   "resources": [
     {"id":{"name":"spr_meter3","path":"sprites/spr_meter3/spr_meter3.yy",},},
     {"id":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
-    {"id":{"name":"scr_items","path":"scripts/scr_items/scr_items.yy",},},
     {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},},
     {"id":{"name":"atk_emotional_trauma","path":"objects/atk_emotional_trauma/atk_emotional_trauma.yy",},},
     {"id":{"name":"fnt_des","path":"fonts/fnt_des/fnt_des.yy",},},
     {"id":{"name":"item_functions","path":"scripts/item_functions/item_functions.yy",},},
     {"id":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
     {"id":{"name":"bkg_death","path":"sprites/bkg_death/bkg_death.yy",},},
+    {"id":{"name":"obj_list","path":"objects/obj_list/obj_list.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"id":{"name":"hp_enemy","path":"objects/hp_enemy/hp_enemy.yy",},},
