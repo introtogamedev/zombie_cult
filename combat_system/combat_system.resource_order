@@ -14,7 +14,6 @@
     {"name":"Scripts","order":2,"path":"folders/EXPLORE/Scripts.yy",},
     {"name":"Sprites","order":3,"path":"folders/EXPLORE/Sprites.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
-    {"name":"INVENTORY","order":17,"path":"folders/INVENTORY.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_meter3","order":3,"path":"sprites/spr_meter3/spr_meter3.yy",},
