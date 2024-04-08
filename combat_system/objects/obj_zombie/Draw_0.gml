@@ -7,7 +7,7 @@ if obj_god.current_state == EXPLORE{
 	draw_self();
 	
 	//animation
-	if is_dead{
+	if self.is_dead{
 		image_speed = 0;
 		image_index = DEAD_FRAME;
 	}
