@@ -14,6 +14,7 @@ if (atk_emotional_trauma.visible = true && obj_selection.selected_object = atk_e
 		obj_text.current = trauma_effect;
 		obj_text.timer += 10;
 		obj_meter.meter_value -= 5;
+		//please for the love of god work I beg you
 		global.enemy_health -= 15;
 	}
 	else
