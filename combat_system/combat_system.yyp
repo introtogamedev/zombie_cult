@@ -31,6 +31,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
 =======
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
+<<<<<<< HEAD
+=======
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Inventory","folderPath":"folders/COMBAT/Inventory.yy",},
 >>>>>>> 81559e8a4d422d640e1197ab9e8155ebf5d6c2c7
   ],

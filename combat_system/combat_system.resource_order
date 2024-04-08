@@ -18,6 +18,8 @@
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
 =======
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
+<<<<<<< HEAD
+=======
     {"name":"Inventory","order":9,"path":"folders/COMBAT/Inventory.yy",},
 >>>>>>> 81559e8a4d422d640e1197ab9e8155ebf5d6c2c7
   ],
