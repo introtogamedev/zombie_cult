@@ -46,8 +46,10 @@ if (sprite_index = spr_enemy_idle && obj_text.timer = 0 && obj_text.player_turn 
 
 if (sprite_index = spr_enemy_dead && obj_text.timer = 0 && keyboard_check_released(vk_enter)){
 	if (obj_text.current = enemy_death){
+		//zombie dies! back to the store & hopefully zombie dies
 		obj_god.new_state = EXPLORE;
 		obj_god.zombie_death = true;
+		show_debug_message("help :(");
 	}
 	else{
 		obj_text.timer += 10;

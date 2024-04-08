@@ -37,7 +37,8 @@ if current_state == SHELF {
 
 //MURDER HIM
 if zombie_death = true{
-	obj_player.closest_zombie.is_dead = true;
+	obj_player_1.closest_zombie.is_dead = true;
+	zombie_death = false;
 }
 
 #region room controller

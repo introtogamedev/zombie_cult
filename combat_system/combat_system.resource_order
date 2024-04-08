@@ -14,7 +14,6 @@
     {"name":"Scripts","order":2,"path":"folders/EXPLORE/Scripts.yy",},
     {"name":"Sprites","order":3,"path":"folders/EXPLORE/Sprites.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
-    {"name":"Inventory","order":9,"path":"folders/COMBAT/Inventory.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_soap","order":10,"path":"sprites/spr_soap/spr_soap.yy",},
