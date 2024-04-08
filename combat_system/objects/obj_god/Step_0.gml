@@ -1,5 +1,5 @@
 //END IT ALL
-if keyboard_check_pressed(vk_escape) {game_end()}
+if keyboard_check_pressed(ord("L")) {game_end()}
 
 //restart if R is pressed
 if keyboard_check_pressed(ord("R")) {
@@ -30,7 +30,7 @@ left = keyboard_check(ord("A"))
 
 //e key lets you leave shelf
 if current_state == SHELF {
-	if keyboard_check(ord("E")) {
+	if keyboard_check(vk_escape) {
 		new_state = EXPLORE;
 	}
 }
