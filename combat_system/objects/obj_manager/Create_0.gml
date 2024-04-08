@@ -24,6 +24,13 @@ burger :
 	),
 	//add more items here
 	
+alarm_clock :
+	new create_item(
+	"Alarm",
+	"Distracts zombies for a turn",
+	spr_alarm
+	),
+	
 
 
 	}
