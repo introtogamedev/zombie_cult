@@ -46,7 +46,8 @@ if (sprite_index = spr_enemy_idle && obj_text.timer = 0 && obj_text.player_turn 
 
 if (sprite_index = spr_enemy_dead && obj_text.timer = 0 && keyboard_check_released(vk_enter)){
 	if (obj_text.current = enemy_death){
-		game_end();
+		obj_god.new_state = EXPLORE;
+		obj_god.zombie_death = true;
 	}
 	else{
 		obj_text.timer += 10;

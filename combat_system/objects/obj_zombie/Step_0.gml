@@ -37,4 +37,6 @@ if obj_god.current_state == EXPLORE{
 	
 	y = new_y;
 	x = new_x;
+	
+	if is_dead { show_debug_message("IDE");}
 }
