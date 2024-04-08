@@ -1,4 +1,4 @@
-depth = -999
+hddepth = -999
 
 
 //item constructer
