@@ -14,7 +14,7 @@
     {"name":"Scripts","order":2,"path":"folders/EXPLORE/Scripts.yy",},
     {"name":"Sprites","order":3,"path":"folders/EXPLORE/Sprites.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
-    
+    {"name":"Inventory","order":9,"path":"folders/COMBAT/Inventory.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_meter3","order":3,"path":"sprites/spr_meter3/spr_meter3.yy",},
@@ -24,6 +24,7 @@
     {"name":"item_functions","order":1,"path":"scripts/item_functions/item_functions.yy",},
     {"name":"Shelf","order":2,"path":"rooms/Shelf/Shelf.yy",},
     {"name":"bkg_death","order":5,"path":"sprites/bkg_death/bkg_death.yy",},
+    {"name":"obj_list","order":3,"path":"objects/obj_list/obj_list.yy",},
     {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"Explore","order":1,"path":"rooms/Explore/Explore.yy",},
     {"name":"hp_enemy","order":1,"path":"objects/hp_enemy/hp_enemy.yy",},

@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Inventory",
-    "path": "folders/COMBAT/Inventory.yy",
+    "name": "Items",
+    "path": "folders/COMBAT/Items.yy",
   },
   "parentObjectId": null,
   "persistent": false,
