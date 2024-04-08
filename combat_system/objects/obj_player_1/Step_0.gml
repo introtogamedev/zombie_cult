@@ -48,6 +48,7 @@ if obj_god.current_state == EXPLORE{
 	x = _new_x;
 
 	closest_zombie = instance_nearest(x, y, obj_zombie);
+	//show_debug_message(closest_zombie);
 
 }
 
