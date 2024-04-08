@@ -1,6 +1,6 @@
 #macro DEAD_FRAME 4
 #macro START_FRAME 0
-#macro END_FRAME 1
+#macro END_FRAME 3
 
 
 if obj_god.current_state == EXPLORE{
