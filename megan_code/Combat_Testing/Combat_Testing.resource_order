@@ -33,7 +33,6 @@
     {"name":"spr_meter_1","order":9,"path":"sprites/spr_meter_1/spr_meter_1.yy",},
     {"name":"obj_combatsystem","order":2,"path":"objects/obj_combatsystem/obj_combatsystem.yy",},
     {"name":"spr_player_hurt","order":13,"path":"sprites/spr_player_hurt/spr_player_hurt.yy",},
-    {"name":"obj_cursor","order":4,"path":"objects/obj_cursor/obj_cursor.yy",},
     {"name":"spr_meter_5","order":5,"path":"sprites/spr_meter_5/spr_meter_5.yy",},
     {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_settings","order":5,"path":"objects/obj_settings/obj_settings.yy",},
