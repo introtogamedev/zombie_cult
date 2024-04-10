@@ -72,6 +72,7 @@
     {"name":"spr_enemy_dead","order":2,"path":"sprites/spr_enemy_dead/spr_enemy_dead.yy",},
     {"name":"spr_dry_shampoo","order":14,"path":"sprites/spr_dry_shampoo/spr_dry_shampoo.yy",},
     {"name":"spr_meter2","order":4,"path":"sprites/spr_meter2/spr_meter2.yy",},
+    {"name":"obj_door1","order":11,"path":"objects/obj_door1/obj_door1.yy",},
     {"name":"spr_cliff_bar","order":31,"path":"sprites/spr_cliff_bar/spr_cliff_bar.yy",},
     {"name":"spr_drugs","order":29,"path":"sprites/spr_drugs/spr_drugs.yy",},
     {"name":"spr_nerf_gun","order":9,"path":"sprites/spr_nerf_gun/spr_nerf_gun.yy",},

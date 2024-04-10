@@ -105,6 +105,7 @@
     {"id":{"name":"spr_dry_shampoo","path":"sprites/spr_dry_shampoo/spr_dry_shampoo.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
     {"id":{"name":"spr_meter2","path":"sprites/spr_meter2/spr_meter2.yy",},},
+    {"id":{"name":"obj_door1","path":"objects/obj_door1/obj_door1.yy",},},
     {"id":{"name":"spr_cliff_bar","path":"sprites/spr_cliff_bar/spr_cliff_bar.yy",},},
     {"id":{"name":"spr_drugs","path":"sprites/spr_drugs/spr_drugs.yy",},},
     {"id":{"name":"spr_nerf_gun","path":"sprites/spr_nerf_gun/spr_nerf_gun.yy",},},
