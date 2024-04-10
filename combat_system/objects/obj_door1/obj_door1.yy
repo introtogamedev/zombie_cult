@@ -27,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": {
-    "name": "spr_door",
-    "path": "sprites/spr_door/spr_door.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
