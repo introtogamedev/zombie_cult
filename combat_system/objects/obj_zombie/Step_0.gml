@@ -24,16 +24,17 @@ if obj_god.current_state == EXPLORE && !is_dead{
 		if (sign ( _distance_y)) == -1 { vsp = ZOMB_WALK_SPD; }
 	}
 
+	var OS = 1
+
+	var x_col_l = place_meeting(self.x - OS,self.y,obj_solid);
+	var x_col_r = place_meeting(self.x + OS ,self.y,obj_solid);
+	var y_col_u = place_meeting(self.x,self.y + OS,obj_solid);
+	var y_col_d = place_meeting(self.x,self.y - OS,obj_solid);
 
 
-	if (!(place_meeting(self.x - 4,self.y,obj_solid) || place_meeting(self.x + 4,self.y,obj_solid))) && 
-	 !(abs(_distance_x) < ZOMB_WALK_SPD) {
-		new_x += hsp;
-	}
-	if !(place_meeting(self.x,self.y - 4,obj_solid) || place_meeting(self.x,self.y + 4,obj_solid)) &&
-	!(abs(_distance_y) < ZOMB_WALK_SPD){
-		new_y += vsp;
-	}
+	if !(x_col_l && hsp < 0) && !(x_col_r && hsp > 0) && !(abs(_distance_x) < ZOMB_WALK_SPD) {new_x += hsp;}
+	if !(y_col_u && vsp > 0) && !(y_col_d && vsp < 0) && !(abs(_distance_y) < ZOMB_WALK_SPD){new_y += vsp;}
+	
 	
 	y = new_y;
 	x = new_x;

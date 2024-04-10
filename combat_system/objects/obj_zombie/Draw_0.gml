@@ -1,24 +1,25 @@
 #macro DEAD_FRAME 4
 #macro START_FRAME 0
-#macro END_FRAME 3
+#macro END_FRAME 4
 
+
+
+	
+//animation
+if self.is_dead{
+	image_speed = 0;
+	image_index = DEAD_FRAME;
+}
+else{
+	if image_index = END_FRAME{
+		image_index = START_FRAME
+	}
+}
+			
+	
 
 if obj_god.current_state == EXPLORE{
 	draw_self();
-	
-	//animation
-	if self.is_dead{
-		image_speed = 0;
-		image_index = DEAD_FRAME;
-	}
-	else{
-		if image_index = END_FRAME{
-			image_index = START_FRAME
-		}
-	}
-		
-	
-	
 }
 
 

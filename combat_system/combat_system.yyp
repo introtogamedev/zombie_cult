@@ -36,6 +36,7 @@
   },
   "resources": [
     {"id":{"name":"spr_soap","path":"sprites/spr_soap/spr_soap.yy",},},
+    {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"spr_meter3","path":"sprites/spr_meter3/spr_meter3.yy",},},
     {"id":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},},
@@ -102,6 +103,7 @@
     {"id":{"name":"spr_enemy_dead","path":"sprites/spr_enemy_dead/spr_enemy_dead.yy",},},
     {"id":{"name":"spr_dry_shampoo","path":"sprites/spr_dry_shampoo/spr_dry_shampoo.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
+    {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_meter2","path":"sprites/spr_meter2/spr_meter2.yy",},},
     {"id":{"name":"spr_cliff_bar","path":"sprites/spr_cliff_bar/spr_cliff_bar.yy",},},
     {"id":{"name":"spr_drugs","path":"sprites/spr_drugs/spr_drugs.yy",},},
