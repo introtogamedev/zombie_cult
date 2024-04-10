@@ -114,6 +114,7 @@
     {"id":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},},
     {"id":{"name":"atk_barbed_wire_bat","path":"objects/atk_barbed_wire_bat/atk_barbed_wire_bat.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
+    {"id":{"name":"obj_gods_light","path":"objects/obj_gods_light/obj_gods_light.yy",},},
     {"id":{"name":"obj_god","path":"objects/obj_god/obj_god.yy",},},
     {"id":{"name":"item_axe_spray","path":"objects/item_axe_spray/item_axe_spray.yy",},},
     {"id":{"name":"spr_hoodie","path":"sprites/spr_hoodie/spr_hoodie.yy",},},

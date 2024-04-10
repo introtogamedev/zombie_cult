@@ -81,6 +81,7 @@
     {"name":"obj_item","order":2,"path":"objects/obj_item/obj_item.yy",},
     {"name":"atk_barbed_wire_bat","order":1,"path":"objects/atk_barbed_wire_bat/atk_barbed_wire_bat.yy",},
     {"name":"obj_manager","order":5,"path":"objects/obj_manager/obj_manager.yy",},
+    {"name":"obj_gods_light","order":9,"path":"objects/obj_gods_light/obj_gods_light.yy",},
     {"name":"obj_god","order":1,"path":"objects/obj_god/obj_god.yy",},
     {"name":"item_axe_spray","order":2,"path":"objects/item_axe_spray/item_axe_spray.yy",},
     {"name":"spr_hoodie","order":25,"path":"sprites/spr_hoodie/spr_hoodie.yy",},
