@@ -1,3 +1,5 @@
+show_debug_message("I am god");
+
 //END IT ALL
 if keyboard_check_pressed(ord("L")) {game_end()}
 
