@@ -17,7 +17,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_soap","order":10,"path":"sprites/spr_soap/spr_soap.yy",},
-    {"name":"obj_door","order":8,"path":"objects/obj_door/obj_door.yy",},
     {"name":"spr_meter3","order":3,"path":"sprites/spr_meter3/spr_meter3.yy",},
     {"name":"Combat","order":3,"path":"rooms/Combat/Combat.yy",},
     {"name":"obj_attack","order":1,"path":"objects/obj_attack/obj_attack.yy",},

@@ -36,7 +36,6 @@
   },
   "resources": [
     {"id":{"name":"spr_soap","path":"sprites/spr_soap/spr_soap.yy",},},
-    {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"spr_meter3","path":"sprites/spr_meter3/spr_meter3.yy",},},
     {"id":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},},
