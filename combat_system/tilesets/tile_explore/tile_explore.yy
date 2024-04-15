@@ -26,6 +26,7 @@
   },
   "tile_count": 16,
   "tileAnimation": {
+<<<<<<< HEAD
     "FrameData": [
       0,
       1,
@@ -44,6 +45,9 @@
       14,
       15,
     ],
+=======
+    "FrameData": [],
+>>>>>>> 539e927b14dfcb2486532e09657de025f3538ad4
     "SerialiseFrameCount": 1,
   },
   "tileAnimationFrames": [],
