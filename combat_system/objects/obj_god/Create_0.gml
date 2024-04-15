@@ -19,7 +19,7 @@ Setup_Macros();
 current_state = EXPLORE;
 new_state = EXPLORE;
 
-total_checks =3;
+total_checks = 1;
 checks = 0;
 
 zombie_death = false; 
