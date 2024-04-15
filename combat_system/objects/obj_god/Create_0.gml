@@ -3,6 +3,7 @@
 gpu_set_tex_filter(false);
 #endregion
 
+
 //check keyboard input
 //horzinotal
 up =false;
@@ -18,7 +19,7 @@ Setup_Macros();
 current_state = EXPLORE;
 new_state = EXPLORE;
 
-total_checks = 7;
+total_checks = 1;
 checks = 0;
 
 zombie_death = false; 

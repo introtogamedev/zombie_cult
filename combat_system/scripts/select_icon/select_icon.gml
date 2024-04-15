@@ -9,5 +9,5 @@ function select_icon(){
 	x = (obj_select.x_pos * movement) + base_x;
 	y = (obj_select.y_pos * movement) + base_y;
 	
-	show_debug_message(string(x) + " ," + string(y));
+	//show_debug_message(string(x) + " ," + string(y));
 }

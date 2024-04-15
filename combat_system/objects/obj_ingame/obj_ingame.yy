@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_burger",
-    "path": "sprites/spr_burger/spr_burger.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

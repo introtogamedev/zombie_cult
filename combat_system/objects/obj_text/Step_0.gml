@@ -40,7 +40,7 @@ if ((keyboard_check_released(vk_enter) && timer = 0 && player_turn = true)){
 	
 	
 		
-	}else if (current = player_start){
+	}else if (current = player_start && global.enemy_health >= 1){
 	
 		current = action;
 		timer += 10;
