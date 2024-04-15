@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_walkie_talkie",
   "bbox_bottom": 12,
-  "bbox_left": 3,
+  "bbox_left": 5,
   "bbox_right": 11,
   "bbox_top": 1,
   "bboxMode": 0,

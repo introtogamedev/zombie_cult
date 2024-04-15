@@ -13,8 +13,8 @@
     {"name":"Objects","order":1,"path":"folders/EXPLORE/Objects.yy",},
     {"name":"Scripts","order":2,"path":"folders/EXPLORE/Scripts.yy",},
     {"name":"Sprites","order":3,"path":"folders/EXPLORE/Sprites.yy",},
-    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Tiles","order":4,"path":"folders/EXPLORE/Tiles.yy",},
+    {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_soap","order":10,"path":"sprites/spr_soap/spr_soap.yy",},
