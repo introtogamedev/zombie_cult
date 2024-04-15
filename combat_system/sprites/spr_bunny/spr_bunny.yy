@@ -3,9 +3,9 @@
   "resourceVersion": "1.0",
   "name": "spr_bunny",
   "bbox_bottom": 14,
-  "bbox_left": 1,
+  "bbox_left": 2,
   "bbox_right": 14,
-  "bbox_top": 2,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 16,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bcd799ec-19fc-4adb-b222-493ef5b5bcf2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 16,
 }
