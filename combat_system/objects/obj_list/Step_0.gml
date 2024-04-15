@@ -1,8 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
-
+for (i=0; i<5; i++){
+  survival_list[i]=global.item_list(random_range(0,5));
+  
+}
 
 
 

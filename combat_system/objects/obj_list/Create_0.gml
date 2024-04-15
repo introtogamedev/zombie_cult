@@ -1,8 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+survival_list = array_create(5);
 
-
-
+show_debug_message("A");
 
 
 
