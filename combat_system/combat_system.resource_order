@@ -41,7 +41,6 @@
     {"name":"spr_phone","order":23,"path":"sprites/spr_phone/spr_phone.yy",},
     {"name":"item_lid","order":1,"path":"objects/item_lid/item_lid.yy",},
     {"name":"obj_zombie","order":4,"path":"objects/obj_zombie/obj_zombie.yy",},
-    {"name":"spr_bunny","order":18,"path":"sprites/spr_bunny/spr_bunny.yy",},
     {"name":"spr_pin","order":2,"path":"sprites/spr_pin/spr_pin.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_burger","order":6,"path":"sprites/spr_burger/spr_burger.yy",},

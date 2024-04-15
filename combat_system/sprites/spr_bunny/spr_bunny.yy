@@ -2,9 +2,15 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_bunny",
+<<<<<<< HEAD
   "bbox_bottom": 14,
   "bbox_left": 2,
   "bbox_right": 14,
+=======
+  "bbox_bottom": 0,
+  "bbox_left": 0,
+  "bbox_right": 0,
+>>>>>>> 85675c615204c3f31408c5760b364ec1527fe6f5
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,

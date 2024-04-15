@@ -89,7 +89,9 @@
     {"name":"inst_6B807379","path":"rooms/Explore/Explore.yy",},
     {"name":"inst_4EBA6B5F","path":"rooms/Explore/Explore.yy",},
     {"name":"inst_225BD728","path":"rooms/Explore/Explore.yy",},
+    {"name":"inst_7C6BA5E5","path":"rooms/Explore/Explore.yy",},
     {"name":"inst_F7157EF","path":"rooms/Explore/Explore.yy",},
+    {"name":"inst_491C74AB","path":"rooms/Explore/Explore.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -154,6 +156,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4EBA6B5F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":42.0,"scaleY":1.0,"x":1216.0,"y":2288.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_225BD728","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"x":1136.0,"y":2288.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F7F85A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_list","path":"objects/obj_list/obj_list.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2416.0,"y":1472.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C6BA5E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1616.0,"y":1280.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_491C74AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1536.0,"y":2160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Gods_Light_Layer","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F7157EF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_gods_light","path":"objects/obj_gods_light/obj_gods_light.yy",},"properties":[],"rotation":0.0,"scaleX":3.5,"scaleY":1.5,"x":1056.0,"y":2304.0,},
