@@ -9,16 +9,11 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-<<<<<<< HEAD
-    "name": "Items",
-    "path": "folders/COMBAT/Items.yy",
-=======
-    "name": "combat_system",
-    "path": "combat_system.yyp",
->>>>>>> a05ccaf1b481230897f401fccabbae92a0bf6fc8
+    "name": "Objects",
+    "path": "folders/EXPLORE/Objects.yy",
   },
   "parentObjectId": null,
-  "persistent": false,
+  "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
