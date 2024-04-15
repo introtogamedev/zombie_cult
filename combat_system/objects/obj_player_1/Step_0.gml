@@ -40,8 +40,6 @@ if obj_god.current_state == EXPLORE{
 	var _ydir = sign(vsp);
 	var _xdir = sign(hsp);
 	
-
-	
 	
 
 	y = _new_y;
@@ -49,6 +47,10 @@ if obj_god.current_state == EXPLORE{
 
 	closest_zombie = instance_nearest(x, y, obj_zombie);
 	//show_debug_message(closest_zombie);
+	
+	if place_meeting(x,y,obj_gods_light){
+		obj_god.new_state = DEATH;
+	}
 
 }
 

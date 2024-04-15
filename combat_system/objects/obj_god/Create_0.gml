@@ -3,7 +3,6 @@
 gpu_set_tex_filter(false);
 #endregion
 
-show_debug_message("god creation");
 
 //check keyboard input
 //horzinotal
