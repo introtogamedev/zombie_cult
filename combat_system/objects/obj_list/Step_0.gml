@@ -1,5 +1,5 @@
 for (i=0; i<5; i++){
-  survival_list[i]=global.item_list(random_range(0,5));
+  survival_list[i]=random_range(0,5);
   
 }
 
