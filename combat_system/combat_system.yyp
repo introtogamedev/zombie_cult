@@ -27,7 +27,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/EXPLORE/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/EXPLORE/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
-
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -48,7 +47,6 @@
     {"id":{"name":"spr_hairspray","path":"sprites/spr_hairspray/spr_hairspray.yy",},},
     {"id":{"name":"bkg_death","path":"sprites/bkg_death/bkg_death.yy",},},
     {"id":{"name":"spr_powder_blush","path":"sprites/spr_powder_blush/spr_powder_blush.yy",},},
-    {"id":{"name":"obj_list","path":"objects/obj_list/obj_list.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"id":{"name":"spr_perfume","path":"sprites/spr_perfume/spr_perfume.yy",},},
