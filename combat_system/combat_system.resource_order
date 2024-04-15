@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"item_inventory","order":1,"path":"objects/item_inventory/item_inventory.yy",},
+  ],
 }
