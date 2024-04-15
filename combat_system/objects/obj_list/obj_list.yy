@@ -9,8 +9,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
+<<<<<<< HEAD
+    "name": "Items",
+    "path": "folders/COMBAT/Items.yy",
+=======
     "name": "combat_system",
     "path": "combat_system.yyp",
+>>>>>>> a05ccaf1b481230897f401fccabbae92a0bf6fc8
   },
   "parentObjectId": null,
   "persistent": false,

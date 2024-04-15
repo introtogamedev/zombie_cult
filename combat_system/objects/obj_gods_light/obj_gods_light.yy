@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_gods_light",
+    "path": "sprites/spr_gods_light/spr_gods_light.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
