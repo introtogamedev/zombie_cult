@@ -33,7 +33,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_soap","path":"sprites/spr_soap/spr_soap.yy",},},
@@ -63,7 +63,6 @@
     {"id":{"name":"item_lid","path":"objects/item_lid/item_lid.yy",},},
     {"id":{"name":"obj_meter","path":"objects/obj_meter/obj_meter.yy",},},
     {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},},
-    {"id":{"name":"spr_bunny","path":"sprites/spr_bunny/spr_bunny.yy",},},
     {"id":{"name":"spr_pin","path":"sprites/spr_pin/spr_pin.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"item_bar","path":"objects/item_bar/item_bar.yy",},},
@@ -85,6 +84,7 @@
     {"id":{"name":"spr_select","path":"sprites/spr_select/spr_select.yy",},},
     {"id":{"name":"spr_walkie_talkie","path":"sprites/spr_walkie_talkie/spr_walkie_talkie.yy",},},
     {"id":{"name":"spr_pizza","path":"sprites/spr_pizza/spr_pizza.yy",},},
+    {"id":{"name":"spr_bunny","path":"sprites/spr_bunny/spr_bunny.yy",},},
     {"id":{"name":"spr_meter5","path":"sprites/spr_meter5/spr_meter5.yy",},},
     {"id":{"name":"obj_selection","path":"objects/obj_selection/obj_selection.yy",},},
     {"id":{"name":"obj_flee","path":"objects/obj_flee/obj_flee.yy",},},
