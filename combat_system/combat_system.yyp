@@ -33,7 +33,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_soap","path":"sprites/spr_soap/spr_soap.yy",},},
@@ -112,8 +112,8 @@
     {"id":{"name":"obj_door1","path":"objects/obj_door1/obj_door1.yy",},},
     {"id":{"name":"spr_cliff_bar","path":"sprites/spr_cliff_bar/spr_cliff_bar.yy",},},
     {"id":{"name":"spr_drugs","path":"sprites/spr_drugs/spr_drugs.yy",},},
-    {"id":{"name":"tile_explore","path":"tilesets/tile_explore/tile_explore.yy",},},
     {"id":{"name":"spr_tile_explore","path":"sprites/spr_tile_explore/spr_tile_explore.yy",},},
+    {"id":{"name":"explore_tiles","path":"tilesets/explore_tiles/explore_tiles.yy",},},
     {"id":{"name":"spr_nerf_gun","path":"sprites/spr_nerf_gun/spr_nerf_gun.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_ingame","path":"objects/obj_ingame/obj_ingame.yy",},},
