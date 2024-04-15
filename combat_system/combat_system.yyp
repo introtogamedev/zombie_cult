@@ -26,12 +26,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/EXPLORE/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/EXPLORE/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/EXPLORE/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
-<<<<<<< HEAD
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Items","folderPath":"folders/EXPLORE/Sprites/Items.yy",},
-=======
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tiles","folderPath":"folders/EXPLORE/Tiles.yy",},
->>>>>>> e8450c0c697e49bd711e842cae774a28676c5bb8
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -54,7 +50,6 @@
     {"id":{"name":"bkg_death","path":"sprites/bkg_death/bkg_death.yy",},},
     {"id":{"name":"spr_powder_blush","path":"sprites/spr_powder_blush/spr_powder_blush.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
-    {"id":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"id":{"name":"spr_perfume","path":"sprites/spr_perfume/spr_perfume.yy",},},
     {"id":{"name":"spr_cat","path":"sprites/spr_cat/spr_cat.yy",},},
     {"id":{"name":"hp_enemy","path":"objects/hp_enemy/hp_enemy.yy",},},
@@ -129,7 +124,6 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_inst","path":"rooms/rm_inst/rm_inst.yy",},},
-    {"roomId":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"roomId":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"roomId":{"name":"Death","path":"rooms/Death/Death.yy",},},
     {"roomId":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},

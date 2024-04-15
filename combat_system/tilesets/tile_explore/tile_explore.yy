@@ -12,8 +12,8 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "parent": {
-    "name": "Tiles",
-    "path": "folders/EXPLORE/Tiles.yy",
+    "name": "combat_system",
+    "path": "combat_system.yyp",
   },
   "spriteId": null,
   "spriteNoExport": false,
@@ -24,7 +24,7 @@
   "tile_count": 0,
   "tileAnimation": {
     "FrameData": [],
-    "SerialiseFrameCount": 0,
+    "SerialiseFrameCount": 1,
   },
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
