@@ -83,6 +83,7 @@
     {"id":{"name":"spr_select","path":"sprites/spr_select/spr_select.yy",},},
     {"id":{"name":"spr_walkie_talkie","path":"sprites/spr_walkie_talkie/spr_walkie_talkie.yy",},},
     {"id":{"name":"spr_pizza","path":"sprites/spr_pizza/spr_pizza.yy",},},
+    {"id":{"name":"spr_bunny","path":"sprites/spr_bunny/spr_bunny.yy",},},
     {"id":{"name":"spr_meter5","path":"sprites/spr_meter5/spr_meter5.yy",},},
     {"id":{"name":"obj_selection","path":"objects/obj_selection/obj_selection.yy",},},
     {"id":{"name":"obj_flee","path":"objects/obj_flee/obj_flee.yy",},},

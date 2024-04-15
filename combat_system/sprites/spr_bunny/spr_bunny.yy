@@ -2,15 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_bunny",
-<<<<<<< HEAD
-  "bbox_bottom": 14,
-  "bbox_left": 2,
-  "bbox_right": 14,
-=======
   "bbox_bottom": 0,
   "bbox_left": 0,
   "bbox_right": 0,
->>>>>>> 85675c615204c3f31408c5760b364ec1527fe6f5
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -19,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3febecec-ec28-4677-b000-53da59d8ecdd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48c1bd6b-12f3-4237-98cb-9e113571cdc2",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 16,
+  "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bcd799ec-19fc-4adb-b222-493ef5b5bcf2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9abb2dd8-1ace-4dc2-a0f6-57472711f95b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -60,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3febecec-ec28-4677-b000-53da59d8ecdd","path":"sprites/spr_bunny/spr_bunny.yy",},},},"Disabled":false,"id":"60a1fb93-b3d7-4e2a-9e0a-c0407b4f4efe","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"48c1bd6b-12f3-4237-98cb-9e113571cdc2","path":"sprites/spr_bunny/spr_bunny.yy",},},},"Disabled":false,"id":"a58dbc9b-a600-4716-8f50-b69f420ce2ae","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -76,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 16,
+  "width": 64,
 }

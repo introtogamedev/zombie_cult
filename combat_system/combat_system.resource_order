@@ -58,6 +58,7 @@
     {"name":"spr_select","order":7,"path":"sprites/spr_select/spr_select.yy",},
     {"name":"spr_walkie_talkie","order":24,"path":"sprites/spr_walkie_talkie/spr_walkie_talkie.yy",},
     {"name":"spr_pizza","order":32,"path":"sprites/spr_pizza/spr_pizza.yy",},
+    {"name":"spr_bunny","order":36,"path":"sprites/spr_bunny/spr_bunny.yy",},
     {"name":"spr_meter5","order":1,"path":"sprites/spr_meter5/spr_meter5.yy",},
     {"name":"obj_selection","order":7,"path":"objects/obj_selection/obj_selection.yy",},
     {"name":"spr_enemy_idle","order":1,"path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},
