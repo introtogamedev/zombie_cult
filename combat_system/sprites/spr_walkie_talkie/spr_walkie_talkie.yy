@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_walkie_talkie",
-  "bbox_bottom": 12,
-  "bbox_left": 3,
-  "bbox_right": 11,
-  "bbox_top": 1,
+  "bbox_bottom": 0,
+  "bbox_left": 0,
+  "bbox_right": 0,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 16,
+  "height": 64,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bcd799ec-19fc-4adb-b222-493ef5b5bcf2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Items",
-    "path": "folders/EXPLORE/Sprites/Items.yy",
+    "name": "Sprites",
+    "path": "folders/EXPLORE/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 16,
+  "width": 64,
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "tile_explore",
+  "name": "explore_tiles",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -12,8 +12,8 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "parent": {
-    "name": "combat_system",
-    "path": "combat_system.yyp",
+    "name": "Tiles",
+    "path": "folders/EXPLORE/Tiles.yy",
   },
   "spriteId": {
     "name": "spr_tile_explore",

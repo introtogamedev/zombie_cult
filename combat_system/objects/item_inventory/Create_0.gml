@@ -1,8 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+selected_index = 0;
 
-
-
+offset_index = 0;
 
 
 
