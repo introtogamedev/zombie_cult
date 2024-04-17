@@ -5,7 +5,8 @@ function Setup_Macros(){
 	#macro EXPLORE 1
 	#macro SHELF 2
 	#macro COMBAT 3
-	#macro WIN 4
+	#macro LIST 4
+	#macro WIN 5
 	
 	#macro PLR_WALK_SPD 2
 

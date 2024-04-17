@@ -59,6 +59,7 @@
     {"id":{"name":"spr_cookies","path":"sprites/spr_cookies/spr_cookies.yy",},},
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},},
     {"id":{"name":"spr_phone","path":"sprites/spr_phone/spr_phone.yy",},},
+    {"id":{"name":"spr_list","path":"sprites/spr_list/spr_list.yy",},},
     {"id":{"name":"item_lid","path":"objects/item_lid/item_lid.yy",},},
     {"id":{"name":"obj_meter","path":"objects/obj_meter/obj_meter.yy",},},
     {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},},
@@ -117,6 +118,7 @@
     {"id":{"name":"explore_tiles","path":"tilesets/explore_tiles/explore_tiles.yy",},},
     {"id":{"name":"spr_nerf_gun","path":"sprites/spr_nerf_gun/spr_nerf_gun.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
+    {"id":{"name":"List","path":"rooms/List/List.yy",},},
     {"id":{"name":"obj_ingame","path":"objects/obj_ingame/obj_ingame.yy",},},
     {"id":{"name":"spr_meter1","path":"sprites/spr_meter1/spr_meter1.yy",},},
     {"id":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},},
@@ -133,6 +135,7 @@
     {"roomId":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"roomId":{"name":"Death","path":"rooms/Death/Death.yy",},},
     {"roomId":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
+    {"roomId":{"name":"List","path":"rooms/List/List.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

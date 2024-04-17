@@ -27,13 +27,29 @@ right=keyboard_check(ord("D"))
 	
 left = keyboard_check(ord("A"))
 
+//e key opens list
+if (current_state == EXPLORE || current_state == SHELF){
+	if keyboard_check(ord("E")){
+		//hold onto the previous state while in list
+		prev_state = current_state;
+		new_state = LIST;
+	}
+}
 
-//e key lets you leave shelf
+//releasing e key returns you to whichever room you were just in
+if current_state == LIST{
+	if keyboard_check_released(ord("E")){
+		new_state = prev_state;
+	}
+}
+
+//esc key lets you leave shelf 
 if current_state == SHELF {
-	if keyboard_check(vk_escape) {
+	if keyboard_check(vk_escape){
 		new_state = EXPLORE;
 	}
 }
+
 
 //MURDER HIM
 if zombie_death = true{
@@ -47,6 +63,7 @@ if current_state != new_state {
 	if new_state = EXPLORE {room_goto(Explore);}
 	if new_state = COMBAT {room_goto(Combat);}
 	if new_state = SHELF {room_goto(Shelf);}
+	if new_state = LIST {room_goto(List);}
 	//hey hey. what if we were somewhere else
 	current_state = new_state;
 }
