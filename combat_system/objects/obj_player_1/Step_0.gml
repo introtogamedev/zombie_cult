@@ -49,7 +49,7 @@ if obj_god.current_state == EXPLORE{
 	//show_debug_message(closest_zombie);
 	
 	if place_meeting(x,y,obj_gods_light){
-		obj_god.new_state = VICTORY;
+		obj_god.new_state = DEATH;
 	}
 
 }
