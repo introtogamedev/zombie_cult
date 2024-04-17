@@ -46,7 +46,7 @@ if ((keyboard_check_released(vk_enter) && timer = 0)){
 	
 	
 	}else if (current = dead){
-		obj_god.new_state = EXPLORE;
+		obj_god.new_state = DEATH;
 	}else if (current = player_start && global.enemy_health >= 1){
 	
 		current = action;
