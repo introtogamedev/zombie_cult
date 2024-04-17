@@ -24,24 +24,21 @@ if (sprite_index = spr_enemy_idle && obj_text.timer = 0 && obj_text.player_turn 
 		show_debug_message(enemy_selection);
 		if (enemy_selection = 1){
 			enemy_heal();
-
+			obj_text.timer += 10;
 
 		}
 		if (enemy_selection = 2){
 			enemy_attack();
-
+			obj_text.timer += 10;
 		
 		}
 		if (enemy_selection = 3){
 			enemy_skip();
-	
+			obj_text.timer += 10;
 
 		}
-		obj_text.timer += 10;
-		
-		if (obj_player.player_dead = false){
-			obj_text.player_turn = true;
-		}
+			
+		obj_text.player_turn = true;
 		
 	}
 
