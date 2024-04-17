@@ -1,4 +1,4 @@
-global.player_health = 20;
+global.player_health = 10;
 
 
 
