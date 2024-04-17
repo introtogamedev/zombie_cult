@@ -86,6 +86,7 @@
     {"id":{"name":"spr_pizza","path":"sprites/spr_pizza/spr_pizza.yy",},},
     {"id":{"name":"spr_bunny","path":"sprites/spr_bunny/spr_bunny.yy",},},
     {"id":{"name":"spr_meter5","path":"sprites/spr_meter5/spr_meter5.yy",},},
+    {"id":{"name":"Victory","path":"rooms/Victory/Victory.yy",},},
     {"id":{"name":"obj_selection","path":"objects/obj_selection/obj_selection.yy",},},
     {"id":{"name":"obj_flee","path":"objects/obj_flee/obj_flee.yy",},},
     {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},},
@@ -136,6 +137,7 @@
     {"roomId":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
     {"roomId":{"name":"List","path":"rooms/List/List.yy",},},
     {"roomId":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
+    {"roomId":{"name":"Victory","path":"rooms/Victory/Victory.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
