@@ -3,6 +3,8 @@ if obj_god.current_state == COMBAT{
 
 
 	if (obj_text.current = obj_text.action || obj_text.current = obj_attack.text){
+
+	if (obj_text.current = obj_text.action || obj_text.current = obj_attack.text){
 		visible = true;
 		x = global.AxPos[0] - 10;
 		y = global.AyPos[0 + modifier] + 10;
@@ -81,6 +83,7 @@ if  (obj_text.current = obj_item.text){
 
 		selected_object = item_inventory;
 	}
+
 
 
 
