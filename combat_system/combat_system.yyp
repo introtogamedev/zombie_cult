@@ -46,6 +46,7 @@
     {"id":{"name":"item_functions","path":"scripts/item_functions/item_functions.yy",},},
     {"id":{"name":"spr_dog","path":"sprites/spr_dog/spr_dog.yy",},},
     {"id":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
+    {"id":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"id":{"name":"spr_hairspray","path":"sprites/spr_hairspray/spr_hairspray.yy",},},
     {"id":{"name":"bkg_death","path":"sprites/bkg_death/bkg_death.yy",},},
     {"id":{"name":"spr_powder_blush","path":"sprites/spr_powder_blush/spr_powder_blush.yy",},},
@@ -130,11 +131,11 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_inst","path":"rooms/rm_inst/rm_inst.yy",},},
-    {"roomId":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"roomId":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"roomId":{"name":"Death","path":"rooms/Death/Death.yy",},},
     {"roomId":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
     {"roomId":{"name":"List","path":"rooms/List/List.yy",},},
+    {"roomId":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
