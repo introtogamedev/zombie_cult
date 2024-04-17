@@ -1,6 +1,6 @@
 sprite_index = spr_enemy_idle
 
-enemy_start = "IT'S THE ZOMBIE'S TURN NOW!"
+enemy_start = "IT'S ANGRY MAN'S TURN NOW!"
 
 enemy_selection = 4;
 
@@ -17,11 +17,11 @@ function random_enemy_turn(){
 enemy_dmg = 4;
 
 
-enemy_heal_text = "THE ZOMBIE CLICKS ANGERILY, RESTORING 3 HP!"
+enemy_heal_text = "ANGRY MAN SCREAMS LOUDLY, RESTORING 3 HP!"
 
-enemy_skip_text = "THE ZOMBIE TRIPS OVER HIS OWN LEGS!\nHE SKIPS HIS TURN!"
+enemy_skip_text = "ANGRY MAN IS TOO ANGRY TO DO ANYTHING!\nHE SKIPS HIS TURN!"
 
-enemy_death = "THE ZOMBIE PERISHES! HE GIVES\nONE LAST DYING SCREAM FOR HIS FAMILY..";
+enemy_death = "ANGRY MAN PERISHES! HE WAS\nTOO ANGRY FOR HIS OWN GOOD..";
 	
 function enemy_heal(){
 	
