@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"battle_start","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"ANGRY MAN VIBRATES AT YOU!!\"","varType":2,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"battle_start","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"THE ZOMBIE SCREECHES AT YOU!!\"","varType":2,},
   ],
   "solid": false,
   "spriteId": null,

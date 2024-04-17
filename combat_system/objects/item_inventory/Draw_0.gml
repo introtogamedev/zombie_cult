@@ -13,16 +13,14 @@ for (var i = display_start_index; i < maximum_display_index; i++)
 	if(offset_index < i < global.array_limit)
 	{
 		draw_text(global.AxPos[0], global.AyPos[i - offset_index], obj_manager.inv[i].name);
-		
+
 		if (obj_selection.y == global.AyPos[i - offset_index] + 10)
 		{
 			draw_text(global.AxPos[0] + 120, global.AyPos[i - offset_index]," -" + obj_manager.inv[i].description);
 		}	
-		
+
 		show_debug_message(offset_index);
 	}
-	
-		
 }
 
 
