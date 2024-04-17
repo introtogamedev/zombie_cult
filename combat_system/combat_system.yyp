@@ -130,11 +130,11 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_inst","path":"rooms/rm_inst/rm_inst.yy",},},
+    {"roomId":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"roomId":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"roomId":{"name":"Death","path":"rooms/Death/Death.yy",},},
     {"roomId":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
     {"roomId":{"name":"List","path":"rooms/List/List.yy",},},
-    {"roomId":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
