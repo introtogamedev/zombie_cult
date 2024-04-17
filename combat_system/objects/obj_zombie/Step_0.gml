@@ -43,3 +43,4 @@ if obj_god.current_state == EXPLORE && !is_dead{
 else if obj_god.current_state == EXPLORE && is_dead{
 	//show_debug_message("i am ded");
 }
+//else if obj_god.current_state == SHELF 
