@@ -46,6 +46,7 @@ if ((keyboard_check_released(vk_enter) && timer = 0 && player_turn = true)){
 		timer += 10;
 		obj_selection.selected_object = obj_selection;
 	}
+	
 
 }
 
