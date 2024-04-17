@@ -18,6 +18,7 @@ Setup_Macros();
 
 current_state = EXPLORE;
 new_state = EXPLORE;
+prev_state = EXPLORE;
 
 total_checks = 1;
 checks = 0;
