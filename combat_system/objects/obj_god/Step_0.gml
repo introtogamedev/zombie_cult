@@ -3,9 +3,7 @@ if keyboard_check_pressed(ord("L")) {game_end()}
 
 //restart if R is pressed
 if keyboard_check_pressed(ord("R")) {
-	//game_restart()
-	new_state = EXPLORE;
-	show_debug_message("HI")
+	game_restart()
 }
 
 //T key toggles combat
@@ -64,6 +62,7 @@ if current_state != new_state {
 	if new_state = COMBAT {room_goto(Combat);}
 	if new_state = SHELF {room_goto(Shelf);}
 	if new_state = LIST {room_goto(List);}
+	if new_state = VICTORY {room_goto(Victory);}
 	//hey hey. what if we were somewhere else
 	current_state = new_state;
 }
