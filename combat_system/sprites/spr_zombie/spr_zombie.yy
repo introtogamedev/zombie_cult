@@ -30,7 +30,7 @@
   "origin": 4,
   "parent": {
     "name": "Sprites",
-    "path": "folders/EXPLORE/Sprites.yy",
+    "path": "folders/Rooms/EXPLORE/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

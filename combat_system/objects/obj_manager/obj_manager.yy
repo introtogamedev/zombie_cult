@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/EXPLORE/Objects.yy",
+    "path": "folders/Rooms/EXPLORE/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": true,
