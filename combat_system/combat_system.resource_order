@@ -72,6 +72,7 @@
     {"name":"obj_pin","order":3,"path":"objects/obj_pin/obj_pin.yy",},
     {"name":"spr_earrings","order":22,"path":"sprites/spr_earrings/spr_earrings.yy",},
     {"name":"spr_zombie","order":3,"path":"sprites/spr_zombie/spr_zombie.yy",},
+    {"name":"spr_player_dead","order":2,"path":"sprites/spr_player_dead/spr_player_dead.yy",},
     {"name":"spr_door1","order":33,"path":"sprites/spr_door1/spr_door1.yy",},
     {"name":"spr_squirrel","order":19,"path":"sprites/spr_squirrel/spr_squirrel.yy",},
     {"name":"spr_enemy_dead","order":2,"path":"sprites/spr_enemy_dead/spr_enemy_dead.yy",},

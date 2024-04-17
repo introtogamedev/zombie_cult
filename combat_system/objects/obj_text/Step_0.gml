@@ -24,22 +24,29 @@ if (current = obj_item.text){
 	global.array_limit = 2;
 }
 
-if ((keyboard_check_released(vk_enter) && timer = 0 && player_turn = true)){
+if ((keyboard_check_released(vk_enter) && timer = 0)){
 	if (current = obj_enemy.enemy_attack_text || current = obj_enemy.enemy_heal_text || current = obj_enemy.enemy_skip_text){
-		current = player_start;
+		if (player_turn = true){
+			current = player_start;
 		
-		//meter cap
-		if(obj_meter.meter_value + 3 >= 5)
-		{
-			obj_meter.meter_value = 5;
+			//meter cap
+			if(obj_meter.meter_value + 3 >= 5)
+			{
+				obj_meter.meter_value = 5;
+			}
+			else
+			{
+				obj_meter.meter_value += 3;
+			}
 		}
-		else
-		{
-			obj_meter.meter_value += 3;
+		if (obj_player.player_dead = true){
+			current = dead;
+			timer += 10;
 		}
 	
 	
-		
+	}else if (current = dead){
+		obj_god.new_state = EXPLORE;
 	}else if (current = player_start && global.enemy_health >= 1){
 	
 		current = action;

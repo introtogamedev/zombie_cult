@@ -101,6 +101,7 @@
     {"id":{"name":"spr_earrings","path":"sprites/spr_earrings/spr_earrings.yy",},},
     {"id":{"name":"spr_zombie","path":"sprites/spr_zombie/spr_zombie.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
+    {"id":{"name":"spr_player_dead","path":"sprites/spr_player_dead/spr_player_dead.yy",},},
     {"id":{"name":"Setup_Macros","path":"scripts/Setup_Macros/Setup_Macros.yy",},},
     {"id":{"name":"spr_door1","path":"sprites/spr_door1/spr_door1.yy",},},
     {"id":{"name":"fnt_standard","path":"fonts/fnt_standard/fnt_standard.yy",},},
