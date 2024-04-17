@@ -1,0 +1,1412 @@
+You are using YYP Maker v1.1.5, released in 14-08-2022
+
+
+
+[17-04-2024 10:32:47] Initialized GameMaker Project: combat_system.yyp
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/animcurves
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/extensions
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/fonts
+[17-04-2024 10:32:47] Checking ScoreFont
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/fonts/ScoreFont
+[17-04-2024 10:32:47] Checking fnt_standard
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/fonts/fnt_standard
+[17-04-2024 10:32:47] Checking fnt_des
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/fonts/fnt_des
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/fonts/fnt_des
+[17-04-2024 10:32:47] Checking fnt_des.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/fonts/fnt_des/fnt_des.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/fonts/fnt_des/fnt_des.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Fonts" at dir: "C:/Users/Pixie/zombie_cult/combat_system/fonts/fnt_des/fnt_des.yy"
+[17-04-2024 10:32:47] Found Font: fnt_des
+[17-04-2024 10:32:47] Checking fnt_des.png
+[17-04-2024 10:32:47] Checking fnt_des.old.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/fonts/fnt_standard
+[17-04-2024 10:32:47] Checking fnt_standard.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/fonts/fnt_standard/fnt_standard.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/fonts/fnt_standard/fnt_standard.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Text" at dir: "C:/Users/Pixie/zombie_cult/combat_system/fonts/fnt_standard/fnt_standard.yy"
+[17-04-2024 10:32:47] Found Font: fnt_standard
+[17-04-2024 10:32:47] Checking fnt_standard.png
+[17-04-2024 10:32:47] Checking fnt_standard.old.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/fonts/ScoreFont
+[17-04-2024 10:32:47] Checking ScoreFont.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/fonts/ScoreFont/ScoreFont.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/fonts/ScoreFont/ScoreFont.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Fonts" at dir: "C:/Users/Pixie/zombie_cult/combat_system/fonts/ScoreFont/ScoreFont.yy"
+[17-04-2024 10:32:47] Found Font: ScoreFont
+[17-04-2024 10:32:47] Checking ScoreFont.png
+[17-04-2024 10:32:47] Checking ScoreFont.old.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/notes
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects
+[17-04-2024 10:32:47] Checking obj_zombie
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_zombie
+[17-04-2024 10:32:47] Checking obj_textbox
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_textbox
+[17-04-2024 10:32:47] Checking obj_text
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_text
+[17-04-2024 10:32:47] Checking obj_solid
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_solid
+[17-04-2024 10:32:47] Checking obj_skip
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_skip
+[17-04-2024 10:32:47] Checking obj_selection
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_selection
+[17-04-2024 10:32:47] Checking obj_select
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_select
+[17-04-2024 10:32:47] Checking obj_player_1
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_player_1
+[17-04-2024 10:32:47] Checking obj_player
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_player
+[17-04-2024 10:32:47] Checking obj_pin
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_pin
+[17-04-2024 10:32:47] Checking obj_meter
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_meter
+[17-04-2024 10:32:47] Checking obj_manager
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_manager
+[17-04-2024 10:32:47] Checking obj_list
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_list
+[17-04-2024 10:32:47] Checking obj_item
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_item
+[17-04-2024 10:32:47] Checking obj_ingame
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_ingame
+[17-04-2024 10:32:47] Checking obj_gods_light
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_gods_light
+[17-04-2024 10:32:47] Checking obj_god
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_god
+[17-04-2024 10:32:47] Checking obj_flee
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_flee
+[17-04-2024 10:32:47] Checking obj_enemy
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_enemy
+[17-04-2024 10:32:47] Checking obj_door1
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_door1
+[17-04-2024 10:32:47] Checking obj_cat
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_cat
+[17-04-2024 10:32:47] Checking obj_cake
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_cake
+[17-04-2024 10:32:47] Checking obj_attack
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_attack
+[17-04-2024 10:32:47] Checking item_lid
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/item_lid
+[17-04-2024 10:32:47] Checking item_bar
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/item_bar
+[17-04-2024 10:32:47] Checking item_axe_spray
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/item_axe_spray
+[17-04-2024 10:32:47] Checking hp_player
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/hp_player
+[17-04-2024 10:32:47] Checking hp_enemy
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/hp_enemy
+[17-04-2024 10:32:47] Checking atk_emotional_trauma
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/atk_emotional_trauma
+[17-04-2024 10:32:47] Checking atk_barbed_wire_bat
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/objects/atk_barbed_wire_bat
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/atk_barbed_wire_bat
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Checking atk_barbed_wire_bat.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/atk_barbed_wire_bat/atk_barbed_wire_bat.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/atk_barbed_wire_bat/atk_barbed_wire_bat.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Attacks" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/atk_barbed_wire_bat/atk_barbed_wire_bat.yy"
+[17-04-2024 10:32:47] Found Object: atk_barbed_wire_bat
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/atk_emotional_trauma
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Checking atk_emotional_trauma.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/atk_emotional_trauma/atk_emotional_trauma.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/atk_emotional_trauma/atk_emotional_trauma.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Attacks" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/atk_emotional_trauma/atk_emotional_trauma.yy"
+[17-04-2024 10:32:47] Found Object: atk_emotional_trauma
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/hp_enemy
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking hp_enemy.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/hp_enemy/hp_enemy.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/hp_enemy/hp_enemy.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Health" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/hp_enemy/hp_enemy.yy"
+[17-04-2024 10:32:47] Found Object: hp_enemy
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/hp_player
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking hp_player.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/hp_player/hp_player.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/hp_player/hp_player.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Health" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/hp_player/hp_player.yy"
+[17-04-2024 10:32:47] Found Object: hp_player
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/item_axe_spray
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking item_axe_spray.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/item_axe_spray/item_axe_spray.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/item_axe_spray/item_axe_spray.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Items" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/item_axe_spray/item_axe_spray.yy"
+[17-04-2024 10:32:47] Found Object: item_axe_spray
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/item_bar
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking item_bar.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/item_bar/item_bar.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/item_bar/item_bar.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Items" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/item_bar/item_bar.yy"
+[17-04-2024 10:32:47] Found Object: item_bar
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/item_lid
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking item_lid.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/item_lid/item_lid.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/item_lid/item_lid.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Items" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/item_lid/item_lid.yy"
+[17-04-2024 10:32:47] Found Object: item_lid
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_attack
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_attack.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_attack/obj_attack.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_attack/obj_attack.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Actions" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_attack/obj_attack.yy"
+[17-04-2024 10:32:47] Found Object: obj_attack
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_cake
+[17-04-2024 10:32:47] Checking obj_cake.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_cake/obj_cake.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_cake/obj_cake.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_cake/obj_cake.yy"
+[17-04-2024 10:32:47] Found Object: obj_cake
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_cat
+[17-04-2024 10:32:47] Checking obj_cat.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_cat/obj_cat.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_cat/obj_cat.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_cat/obj_cat.yy"
+[17-04-2024 10:32:47] Found Object: obj_cat
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_door1
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_door1.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_door1/obj_door1.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_door1/obj_door1.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_door1/obj_door1.yy"
+[17-04-2024 10:32:47] Found Object: obj_door1
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_enemy
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_enemy.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_enemy/obj_enemy.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_enemy/obj_enemy.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Enemy" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_enemy/obj_enemy.yy"
+[17-04-2024 10:32:47] Found Object: obj_enemy
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_flee
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_flee.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_flee/obj_flee.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_flee/obj_flee.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Actions" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_flee/obj_flee.yy"
+[17-04-2024 10:32:47] Found Object: obj_flee
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_god
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_god.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_god/obj_god.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_god/obj_god.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_god/obj_god.yy"
+[17-04-2024 10:32:47] Found Object: obj_god
+[17-04-2024 10:32:47] Checking Draw_64.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_gods_light
+[17-04-2024 10:32:47] Checking obj_gods_light.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_gods_light/obj_gods_light.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_gods_light/obj_gods_light.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_gods_light/obj_gods_light.yy"
+[17-04-2024 10:32:47] Found Object: obj_gods_light
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_ingame
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_ingame.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_ingame/obj_ingame.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_ingame/obj_ingame.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_ingame/obj_ingame.yy"
+[17-04-2024 10:32:47] Found Object: obj_ingame
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_item
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_item.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_item/obj_item.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_item/obj_item.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Actions" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_item/obj_item.yy"
+[17-04-2024 10:32:47] Found Object: obj_item
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_list
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_list.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_list/obj_list.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_list/obj_list.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_list/obj_list.yy"
+[17-04-2024 10:32:47] Found Object: obj_list
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_manager
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_manager.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_manager/obj_manager.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_manager/obj_manager.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_manager/obj_manager.yy"
+[17-04-2024 10:32:47] Found Object: obj_manager
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_meter
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_meter.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_meter/obj_meter.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_meter/obj_meter.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Meter" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_meter/obj_meter.yy"
+[17-04-2024 10:32:47] Found Object: obj_meter
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_pin
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_pin.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_pin/obj_pin.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_pin/obj_pin.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_pin/obj_pin.yy"
+[17-04-2024 10:32:47] Found Object: obj_pin
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_player
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_player.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_player/obj_player.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_player/obj_player.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Player" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_player/obj_player.yy"
+[17-04-2024 10:32:47] Found Object: obj_player
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_player_1
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_player_1.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_player_1/obj_player_1.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_player_1/obj_player_1.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_player_1/obj_player_1.yy"
+[17-04-2024 10:32:47] Found Object: obj_player_1
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_select
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_select.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_select/obj_select.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_select/obj_select.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_select/obj_select.yy"
+[17-04-2024 10:32:47] Found Object: obj_select
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_selection
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_selection.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_selection/obj_selection.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_selection/obj_selection.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Textbox" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_selection/obj_selection.yy"
+[17-04-2024 10:32:47] Found Object: obj_selection
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_skip
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_skip.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_skip/obj_skip.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_skip/obj_skip.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Actions" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_skip/obj_skip.yy"
+[17-04-2024 10:32:47] Found Object: obj_skip
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_solid
+[17-04-2024 10:32:47] Checking obj_solid.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_solid/obj_solid.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_solid/obj_solid.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_solid/obj_solid.yy"
+[17-04-2024 10:32:47] Found Object: obj_solid
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_text
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_text.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_text/obj_text.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_text/obj_text.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Textbox" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_text/obj_text.yy"
+[17-04-2024 10:32:47] Found Object: obj_text
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_textbox
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking obj_textbox.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_textbox/obj_textbox.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_textbox/obj_textbox.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Textbox" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_textbox/obj_textbox.yy"
+[17-04-2024 10:32:47] Found Object: obj_textbox
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/objects/obj_zombie
+[17-04-2024 10:32:47] Checking Step_0.gml
+[17-04-2024 10:32:47] Checking Other_4.gml
+[17-04-2024 10:32:47] Checking obj_zombie.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/objects/obj_zombie/obj_zombie.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/objects/obj_zombie/obj_zombie.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Objects" at dir: "C:/Users/Pixie/zombie_cult/combat_system/objects/obj_zombie/obj_zombie.yy"
+[17-04-2024 10:32:47] Found Object: obj_zombie
+[17-04-2024 10:32:47] Checking Mouse_4.gml
+[17-04-2024 10:32:47] Checking Draw_0.gml
+[17-04-2024 10:32:47] Checking Create_0.gml
+[17-04-2024 10:32:47] Checking Alarm_0.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/options
+[17-04-2024 10:32:47] Checking windows
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/options/windows
+[17-04-2024 10:32:47] Checking tvos
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/options/tvos
+[17-04-2024 10:32:47] Checking operagx
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/options/operagx
+[17-04-2024 10:32:47] Checking main
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/options/main
+[17-04-2024 10:32:47] Checking mac
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/options/mac
+[17-04-2024 10:32:47] Checking linux
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/options/linux
+[17-04-2024 10:32:47] Checking ios
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/options/ios
+[17-04-2024 10:32:47] Checking html5
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/options/html5
+[17-04-2024 10:32:47] Checking android
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/options/android
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/options/android
+[17-04-2024 10:32:47] Checking options_android.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/options/android/options_android.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/options/android/options_android.yy
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/options/html5
+[17-04-2024 10:32:47] Checking options_html5.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/options/html5/options_html5.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/options/html5/options_html5.yy
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/options/ios
+[17-04-2024 10:32:47] Checking options_ios.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/options/ios/options_ios.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/options/ios/options_ios.yy
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/options/linux
+[17-04-2024 10:32:47] Checking options_linux.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/options/linux/options_linux.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/options/linux/options_linux.yy
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/options/mac
+[17-04-2024 10:32:47] Checking options_mac.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/options/mac/options_mac.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/options/mac/options_mac.yy
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/options/main
+[17-04-2024 10:32:47] Checking options_main.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/options/main/options_main.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/options/main/options_main.yy
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/options/operagx
+[17-04-2024 10:32:47] Checking options_operagx.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/options/operagx/options_operagx.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/options/operagx/options_operagx.yy
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/options/tvos
+[17-04-2024 10:32:47] Checking options_tvos.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/options/tvos/options_tvos.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/options/tvos/options_tvos.yy
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/options/windows
+[17-04-2024 10:32:47] Checking options_windows.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/options/windows/options_windows.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/options/windows/options_windows.yy
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/paths
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/rooms
+[17-04-2024 10:32:47] Checking Victory
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/Victory
+[17-04-2024 10:32:47] Checking Shelf
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/Shelf
+[17-04-2024 10:32:47] Checking rm_inst
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/rm_inst
+[17-04-2024 10:32:47] Checking List
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/List
+[17-04-2024 10:32:47] Checking Explore
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/Explore
+[17-04-2024 10:32:47] Checking Death
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/Death
+[17-04-2024 10:32:47] Checking Combat
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/Combat
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/Combat
+[17-04-2024 10:32:47] Checking Combat.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/rooms/Combat/Combat.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/rooms/Combat/Combat.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms" at dir: "C:/Users/Pixie/zombie_cult/combat_system/rooms/Combat/Combat.yy"
+[17-04-2024 10:32:47] Found Room: Combat
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/Death
+[17-04-2024 10:32:47] Checking Death.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/rooms/Death/Death.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/rooms/Death/Death.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms" at dir: "C:/Users/Pixie/zombie_cult/combat_system/rooms/Death/Death.yy"
+[17-04-2024 10:32:47] Found Room: Death
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/Explore
+[17-04-2024 10:32:47] Checking RoomCreationCode.gml
+[17-04-2024 10:32:47] Checking Explore.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/rooms/Explore/Explore.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/rooms/Explore/Explore.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms" at dir: "C:/Users/Pixie/zombie_cult/combat_system/rooms/Explore/Explore.yy"
+[17-04-2024 10:32:47] Found Room: Explore
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/List
+[17-04-2024 10:32:47] Checking List.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/rooms/List/List.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/rooms/List/List.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms" at dir: "C:/Users/Pixie/zombie_cult/combat_system/rooms/List/List.yy"
+[17-04-2024 10:32:47] Found Room: List
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/rm_inst
+[17-04-2024 10:32:47] Checking RoomCreationCode.gml
+[17-04-2024 10:32:47] Checking rm_inst.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/rooms/rm_inst/rm_inst.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/rooms/rm_inst/rm_inst.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms" at dir: "C:/Users/Pixie/zombie_cult/combat_system/rooms/rm_inst/rm_inst.yy"
+[17-04-2024 10:32:47] Found Room: rm_inst
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/Shelf
+[17-04-2024 10:32:47] Checking Shelf.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/rooms/Shelf/Shelf.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/rooms/Shelf/Shelf.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms" at dir: "C:/Users/Pixie/zombie_cult/combat_system/rooms/Shelf/Shelf.yy"
+[17-04-2024 10:32:47] Found Room: Shelf
+[17-04-2024 10:32:47] Checking InstanceCreationCode_inst_1E1A050F.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/rooms/Victory
+[17-04-2024 10:32:47] Checking Victory.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/rooms/Victory/Victory.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/rooms/Victory/Victory.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms" at dir: "C:/Users/Pixie/zombie_cult/combat_system/rooms/Victory/Victory.yy"
+[17-04-2024 10:32:47] Found Room: Victory
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/scripts
+[17-04-2024 10:32:47] Checking Setup_Macros
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/scripts/Setup_Macros
+[17-04-2024 10:32:47] Checking select_icon
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/scripts/select_icon
+[17-04-2024 10:32:47] Checking item_functions
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/scripts/item_functions
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/scripts/item_functions
+[17-04-2024 10:32:47] Checking item_functions.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/scripts/item_functions/item_functions.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/scripts/item_functions/item_functions.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Scripts" at dir: "C:/Users/Pixie/zombie_cult/combat_system/scripts/item_functions/item_functions.yy"
+[17-04-2024 10:32:47] Found Script: item_functions
+[17-04-2024 10:32:47] Checking item_functions.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/scripts/select_icon
+[17-04-2024 10:32:47] Checking select_icon.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/scripts/select_icon/select_icon.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/scripts/select_icon/select_icon.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Scripts" at dir: "C:/Users/Pixie/zombie_cult/combat_system/scripts/select_icon/select_icon.yy"
+[17-04-2024 10:32:47] Found Script: select_icon
+[17-04-2024 10:32:47] Checking select_icon.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/scripts/Setup_Macros
+[17-04-2024 10:32:47] Checking Setup_Macros.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/scripts/Setup_Macros/Setup_Macros.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/scripts/Setup_Macros/Setup_Macros.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Scripts" at dir: "C:/Users/Pixie/zombie_cult/combat_system/scripts/Setup_Macros/Setup_Macros.yy"
+[17-04-2024 10:32:47] Found Script: Setup_Macros
+[17-04-2024 10:32:47] Checking Setup_Macros.gml
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sequences
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/shaders
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sounds
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites
+[17-04-2024 10:32:47] Checking spr_zombie
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie
+[17-04-2024 10:32:47] Checking spr_walkie_talkie
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_walkie_talkie
+[17-04-2024 10:32:47] Checking spr_tile_explore
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_tile_explore
+[17-04-2024 10:32:47] Checking spr_textbox
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_textbox
+[17-04-2024 10:32:47] Checking spr_squirrel
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_squirrel
+[17-04-2024 10:32:47] Checking spr_solid
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_solid
+[17-04-2024 10:32:47] Checking spr_soap
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_soap
+[17-04-2024 10:32:47] Checking spr_shelf
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_shelf
+[17-04-2024 10:32:47] Checking spr_selection
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection
+[17-04-2024 10:32:47] Checking spr_select
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_select
+[17-04-2024 10:32:47] Checking spr_rat
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_rat
+[17-04-2024 10:32:47] Checking spr_powder_blush
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_powder_blush
+[17-04-2024 10:32:47] Checking spr_player_idle
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle
+[17-04-2024 10:32:47] Checking spr_player_dead
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead
+[17-04-2024 10:32:47] Checking spr_player
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player
+[17-04-2024 10:32:47] Checking spr_pizza
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pizza
+[17-04-2024 10:32:47] Checking spr_pin
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin
+[17-04-2024 10:32:47] Checking spr_phone
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_phone
+[17-04-2024 10:32:47] Checking spr_perfume
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_perfume
+[17-04-2024 10:32:47] Checking spr_nerf_gun
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_nerf_gun
+[17-04-2024 10:32:47] Checking spr_meter5
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter5
+[17-04-2024 10:32:47] Checking spr_meter4
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter4
+[17-04-2024 10:32:47] Checking spr_meter3
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter3
+[17-04-2024 10:32:47] Checking spr_meter2
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter2
+[17-04-2024 10:32:47] Checking spr_meter1
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter1
+[17-04-2024 10:32:47] Checking spr_meter0
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter0
+[17-04-2024 10:32:47] Checking spr_lotion
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_lotion
+[17-04-2024 10:32:47] Checking spr_list
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_list
+[17-04-2024 10:32:47] Checking spr_hoodie
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hoodie
+[17-04-2024 10:32:47] Checking spr_healthboost
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_healthboost
+[17-04-2024 10:32:47] Checking spr_hairspray
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hairspray
+[17-04-2024 10:32:47] Checking spr_gods_light
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_gods_light
+[17-04-2024 10:32:47] Checking spr_enemy_idle
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle
+[17-04-2024 10:32:47] Checking spr_enemy_dead
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead
+[17-04-2024 10:32:47] Checking spr_earrings
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_earrings
+[17-04-2024 10:32:47] Checking spr_dry_shampoo
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dry_shampoo
+[17-04-2024 10:32:47] Checking spr_drugs
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_drugs
+[17-04-2024 10:32:47] Checking spr_door1
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door1
+[17-04-2024 10:32:47] Checking spr_door
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door
+[17-04-2024 10:32:47] Checking spr_dog
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dog
+[17-04-2024 10:32:47] Checking spr_danish
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_danish
+[17-04-2024 10:32:47] Checking spr_cookies
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cookies
+[17-04-2024 10:32:47] Checking spr_cliff_bar
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cliff_bar
+[17-04-2024 10:32:47] Checking spr_cat
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cat
+[17-04-2024 10:32:47] Checking spr_cake
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cake
+[17-04-2024 10:32:47] Checking spr_burger
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_burger
+[17-04-2024 10:32:47] Checking spr_bunny
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny
+[17-04-2024 10:32:47] Checking spr_ax_body_spray
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_ax_body_spray
+[17-04-2024 10:32:47] Checking spr_alarm
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_alarm
+[17-04-2024 10:32:47] Checking bkg_death
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/bkg_death
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/bkg_death
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/bkg_death/layers
+[17-04-2024 10:32:47] Checking bkg_death.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/bkg_death/bkg_death.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/bkg_death/bkg_death.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/bkg_death/bkg_death.yy"
+[17-04-2024 10:32:47] Found Sprite: bkg_death
+[17-04-2024 10:32:47] Checking 0d7b11f8-12a3-44b2-ac55-a72b94cc3fca.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/bkg_death/layers
+[17-04-2024 10:32:47] Checking 0d7b11f8-12a3-44b2-ac55-a72b94cc3fca
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/bkg_death/layers/0d7b11f8-12a3-44b2-ac55-a72b94cc3fca
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/bkg_death/layers/0d7b11f8-12a3-44b2-ac55-a72b94cc3fca
+[17-04-2024 10:32:47] Checking 26c8cb8c-bbff-4a96-bcdc-82e0dcdc71ec.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_alarm
+[17-04-2024 10:32:47] Checking spr_alarm.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_alarm/spr_alarm.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_alarm/spr_alarm.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_alarm/spr_alarm.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_alarm
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_alarm/layers
+[17-04-2024 10:32:47] Checking af20a91b-d13e-4b1d-8522-4f8382a30d8c.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_alarm/layers
+[17-04-2024 10:32:47] Checking af20a91b-d13e-4b1d-8522-4f8382a30d8c
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_alarm/layers/af20a91b-d13e-4b1d-8522-4f8382a30d8c
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_alarm/layers/af20a91b-d13e-4b1d-8522-4f8382a30d8c
+[17-04-2024 10:32:47] Checking f3f5c23b-9332-4679-aa9c-08b87a2bfc95.png
+[17-04-2024 10:32:47] Checking 6143165a-8353-4886-8462-b3388045f652.png
+[17-04-2024 10:32:47] Checking 1b163208-cabc-414b-b55c-8989e0e3253d.png
+[17-04-2024 10:32:47] Checking 1806ba8f-f318-4e31-a5d3-82c92d14485c.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_ax_body_spray
+[17-04-2024 10:32:47] Checking spr_ax_body_spray.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_ax_body_spray/spr_ax_body_spray.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_ax_body_spray/spr_ax_body_spray.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_ax_body_spray/spr_ax_body_spray.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_ax_body_spray
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_ax_body_spray/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_ax_body_spray/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_ax_body_spray/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_ax_body_spray/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny
+[17-04-2024 10:32:47] Checking spr_bunny.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny/spr_bunny.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny/spr_bunny.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny/spr_bunny.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_bunny
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny/layers
+[17-04-2024 10:32:47] Checking 48c1bd6b-12f3-4237-98cb-9e113571cdc2.png
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny/layers
+[17-04-2024 10:32:47] Checking 48c1bd6b-12f3-4237-98cb-9e113571cdc2
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny/layers/48c1bd6b-12f3-4237-98cb-9e113571cdc2
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Checking 84e5b5fa-b6fb-4882-93c2-41458859c803.png
+[17-04-2024 10:32:47] Checking 7c37a3b8-0313-4973-acb0-59b1ba3b73bc.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_bunny/layers/48c1bd6b-12f3-4237-98cb-9e113571cdc2
+[17-04-2024 10:32:47] Checking 9abb2dd8-1ace-4dc2-a0f6-57472711f95b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_burger
+[17-04-2024 10:32:47] Checking spr_burger.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_burger/spr_burger.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_burger/spr_burger.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_burger/spr_burger.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_burger
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_burger/layers
+[17-04-2024 10:32:47] Checking 9bcfaa29-b329-4ba1-8d81-f40a10297a18.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_burger/layers
+[17-04-2024 10:32:47] Checking 9bcfaa29-b329-4ba1-8d81-f40a10297a18
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_burger/layers/9bcfaa29-b329-4ba1-8d81-f40a10297a18
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_burger/layers/9bcfaa29-b329-4ba1-8d81-f40a10297a18
+[17-04-2024 10:32:47] Checking 9047ea5a-5cbd-4083-985e-c6499af24f2a.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cake
+[17-04-2024 10:32:47] Checking spr_cake.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cake/spr_cake.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cake/spr_cake.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cake/spr_cake.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_cake
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cake/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cake/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cake/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cake/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cat
+[17-04-2024 10:32:47] Checking spr_cat.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cat/spr_cat.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cat/spr_cat.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cat/spr_cat.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_cat
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cat/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cat/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cat/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cat/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Checking 31c25748-28cb-4a8c-a045-69ba411196ac.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cliff_bar
+[17-04-2024 10:32:47] Checking spr_cliff_bar.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cliff_bar/spr_cliff_bar.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cliff_bar/spr_cliff_bar.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cliff_bar/spr_cliff_bar.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_cliff_bar
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cliff_bar/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cliff_bar/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cliff_bar/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cliff_bar/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cookies
+[17-04-2024 10:32:47] Checking spr_cookies.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cookies/spr_cookies.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cookies/spr_cookies.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cookies/spr_cookies.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_cookies
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cookies/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cookies/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cookies/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_cookies/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_danish
+[17-04-2024 10:32:47] Checking spr_danish.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_danish/spr_danish.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_danish/spr_danish.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_danish/spr_danish.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_danish
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_danish/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_danish/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_danish/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_danish/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dog
+[17-04-2024 10:32:47] Checking spr_dog.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dog/spr_dog.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dog/spr_dog.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dog/spr_dog.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_dog
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dog/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dog/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dog/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dog/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door
+[17-04-2024 10:32:47] Checking spr_door.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door/spr_door.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door/spr_door.yy
+[17-04-2024 10:32:47] Par: "folders/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door/spr_door.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_door
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door/layers
+[17-04-2024 10:32:47] Checking 6d1123bf-69d7-4f3f-9021-85b510550dc9.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door/layers
+[17-04-2024 10:32:47] Checking 6d1123bf-69d7-4f3f-9021-85b510550dc9
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door/layers/6d1123bf-69d7-4f3f-9021-85b510550dc9
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door/layers/6d1123bf-69d7-4f3f-9021-85b510550dc9
+[17-04-2024 10:32:47] Checking 048d0155-cd03-447e-9474-381f36262507.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door1
+[17-04-2024 10:32:47] Checking spr_door1.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door1/spr_door1.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door1/spr_door1.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door1/spr_door1.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_door1
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door1/layers
+[17-04-2024 10:32:47] Checking 49c90d88-e897-46f2-95b3-b7df622d1035.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door1/layers
+[17-04-2024 10:32:47] Checking 49c90d88-e897-46f2-95b3-b7df622d1035
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door1/layers/49c90d88-e897-46f2-95b3-b7df622d1035
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_door1/layers/49c90d88-e897-46f2-95b3-b7df622d1035
+[17-04-2024 10:32:47] Checking 12879644-0492-43a8-a939-62d046a97e9f.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_drugs
+[17-04-2024 10:32:47] Checking spr_drugs.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_drugs/spr_drugs.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_drugs/spr_drugs.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_drugs/spr_drugs.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_drugs
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_drugs/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_drugs/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_drugs/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_drugs/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dry_shampoo
+[17-04-2024 10:32:47] Checking spr_dry_shampoo.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dry_shampoo/spr_dry_shampoo.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dry_shampoo/spr_dry_shampoo.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dry_shampoo/spr_dry_shampoo.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_dry_shampoo
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dry_shampoo/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dry_shampoo/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dry_shampoo/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_dry_shampoo/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_earrings
+[17-04-2024 10:32:47] Checking spr_earrings.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_earrings/spr_earrings.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_earrings/spr_earrings.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_earrings/spr_earrings.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_earrings
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_earrings/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_earrings/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_earrings/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_earrings/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead
+[17-04-2024 10:32:47] Checking spr_enemy_dead.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead/spr_enemy_dead.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead/spr_enemy_dead.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Enemy" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead/spr_enemy_dead.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_enemy_dead
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead/layers
+[17-04-2024 10:32:47] Checking 785657e8-dfb5-42d5-b5bf-16111afa7f5a.png
+[17-04-2024 10:32:47] Checking 017a6f88-ed83-43d7-86e6-be27597687cb.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead/layers
+[17-04-2024 10:32:47] Checking 785657e8-dfb5-42d5-b5bf-16111afa7f5a
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead/layers/785657e8-dfb5-42d5-b5bf-16111afa7f5a
+[17-04-2024 10:32:47] Checking 017a6f88-ed83-43d7-86e6-be27597687cb
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead/layers/017a6f88-ed83-43d7-86e6-be27597687cb
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead/layers/017a6f88-ed83-43d7-86e6-be27597687cb
+[17-04-2024 10:32:47] Checking fdaa91a5-3732-4194-995d-4219b3863713.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_dead/layers/785657e8-dfb5-42d5-b5bf-16111afa7f5a
+[17-04-2024 10:32:47] Checking fdaa91a5-3732-4194-995d-4219b3863713.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle
+[17-04-2024 10:32:47] Checking spr_enemy_idle.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/spr_enemy_idle.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/spr_enemy_idle.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Enemy" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/spr_enemy_idle.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_enemy_idle
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/layers
+[17-04-2024 10:32:47] Checking e6974e45-5dd6-42c5-96cc-c1878f8793de.png
+[17-04-2024 10:32:47] Checking daa6c39a-d653-4b20-a58b-8c559b65ba99.png
+[17-04-2024 10:32:47] Checking 2183203c-8abc-43cd-b756-df7d422a1467.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/layers
+[17-04-2024 10:32:47] Checking e6974e45-5dd6-42c5-96cc-c1878f8793de
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/layers/e6974e45-5dd6-42c5-96cc-c1878f8793de
+[17-04-2024 10:32:47] Checking daa6c39a-d653-4b20-a58b-8c559b65ba99
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/layers/daa6c39a-d653-4b20-a58b-8c559b65ba99
+[17-04-2024 10:32:47] Checking 2183203c-8abc-43cd-b756-df7d422a1467
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/layers/2183203c-8abc-43cd-b756-df7d422a1467
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/layers/2183203c-8abc-43cd-b756-df7d422a1467
+[17-04-2024 10:32:47] Checking fdaa91a5-3732-4194-995d-4219b3863713.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/layers/daa6c39a-d653-4b20-a58b-8c559b65ba99
+[17-04-2024 10:32:47] Checking fdaa91a5-3732-4194-995d-4219b3863713.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_enemy_idle/layers/e6974e45-5dd6-42c5-96cc-c1878f8793de
+[17-04-2024 10:32:47] Checking fdaa91a5-3732-4194-995d-4219b3863713.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_gods_light
+[17-04-2024 10:32:47] Checking spr_gods_light.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_gods_light/spr_gods_light.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_gods_light/spr_gods_light.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_gods_light/spr_gods_light.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_gods_light
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_gods_light/layers
+[17-04-2024 10:32:47] Checking d8e0a4b4-1654-49c9-a596-481395e4e72b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_gods_light/layers
+[17-04-2024 10:32:47] Checking d8e0a4b4-1654-49c9-a596-481395e4e72b
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_gods_light/layers/d8e0a4b4-1654-49c9-a596-481395e4e72b
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_gods_light/layers/d8e0a4b4-1654-49c9-a596-481395e4e72b
+[17-04-2024 10:32:47] Checking f01c5787-eebc-41e0-8d8c-ff4036e96728.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hairspray
+[17-04-2024 10:32:47] Checking spr_hairspray.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hairspray/spr_hairspray.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hairspray/spr_hairspray.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hairspray/spr_hairspray.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_hairspray
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hairspray/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hairspray/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hairspray/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hairspray/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_healthboost
+[17-04-2024 10:32:47] Checking spr_healthboost.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_healthboost/spr_healthboost.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_healthboost/spr_healthboost.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_healthboost/spr_healthboost.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_healthboost
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_healthboost/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_healthboost/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_healthboost/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_healthboost/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hoodie
+[17-04-2024 10:32:47] Checking spr_hoodie.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hoodie/spr_hoodie.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hoodie/spr_hoodie.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hoodie/spr_hoodie.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_hoodie
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hoodie/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hoodie/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hoodie/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_hoodie/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_list
+[17-04-2024 10:32:47] Checking spr_list.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_list/spr_list.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_list/spr_list.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_list/spr_list.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_list
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_list/layers
+[17-04-2024 10:32:47] Checking d579c7a1-3af9-4d45-b549-685a9cf8d3ac.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_list/layers
+[17-04-2024 10:32:47] Checking d579c7a1-3af9-4d45-b549-685a9cf8d3ac
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_list/layers/d579c7a1-3af9-4d45-b549-685a9cf8d3ac
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_list/layers/d579c7a1-3af9-4d45-b549-685a9cf8d3ac
+[17-04-2024 10:32:47] Checking 0b4d7b5d-fd03-46f3-8a7b-4a572498d04b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_lotion
+[17-04-2024 10:32:47] Checking spr_lotion.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_lotion/spr_lotion.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_lotion/spr_lotion.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_lotion/spr_lotion.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_lotion
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_lotion/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_lotion/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_lotion/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_lotion/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter0
+[17-04-2024 10:32:47] Checking spr_meter0.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter0/spr_meter0.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter0/spr_meter0.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Meter" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter0/spr_meter0.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_meter0
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter0/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter0/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter0/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter0/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Checking 6ba00a65-63e7-4a77-abab-18f25271fa60.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter1
+[17-04-2024 10:32:47] Checking spr_meter1.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter1/spr_meter1.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter1/spr_meter1.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Meter" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter1/spr_meter1.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_meter1
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter1/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter1/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter1/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter1/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Checking 6ba00a65-63e7-4a77-abab-18f25271fa60.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter2
+[17-04-2024 10:32:47] Checking spr_meter2.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter2/spr_meter2.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter2/spr_meter2.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Meter" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter2/spr_meter2.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_meter2
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter2/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter2/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter2/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter2/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Checking 6ba00a65-63e7-4a77-abab-18f25271fa60.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter3
+[17-04-2024 10:32:47] Checking spr_meter3.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter3/spr_meter3.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter3/spr_meter3.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Meter" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter3/spr_meter3.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_meter3
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter3/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter3/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter3/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter3/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Checking 6ba00a65-63e7-4a77-abab-18f25271fa60.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter4
+[17-04-2024 10:32:47] Checking spr_meter4.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter4/spr_meter4.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter4/spr_meter4.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Meter" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter4/spr_meter4.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_meter4
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter4/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter4/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter4/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter4/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Checking 6ba00a65-63e7-4a77-abab-18f25271fa60.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter5
+[17-04-2024 10:32:47] Checking spr_meter5.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter5/spr_meter5.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter5/spr_meter5.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Meter" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter5/spr_meter5.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_meter5
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter5/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter5/layers
+[17-04-2024 10:32:47] Checking dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter5/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_meter5/layers/dece9d57-f632-459c-bad5-f2dd7bba1c1b
+[17-04-2024 10:32:47] Checking 6ba00a65-63e7-4a77-abab-18f25271fa60.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_nerf_gun
+[17-04-2024 10:32:47] Checking spr_nerf_gun.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_nerf_gun/spr_nerf_gun.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_nerf_gun/spr_nerf_gun.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_nerf_gun/spr_nerf_gun.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_nerf_gun
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_nerf_gun/layers
+[17-04-2024 10:32:47] Checking eed7a413-1fb9-4d98-9884-148b64d294d7.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_nerf_gun/layers
+[17-04-2024 10:32:47] Checking eed7a413-1fb9-4d98-9884-148b64d294d7
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_nerf_gun/layers/eed7a413-1fb9-4d98-9884-148b64d294d7
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_nerf_gun/layers/eed7a413-1fb9-4d98-9884-148b64d294d7
+[17-04-2024 10:32:47] Checking 4c3da2fb-c555-449b-9af9-ff9f4a3baf46.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_perfume
+[17-04-2024 10:32:47] Checking spr_perfume.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_perfume/spr_perfume.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_perfume/spr_perfume.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_perfume/spr_perfume.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_perfume
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_perfume/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_perfume/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_perfume/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_perfume/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking f0673a03-6c04-4f21-9e77-021cf671d22b.png
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_phone
+[17-04-2024 10:32:47] Checking spr_phone.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_phone/spr_phone.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_phone/spr_phone.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_phone/spr_phone.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_phone
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_phone/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_phone/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_phone/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_phone/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin
+[17-04-2024 10:32:47] Checking spr_pin.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin/spr_pin.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin/spr_pin.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin/spr_pin.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_pin
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin/layers
+[17-04-2024 10:32:47] Checking 77d7d115-eaef-4efa-ac6d-3767fa5e8a33.png
+[17-04-2024 10:32:47] Checking 4af92dfb-ed89-4fdd-8d46-7522a75df47b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin/layers
+[17-04-2024 10:32:47] Checking 77d7d115-eaef-4efa-ac6d-3767fa5e8a33
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin/layers/77d7d115-eaef-4efa-ac6d-3767fa5e8a33
+[17-04-2024 10:32:47] Checking 4af92dfb-ed89-4fdd-8d46-7522a75df47b
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin/layers/4af92dfb-ed89-4fdd-8d46-7522a75df47b
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin/layers/4af92dfb-ed89-4fdd-8d46-7522a75df47b
+[17-04-2024 10:32:47] Checking 51aeb23a-9471-48a4-b519-8c359159319c.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pin/layers/77d7d115-eaef-4efa-ac6d-3767fa5e8a33
+[17-04-2024 10:32:47] Checking 51aeb23a-9471-48a4-b519-8c359159319c.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pizza
+[17-04-2024 10:32:47] Checking spr_pizza.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pizza/spr_pizza.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pizza/spr_pizza.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pizza/spr_pizza.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_pizza
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pizza/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pizza/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pizza/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_pizza/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player
+[17-04-2024 10:32:47] Checking spr_player.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/spr_player.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/spr_player.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/spr_player.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_player
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/layers
+[17-04-2024 10:32:47] Checking b3a7224a-686f-423c-ae49-de65f8c3b961.png
+[17-04-2024 10:32:47] Checking 9de3c515-5585-44f4-b5e0-f947297aee6b.png
+[17-04-2024 10:32:47] Checking 9dcc3685-217e-4845-b0a8-f6be43a8a598.png
+[17-04-2024 10:32:47] Checking 82f42fe0-645e-4988-bf83-954353697a29.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/layers
+[17-04-2024 10:32:47] Checking b3a7224a-686f-423c-ae49-de65f8c3b961
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/layers/b3a7224a-686f-423c-ae49-de65f8c3b961
+[17-04-2024 10:32:47] Checking 9de3c515-5585-44f4-b5e0-f947297aee6b
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/layers/9de3c515-5585-44f4-b5e0-f947297aee6b
+[17-04-2024 10:32:47] Checking 9dcc3685-217e-4845-b0a8-f6be43a8a598
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/layers/9dcc3685-217e-4845-b0a8-f6be43a8a598
+[17-04-2024 10:32:47] Checking 82f42fe0-645e-4988-bf83-954353697a29
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/layers/82f42fe0-645e-4988-bf83-954353697a29
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/layers/82f42fe0-645e-4988-bf83-954353697a29
+[17-04-2024 10:32:47] Checking e4efa50a-868e-4461-bd60-020a106476b2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/layers/9dcc3685-217e-4845-b0a8-f6be43a8a598
+[17-04-2024 10:32:47] Checking e4efa50a-868e-4461-bd60-020a106476b2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/layers/9de3c515-5585-44f4-b5e0-f947297aee6b
+[17-04-2024 10:32:47] Checking e4efa50a-868e-4461-bd60-020a106476b2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player/layers/b3a7224a-686f-423c-ae49-de65f8c3b961
+[17-04-2024 10:32:47] Checking e4efa50a-868e-4461-bd60-020a106476b2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead
+[17-04-2024 10:32:47] Checking spr_player_dead.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead/spr_player_dead.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead/spr_player_dead.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Player" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead/spr_player_dead.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_player_dead
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead/layers
+[17-04-2024 10:32:47] Checking fb29bb19-1a0a-4d3b-a7ef-cb075bce2629.png
+[17-04-2024 10:32:47] Checking 6184e5b9-246e-4836-81f2-6f15a962d9e9.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead/layers
+[17-04-2024 10:32:47] Checking fb29bb19-1a0a-4d3b-a7ef-cb075bce2629
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead/layers/fb29bb19-1a0a-4d3b-a7ef-cb075bce2629
+[17-04-2024 10:32:47] Checking 6184e5b9-246e-4836-81f2-6f15a962d9e9
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead/layers/6184e5b9-246e-4836-81f2-6f15a962d9e9
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead/layers/6184e5b9-246e-4836-81f2-6f15a962d9e9
+[17-04-2024 10:32:47] Checking 07158685-98a8-4e11-b55d-e0dd4e05caf5.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_dead/layers/fb29bb19-1a0a-4d3b-a7ef-cb075bce2629
+[17-04-2024 10:32:47] Checking 07158685-98a8-4e11-b55d-e0dd4e05caf5.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle
+[17-04-2024 10:32:47] Checking spr_player_idle.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle/spr_player_idle.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle/spr_player_idle.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Player" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle/spr_player_idle.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_player_idle
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle/layers
+[17-04-2024 10:32:47] Checking eb6cabf4-6c93-42a7-8413-349f419221a7.png
+[17-04-2024 10:32:47] Checking 466dd2dd-02e2-4c39-bcf5-5da7b8cb1d0b.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle/layers
+[17-04-2024 10:32:47] Checking eb6cabf4-6c93-42a7-8413-349f419221a7
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle/layers/eb6cabf4-6c93-42a7-8413-349f419221a7
+[17-04-2024 10:32:47] Checking 466dd2dd-02e2-4c39-bcf5-5da7b8cb1d0b
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle/layers/466dd2dd-02e2-4c39-bcf5-5da7b8cb1d0b
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle/layers/466dd2dd-02e2-4c39-bcf5-5da7b8cb1d0b
+[17-04-2024 10:32:47] Checking cb018083-faf2-4449-82c6-40e41f9771cb.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_player_idle/layers/eb6cabf4-6c93-42a7-8413-349f419221a7
+[17-04-2024 10:32:47] Checking cb018083-faf2-4449-82c6-40e41f9771cb.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_powder_blush
+[17-04-2024 10:32:47] Checking spr_powder_blush.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_powder_blush/spr_powder_blush.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_powder_blush/spr_powder_blush.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_powder_blush/spr_powder_blush.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_powder_blush
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_powder_blush/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_powder_blush/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_powder_blush/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_powder_blush/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_rat
+[17-04-2024 10:32:47] Checking spr_rat.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_rat/spr_rat.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_rat/spr_rat.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_rat/spr_rat.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_rat
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_rat/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_rat/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_rat/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_rat/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_select
+[17-04-2024 10:32:47] Checking spr_select.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_select/spr_select.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_select/spr_select.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_select/spr_select.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_select
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_select/layers
+[17-04-2024 10:32:47] Checking ab3f4aa4-8401-4938-9b17-2aa6a5b4b446.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_select/layers
+[17-04-2024 10:32:47] Checking ab3f4aa4-8401-4938-9b17-2aa6a5b4b446
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_select/layers/ab3f4aa4-8401-4938-9b17-2aa6a5b4b446
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_select/layers/ab3f4aa4-8401-4938-9b17-2aa6a5b4b446
+[17-04-2024 10:32:47] Checking 75be03d1-8002-4667-826b-f15eb9bc5a30.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection
+[17-04-2024 10:32:47] Checking spr_selection.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/spr_selection.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/spr_selection.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Textbox" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/spr_selection.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_selection
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/layers
+[17-04-2024 10:32:47] Checking a684e421-8f18-4cc5-b0d1-d9679328b1cf.png
+[17-04-2024 10:32:47] Checking 8352e66e-004b-4a5b-b6ad-e1fa71e24312.png
+[17-04-2024 10:32:47] Checking 76e759b1-3f4b-4ba0-83c4-02c90d471a40.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/layers
+[17-04-2024 10:32:47] Checking a684e421-8f18-4cc5-b0d1-d9679328b1cf
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/layers/a684e421-8f18-4cc5-b0d1-d9679328b1cf
+[17-04-2024 10:32:47] Checking 8352e66e-004b-4a5b-b6ad-e1fa71e24312
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/layers/8352e66e-004b-4a5b-b6ad-e1fa71e24312
+[17-04-2024 10:32:47] Checking 76e759b1-3f4b-4ba0-83c4-02c90d471a40
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/layers/76e759b1-3f4b-4ba0-83c4-02c90d471a40
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/layers/76e759b1-3f4b-4ba0-83c4-02c90d471a40
+[17-04-2024 10:32:47] Checking 8872d042-a1dd-47ec-8832-5345ac9e05ce.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/layers/8352e66e-004b-4a5b-b6ad-e1fa71e24312
+[17-04-2024 10:32:47] Checking 8872d042-a1dd-47ec-8832-5345ac9e05ce.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_selection/layers/a684e421-8f18-4cc5-b0d1-d9679328b1cf
+[17-04-2024 10:32:47] Checking 8872d042-a1dd-47ec-8832-5345ac9e05ce.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_shelf
+[17-04-2024 10:32:47] Checking spr_shelf.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_shelf/spr_shelf.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_shelf/spr_shelf.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_shelf/spr_shelf.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_shelf
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_shelf/layers
+[17-04-2024 10:32:47] Checking 3bcb912e-fcab-4f80-925f-3639b6796aac.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_shelf/layers
+[17-04-2024 10:32:47] Checking 3bcb912e-fcab-4f80-925f-3639b6796aac
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_shelf/layers/3bcb912e-fcab-4f80-925f-3639b6796aac
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_shelf/layers/3bcb912e-fcab-4f80-925f-3639b6796aac
+[17-04-2024 10:32:47] Checking 3233e821-6ec3-48d6-bdea-b6f95ae4b1c7.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_soap
+[17-04-2024 10:32:47] Checking spr_soap.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_soap/spr_soap.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_soap/spr_soap.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_soap/spr_soap.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_soap
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_soap/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_soap/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_soap/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_soap/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_solid
+[17-04-2024 10:32:47] Checking spr_solid.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_solid/spr_solid.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_solid/spr_solid.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_solid/spr_solid.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_solid
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_solid/layers
+[17-04-2024 10:32:47] Checking 8ba3c022-11b9-4c0f-9a13-0bded94606f1.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_solid/layers
+[17-04-2024 10:32:47] Checking 8ba3c022-11b9-4c0f-9a13-0bded94606f1
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_solid/layers/8ba3c022-11b9-4c0f-9a13-0bded94606f1
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_solid/layers/8ba3c022-11b9-4c0f-9a13-0bded94606f1
+[17-04-2024 10:32:47] Checking d43f326a-415f-4277-92f8-fca10b1dcd40.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_squirrel
+[17-04-2024 10:32:47] Checking spr_squirrel.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_squirrel/spr_squirrel.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_squirrel/spr_squirrel.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_squirrel/spr_squirrel.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_squirrel
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_squirrel/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_squirrel/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_squirrel/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_squirrel/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_textbox
+[17-04-2024 10:32:47] Checking spr_textbox.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_textbox/spr_textbox.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_textbox/spr_textbox.yy
+[17-04-2024 10:32:47] Par: "folders/COMBAT/Textbox" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_textbox/spr_textbox.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_textbox
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_textbox/layers
+[17-04-2024 10:32:47] Checking 048e7805-abef-4a1c-ab2d-7d04a97d10a3.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_textbox/layers
+[17-04-2024 10:32:47] Checking 048e7805-abef-4a1c-ab2d-7d04a97d10a3
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_textbox/layers/048e7805-abef-4a1c-ab2d-7d04a97d10a3
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_textbox/layers/048e7805-abef-4a1c-ab2d-7d04a97d10a3
+[17-04-2024 10:32:47] Checking 26037ccb-5733-4101-8b7d-12f9bb0e30c9.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_tile_explore
+[17-04-2024 10:32:47] Checking spr_tile_explore.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_tile_explore/spr_tile_explore.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_tile_explore/spr_tile_explore.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_tile_explore/spr_tile_explore.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_tile_explore
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_tile_explore/layers
+[17-04-2024 10:32:47] Checking 7ec55faa-658e-4360-9d2e-60f81b8c26be.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_tile_explore/layers
+[17-04-2024 10:32:47] Checking 7ec55faa-658e-4360-9d2e-60f81b8c26be
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_tile_explore/layers/7ec55faa-658e-4360-9d2e-60f81b8c26be
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_tile_explore/layers/7ec55faa-658e-4360-9d2e-60f81b8c26be
+[17-04-2024 10:32:47] Checking 091b9d0f-69e8-47de-84ee-6d10568d11d5.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_walkie_talkie
+[17-04-2024 10:32:47] Checking spr_walkie_talkie.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_walkie_talkie/spr_walkie_talkie.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_walkie_talkie/spr_walkie_talkie.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_walkie_talkie/spr_walkie_talkie.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_walkie_talkie
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_walkie_talkie/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_walkie_talkie/layers
+[17-04-2024 10:32:47] Checking 3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_walkie_talkie/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_walkie_talkie/layers/3febecec-ec28-4677-b000-53da59d8ecdd
+[17-04-2024 10:32:47] Checking bcd799ec-19fc-4adb-b222-493ef5b5bcf2.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie
+[17-04-2024 10:32:47] Checking spr_zombie.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/spr_zombie.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/spr_zombie.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Sprites" at dir: "C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/spr_zombie.yy"
+[17-04-2024 10:32:47] Found Sprite: spr_zombie
+[17-04-2024 10:32:47] Checking layers
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers
+[17-04-2024 10:32:47] Checking dde8cc10-7eb7-4d3d-a5e3-b35f7fcce7b7.png
+[17-04-2024 10:32:47] Checking d59e5092-4400-4856-8c00-d16d035ec189.png
+[17-04-2024 10:32:47] Checking a2ba17e7-ccc3-4cd2-a148-60f2f921e573.png
+[17-04-2024 10:32:47] Checking 59e4e347-e46e-457a-b1d8-4951847dea80.png
+[17-04-2024 10:32:47] Checking 183e2cba-02b9-4540-a4b7-7ba5d574ed98.png
+[17-04-2024 10:32:47] Checking 101d8f55-6389-447a-9f1b-78d8bc7e3b59.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers
+[17-04-2024 10:32:47] Checking dde8cc10-7eb7-4d3d-a5e3-b35f7fcce7b7
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/dde8cc10-7eb7-4d3d-a5e3-b35f7fcce7b7
+[17-04-2024 10:32:47] Checking d59e5092-4400-4856-8c00-d16d035ec189
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/d59e5092-4400-4856-8c00-d16d035ec189
+[17-04-2024 10:32:47] Checking a2ba17e7-ccc3-4cd2-a148-60f2f921e573
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/a2ba17e7-ccc3-4cd2-a148-60f2f921e573
+[17-04-2024 10:32:47] Checking 59e4e347-e46e-457a-b1d8-4951847dea80
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/59e4e347-e46e-457a-b1d8-4951847dea80
+[17-04-2024 10:32:47] Checking 183e2cba-02b9-4540-a4b7-7ba5d574ed98
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/183e2cba-02b9-4540-a4b7-7ba5d574ed98
+[17-04-2024 10:32:47] Checking 101d8f55-6389-447a-9f1b-78d8bc7e3b59
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/101d8f55-6389-447a-9f1b-78d8bc7e3b59
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/101d8f55-6389-447a-9f1b-78d8bc7e3b59
+[17-04-2024 10:32:47] Checking 056b0d79-4fdc-4cc8-9432-163cc18d7266.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/183e2cba-02b9-4540-a4b7-7ba5d574ed98
+[17-04-2024 10:32:47] Checking 056b0d79-4fdc-4cc8-9432-163cc18d7266.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/59e4e347-e46e-457a-b1d8-4951847dea80
+[17-04-2024 10:32:47] Checking 056b0d79-4fdc-4cc8-9432-163cc18d7266.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/a2ba17e7-ccc3-4cd2-a148-60f2f921e573
+[17-04-2024 10:32:47] Checking 056b0d79-4fdc-4cc8-9432-163cc18d7266.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/d59e5092-4400-4856-8c00-d16d035ec189
+[17-04-2024 10:32:47] Checking 056b0d79-4fdc-4cc8-9432-163cc18d7266.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/sprites/spr_zombie/layers/dde8cc10-7eb7-4d3d-a5e3-b35f7fcce7b7
+[17-04-2024 10:32:47] Checking 056b0d79-4fdc-4cc8-9432-163cc18d7266.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/tilesets
+[17-04-2024 10:32:47] Checking tile_explore
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/tilesets/tile_explore
+[17-04-2024 10:32:47] Checking explore_tiles
+[17-04-2024 10:32:47] Directory: C:/Users/Pixie/zombie_cult/combat_system/tilesets/explore_tiles
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/tilesets/explore_tiles
+[17-04-2024 10:32:47] Checking output_tileset.png
+[17-04-2024 10:32:47] Checking explore_tiles.yy
+[17-04-2024 10:32:47] Parsing C:/Users/Pixie/zombie_cult/combat_system/tilesets/explore_tiles/explore_tiles.yy
+[17-04-2024 10:32:47] Reading C:/Users/Pixie/zombie_cult/combat_system/tilesets/explore_tiles/explore_tiles.yy
+[17-04-2024 10:32:47] Par: "folders/Rooms/EXPLORE/Tiles" at dir: "C:/Users/Pixie/zombie_cult/combat_system/tilesets/explore_tiles/explore_tiles.yy"
+[17-04-2024 10:32:47] Found TileSet: explore_tiles
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/tilesets/tile_explore
+[17-04-2024 10:32:47] Checking output_tileset.png
+[17-04-2024 10:32:47] Current parent directory: C:/Users/Pixie/zombie_cult/combat_system/timelines
+[17-04-2024 10:32:47] Moving files to trash...
+[17-04-2024 10:32:47] Files yeeted successfully!
+[17-04-2024 10:32:47] Generating YYP...
+[17-04-2024 10:32:47] combat_system.yyp created successfully!
