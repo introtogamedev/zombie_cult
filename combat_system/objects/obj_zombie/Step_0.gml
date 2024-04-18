@@ -1,5 +1,4 @@
-show_debug_message(id);
-if (obj_god.current_state == EXPLORE && !is_dead){
+if obj_god.current_state == EXPLORE && !is_dead{
 
 	var _zomb_x = self.x;
 	var _zomb_y = self.y;
@@ -43,5 +42,6 @@ if (obj_god.current_state == EXPLORE && !is_dead){
 }
 else if obj_god.current_state == EXPLORE && is_dead{
 	//show_debug_message("i am ded");
+	show_debug_message(":)");
 }
-//else if obj_god.current_state == SHELF 
+//else if obj_god.current_state == SHELF || obj_god.current_state == SHELF{
