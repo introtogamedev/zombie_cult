@@ -37,6 +37,7 @@
   },
   "resources": [
     {"id":{"name":"fnt_des","path":"fonts/fnt_des/fnt_des.yy",},},
+    {"id":{"name":"item_inventory","path":"objects/item_inventory/item_inventory.yy",},},
     {"id":{"name":"fnt_standard","path":"fonts/fnt_standard/fnt_standard.yy",},},
     {"id":{"name":"ScoreFont","path":"fonts/ScoreFont/ScoreFont.yy",},},
     {"id":{"name":"atk_barbed_wire_bat","path":"objects/atk_barbed_wire_bat/atk_barbed_wire_bat.yy",},},
