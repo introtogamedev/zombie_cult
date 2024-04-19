@@ -25,4 +25,7 @@ checks = 0;
 
 zombie_death = false; 
 
+//ambush controls (more in room start)
+zomb_hand_speed = 0;
+
 draw_set_font(ScoreFont);

@@ -10,19 +10,15 @@ if keyboard_check_pressed(ord("R")) {
 if keyboard_check_pressed(ord("T")) {
 	//game_restart()
 	new_state = COMBAT;
-	show_debug_message("HI")
+	//show_debug_message("HI")
 }
 
 //check keyboard input
 //horzinotal
 up = keyboard_check(ord("W"))
-	
-
 down = keyboard_check(ord("S"))
-	
 //verticle
 right=keyboard_check(ord("D"))
-	
 left = keyboard_check(ord("A"))
 
 //e key opens list
@@ -54,6 +50,18 @@ if zombie_death = true{
 	obj_player_1.closest_zombie.is_dead = true;
 	zombie_death = false;
 }
+
+//MAKE DEM HANDSSSS
+
+
+if (((current_state = LIST) || (current_state = SHELF)) && make_dem_hands && a_z.ambush ) {
+	if (!instance_exists(L)) {instance_create_layer(-1000,-1000,"Hands_Layer",L);}
+	if (!instance_exists(R)) {instance_create_layer(-1000,-1000,"Hands_Layer",R);}
+	
+	if (L.x > 639) {new_state = COMBAT;}
+	
+}
+	
 
 #region room controller
 if current_state != new_state {
