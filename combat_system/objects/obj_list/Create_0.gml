@@ -1,13 +1,4 @@
-survival_list = array_create(5);
-
-show_debug_message("A");
-
-
-
-
-
-
-
+i = 0
 
 
 

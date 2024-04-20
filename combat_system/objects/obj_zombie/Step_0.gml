@@ -56,7 +56,7 @@ if (!is_dead && (_in_explore || _in_shelf || _in_list)){
 	
 	if ( (_distance_x < 5) && (_distance_y < 5) && !_in_explore){
 		ambush = true;
-		show_debug_message("GET FUCKING GOT");
+		//show_debug_message("GET FUCKING GOT");
 	}
 	else{
 		ambush = false;
