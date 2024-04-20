@@ -1,0 +1,1 @@
+my_room = BATH_BODY;

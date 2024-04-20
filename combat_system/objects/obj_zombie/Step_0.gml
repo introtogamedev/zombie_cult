@@ -4,9 +4,9 @@ var _zomb_y = self.y;
 var _plr_x = obj_player_1.x;
 var _plr_y = obj_player_1.y;
 
-var _in_explore = obj_god.current_state == EXPLORE
-var _in_shelf = obj_god.current_state == SHELF
-var _in_list = obj_god.current_state == LIST
+var _in_explore = obj_god.current_state == EXPLORE;
+var _in_shelf = obj_god.in_shelf;
+var _in_list = obj_god.current_state == LIST;
 
 if (!is_dead && (_in_explore || _in_shelf || _in_list)){
 
@@ -54,7 +54,7 @@ if (!is_dead && (_in_explore || _in_shelf || _in_list)){
 	if !(x_col_l && hsp < 0) && !(x_col_r && hsp > 0) && !(abs(_distance_x) < ZOMB_WALK_SPD) {new_x += hsp;}
 	if !(y_col_u && vsp > 0) && !(y_col_d && vsp < 0) && !(abs(_distance_y) < ZOMB_WALK_SPD){new_y += vsp;}
 	
-	if ( (_distance_x < 10) && (_distance_y < 10) && !_in_explore){
+	if ( (_distance_x < 5) && (_distance_y < 5) && !_in_explore){
 		ambush = true;
 		show_debug_message("GET FUCKING GOT");
 	}

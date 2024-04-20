@@ -20,6 +20,8 @@ current_state = EXPLORE;
 new_state = EXPLORE;
 prev_state = EXPLORE;
 
+in_shelf = false;
+
 total_checks = 1;
 checks = 0;
 

@@ -1,0 +1,1 @@
+my_room = DRY_GOODS;

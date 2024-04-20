@@ -1,4 +1,4 @@
-if obj_god.current_state == SHELF{
+if obj_god.in_shelf{
 	
 	#macro X_CLAMP 3
 	#macro Y_CLAMP 1
