@@ -1,5 +1,7 @@
 depth = -999
 
+#macro INVENTORY_SLOTS 10
+row_length = 5;
 
 //item constructer
 function create_item(_name,_desc,_spr) constructor
@@ -202,11 +204,14 @@ pizza :
 	spr_pizza
 	),
 	}
-	
+	;
+
 //crate the inventory
 //0 is size of array
-inv = array_create(0);
-selected_item = -1;
+item = global.item_list.burger;
+inv = array_create(INVENTORY_SLOTS, -1);
+
+//selected_item = -1;
 	
 screen_border = 16;
 sep = 16;
