@@ -1,0 +1,1 @@
+item = global.item_list.ax_body_spray;

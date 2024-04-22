@@ -11,7 +11,7 @@ function create_item(_name,_desc,_spr) constructor
 		sprite = _spr;
 		
 	}
-	
+win = 0;
 //create items
 
 global.item_list = 
@@ -208,8 +208,9 @@ pizza :
 
 //crate the inventory
 //0 is size of array
-item = global.item_list.burger;
+
 inv = array_create(INVENTORY_SLOTS, -1);
+slot = array_create(0);
 
 //selected_item = -1;
 	

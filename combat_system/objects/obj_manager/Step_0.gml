@@ -1,4 +1,6 @@
 //get slected item
+
+
 selected_item = -1;
 for (var i = 0; i < array_length(inv); i++)
 	{

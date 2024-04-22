@@ -1,4 +1,5 @@
 i = 0;
+scav = array_create(0);
 
 
 

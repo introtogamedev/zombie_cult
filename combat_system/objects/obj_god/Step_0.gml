@@ -37,10 +37,13 @@ if 	(current_state = BAKERY ||
 	current_state = BATH_BODY ||
 	current_state = JEWELERY ||
 	current_state = CLOTHING ){
-		in_shelf = true
+		in_shelf = true;
+		
+		
 }
 else{
 	in_shelf = false;
+
 }
 
 //e key opens list
@@ -54,8 +57,11 @@ if (current_state == EXPLORE || in_shelf){
 
 //releasing e key returns you to whichever room you were just in
 if current_state == LIST{
+	obj_list.visible = true;
 	if keyboard_check_released(ord("E")){
 		new_state = prev_state;
+		obj_list.visible = false;
+		
 	}
 }
 
@@ -63,6 +69,7 @@ if current_state == LIST{
 if in_shelf {
 	if keyboard_check_pressed(ord("F")){
 		new_state = EXPLORE;
+		
 	}
 }
 
@@ -80,7 +87,7 @@ if (((current_state = LIST) || (in_shelf)) && make_dem_hands && a_z.ambush ) {
 	if (!instance_exists(L)) {instance_create_layer(-1000,-1000,"Hands_Layer",L);}
 	if (!instance_exists(R)) {instance_create_layer(-1000,-1000,"Hands_Layer",R);}
 	
-	show_debug_message("made hands :)");
+	//show_debug_message("made hands :)");
 	
 	if (L.x > 639) {new_state = COMBAT;}
 	
@@ -113,7 +120,7 @@ if current_state != new_state {
 	if new_state = JEWELERY {room_goto(Jewelery);}
 	if new_state = CLOTHING {room_goto(Clothing);}
 	
-	
+	//boy if you dont make more clear comments I know who you are
 	//hey hey. what if we were somewhere else
 	current_state = new_state;
 }

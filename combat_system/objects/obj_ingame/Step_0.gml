@@ -6,7 +6,21 @@ sprite_index = item.sprite;
 		
 if (place_meeting(x,y,obj_select)&& keyboard_check(vk_enter))
 	{
-			
+		
+		array_push(obj_manager.slot,item);
+		obj_manager.win ++;
+		show_debug_message(win);
+		/*
+		for (var i = 0; i < INVENTORY_SLOTS; i+= 1)
+	{			
+		
+		if (obj_manager.inv[i] != -1)
+			{
+				
+				draw_sprite(slot[i].sprite,obj_manager.inv[i],_xx,_yy);
+				show_debug_message(slot[i])
+			}
+	}*/
 			Inventory_add(obj_manager,item);
 			instance_destroy();
 			
