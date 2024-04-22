@@ -6,6 +6,10 @@ if keyboard_check_pressed(ord("R")) {
 	game_restart()
 }
 
+if keyboard_check_pressed(ord("X")) {
+	new_state = VICTORY;
+}
+
 //T key toggles combat
 if keyboard_check_pressed(ord("T")) {
 	//game_restart()
@@ -21,30 +25,7 @@ down = keyboard_check(ord("S"))
 right=keyboard_check(ord("D"))
 left = keyboard_check(ord("A"))
 
-//annoying shelf code
-if 	(current_state = BAKERY ||
-	current_state = FREEZER ||
-	current_state = PRODUCE ||
-	current_state = DRY_GOODS ||
-	current_state = PHARMACY ||
-	current_state = PETS ||
-	current_state = CRAFTS ||
-	current_state = TOYS ||
-	current_state = OUTDOOR ||
-	current_state = HOME ||
-	current_state = ELECTRONICS ||
-	current_state = COSMETICS ||
-	current_state = BATH_BODY ||
-	current_state = JEWELERY ||
-	current_state = CLOTHING ){
-		in_shelf = true;
-		
-		
-}
-else{
-	in_shelf = false;
 
-}
 
 //e key opens list
 if (current_state == EXPLORE || in_shelf){
@@ -105,7 +86,7 @@ if current_state != new_state {
 	
 	//ALL THE SHELVES
 	if new_state = BAKERY {room_goto(Bakery);}
-	if new_state = FREEZER {room_goto(Freezer);}
+	if new_state = FREEZER {room_goto(Freezer); }
 	if new_state = PRODUCE {room_goto(Produce);}
 	if new_state = DRY_GOODS {room_goto(Dry_Goods);}
 	if new_state = PHARMACY {room_goto(Pharmacy);}
@@ -120,9 +101,11 @@ if current_state != new_state {
 	if new_state = JEWELERY {room_goto(Jewelery);}
 	if new_state = CLOTHING {room_goto(Clothing);}
 	
+	//HEY WHAT DO U MEAN THAT PERFECTLY COMMUNICAED WHAT'S HAPPENING
 	//boy if you dont make more clear comments I know who you are
 	//hey hey. what if we were somewhere else
 	current_state = new_state;
 }
+#endregion
 
 

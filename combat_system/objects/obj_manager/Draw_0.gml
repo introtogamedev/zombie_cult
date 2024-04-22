@@ -13,7 +13,7 @@ for (var i = 0; i < INVENTORY_SLOTS; i+= 1)
 				
 				//if (array_contains(slot,obj_list.scav,0,array_length(slot)-1)){win++}
 				draw_sprite(slot[i].sprite,inv[i],_xx,_yy);
-				show_debug_message(slot);
+				//show_debug_message(slot);
 			}
 			
 		//get selected color
