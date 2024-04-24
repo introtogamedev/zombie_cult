@@ -1,9 +1,14 @@
-sprite_index = spr_enemy_idle
+sprite_index = spr_kyle_idle
+image_xscale = 1.5;
+image_yscale = 1.5;
 
 enemy_start = "IT'S THE ZOMBIE'S TURN NOW!"
 
 enemy_selection = 4;
 
+
+snap = 0;
+snap_timer = 0;
 
 function random_enemy_turn(){
 	randomise();
