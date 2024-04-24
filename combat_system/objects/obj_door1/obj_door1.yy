@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
     "name": "spr_door1",
     "path": "sprites/spr_door1/spr_door1.yy",

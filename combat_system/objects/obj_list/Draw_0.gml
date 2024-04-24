@@ -1,2 +1,6 @@
 sprite_index = item;
-draw_self()
+if (obj_god.current_state = LIST)
+	{
+		draw_self()
+	}
+
