@@ -22,7 +22,7 @@ function Inventory_remove(rootObject,itemType){
 	var _slot = inventory_search(rootObject,itemType);
 	if (_slot != -1)
 		{
-			with (rootObject) inv[_slot] = itemType;
+			with (rootObject) inv[_slot] = itemType; //array_delete(rootObject,slot,1);
 			return true;
 		}
 		else return false;
