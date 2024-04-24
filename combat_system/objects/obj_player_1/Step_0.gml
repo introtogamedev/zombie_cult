@@ -1,3 +1,5 @@
+closest_zombie = instance_nearest(x, y, obj_zombie);
+
 if obj_god.current_state == EXPLORE{
 	
 	var _new_y = y;
@@ -45,7 +47,6 @@ if obj_god.current_state == EXPLORE{
 	y = _new_y;
 	x = _new_x;
 
-	closest_zombie = instance_nearest(x, y, obj_zombie);
 	//show_debug_message(closest_zombie);
 	
 	if place_meeting(x,y,obj_gods_light){

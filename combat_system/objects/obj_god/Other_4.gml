@@ -1,7 +1,4 @@
-
-
-
-//annoying shelf code
+//annoying shelf code just ignore (it makes all the shelves into shelves)
 if 	(current_state = BAKERY ||
 	current_state = FREEZER ||
 	current_state = PRODUCE ||
@@ -29,6 +26,8 @@ else{
 L = obj_zombhandL;
 R = obj_zombhandR;
 a_z = obj_player_1.closest_zombie;
+show_debug_message(a_z)
+a_z.ambush = false;
 
 
 if current_state == LIST || in_shelf{

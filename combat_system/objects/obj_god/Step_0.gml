@@ -72,12 +72,14 @@ if (((current_state = LIST) || (in_shelf)) && make_dem_hands && a_z.ambush ) {
 	
 	//make the hands get faster for Hell Effect
 	zomb_hand_speed += HAND_SPD_INCREASE;
+
 	
 	//show_debug_message("made hands :)");
 	
 	if (L.x > 639) {new_state = COMBAT;}
 	
 }
+
 	
 
 #region room controller
