@@ -7,9 +7,8 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_5F62A403","path":"rooms/rm_inst/rm_inst.yy",},
-    {"name":"inst_5DA8F1CD","path":"rooms/rm_inst/rm_inst.yy",},
-    {"name":"inst_34AEA8F8","path":"rooms/rm_inst/rm_inst.yy",},
+    {"name":"inst_1A358E81","path":"rooms/rm_inst/rm_inst.yy",},
+    {"name":"inst_1AAF97E5","path":"rooms/rm_inst/rm_inst.yy",},
   ],
   "isDnd": false,
   "layers": [

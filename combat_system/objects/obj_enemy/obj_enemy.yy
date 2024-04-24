@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/COMBAT/Enemy.yy",
+    "name": "Kyle",
+    "path": "folders/COMBAT/Enemy/Kyle.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy_idle",
-    "path": "sprites/spr_enemy_idle/spr_enemy_idle.yy",
+    "name": "spr_kyle_idle",
+    "path": "sprites/spr_kyle_idle/spr_kyle_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
