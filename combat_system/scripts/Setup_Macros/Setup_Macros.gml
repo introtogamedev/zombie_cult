@@ -30,5 +30,9 @@ function Setup_Macros(){
 	#macro ZOMB_TRIGGER_RANGE 500
 	
 	#macro APPROACH_SPD_OFFSET 2
+	
+	#macro HAND_START_SPD_DIVIDE 300
+	
+	#macro HAND_SPD_INCREASE .5
 
 }
