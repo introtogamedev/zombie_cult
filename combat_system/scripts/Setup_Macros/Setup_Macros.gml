@@ -33,6 +33,6 @@ function Setup_Macros(){
 	
 	#macro HAND_START_SPD_DIVIDE 300
 	
-	#macro HAND_SPD_INCREASE .5
+	#macro HAND_SPD_INCREASE .2
 
 }

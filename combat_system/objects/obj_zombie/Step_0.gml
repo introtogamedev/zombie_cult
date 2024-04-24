@@ -39,7 +39,10 @@ if (!is_dead && (_in_explore || _in_shelf || _in_list)){
 		if (sign ( _distance_y)) == -1 { vsp = _real_speed; }
 	}
 	else{
-		hsp = 0;
+		
+		//var time_until_change = irandom_range(3,13);
+	//	alarm_set(1, room_speed*(time_until_change);
+		
 		vsp = 0;
 	}
 
@@ -54,9 +57,8 @@ if (!is_dead && (_in_explore || _in_shelf || _in_list)){
 	if !(x_col_l && hsp < 0) && !(x_col_r && hsp > 0) && !(abs(_distance_x) < ZOMB_WALK_SPD) {new_x += hsp;}
 	if !(y_col_u && vsp > 0) && !(y_col_d && vsp < 0) && !(abs(_distance_y) < ZOMB_WALK_SPD){new_y += vsp;}
 	
-	if ( (_distance_x < 5) && (_distance_y < 5) && !_in_explore){
+	if ( (abs(_distance_x) < 5) && (abs(_distance_y) < 5) && (!_in_explore) ){
 		ambush = true;
-		//show_debug_message("GET FUCKING GOT");
 	}
 	else{
 		ambush = false;
