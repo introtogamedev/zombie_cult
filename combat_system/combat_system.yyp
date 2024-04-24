@@ -34,7 +34,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
     {"id":{"name":"Bath_Body","path":"rooms/Bath_Body/Bath_Body.yy",},},
