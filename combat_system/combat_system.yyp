@@ -57,7 +57,7 @@
     {"id":{"name":"obj_cake","path":"objects/obj_cake/obj_cake.yy",},},
     {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},},
     {"id":{"name":"obj_door1","path":"objects/obj_door1/obj_door1.yy",},},
-    {"id":{"name":"obj_kyle","path":"objects/obj_kyle/obj_kyle.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_flee","path":"objects/obj_flee/obj_flee.yy",},},
     {"id":{"name":"obj_god","path":"objects/obj_god/obj_god.yy",},},
     {"id":{"name":"obj_gods_light","path":"objects/obj_gods_light/obj_gods_light.yy",},},
