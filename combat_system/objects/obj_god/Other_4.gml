@@ -26,8 +26,6 @@ else{
 L = obj_zombhandL;
 R = obj_zombhandR;
 a_z = obj_player_1.closest_zombie;
-show_debug_message(a_z)
-a_z.ambush = false;
 
 
 if current_state == LIST || in_shelf{
@@ -39,9 +37,7 @@ if current_state == LIST || in_shelf{
 		zomb_hand_speed = h_s;
 		
 		//we makin some handsssss
-		make_dem_hands = true;
-		show_debug_message("making hands...")
-		
+		make_dem_hands = true;	
 	}
 	
 }
@@ -53,7 +49,5 @@ else{
 	
 
 }
-
-if in_shelf{show_debug_message("in chslef")}
 
 

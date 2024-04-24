@@ -6,7 +6,13 @@
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
-  "instanceCreationOrder": [],
+  "instanceCreationOrder": [
+    {"name":"inst_5B90A85A","path":"rooms/List/List.yy",},
+    {"name":"inst_5E604023","path":"rooms/List/List.yy",},
+    {"name":"inst_339EC95D","path":"rooms/List/List.yy",},
+    {"name":"inst_3FD313E","path":"rooms/List/List.yy",},
+    {"name":"inst_10BDD2CC","path":"rooms/List/List.yy",},
+  ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Hands_Layer","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
