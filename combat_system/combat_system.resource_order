@@ -17,6 +17,7 @@
     {"name":"Tiles","order":40,"path":"folders/EXPLORE/Sprites/Tiles.yy",},
     {"name":"shelves","order":7,"path":"folders/Rooms/shelves.yy",},
     {"name":"Markus","order":3,"path":"folders/COMBAT/Enemy/Markus.yy",},
+    {"name":"Barbara","order":4,"path":"folders/COMBAT/Enemy/Barbara.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Bath_Body","order":13,"path":"rooms/Bath_Body/Bath_Body.yy",},

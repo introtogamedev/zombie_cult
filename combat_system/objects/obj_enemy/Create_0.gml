@@ -1,8 +1,8 @@
-zombies = [spr_kyle_idle, spr_markus_idle];
+zombies = [spr_kyle_idle, spr_markus_idle, spr_barbara_idle];
 
 function random_zombie_sprite(){
 	randomize();
-	var i = irandom_range(0,1);
+	var i = irandom_range(0,2);
 	
 	return i;
 }
