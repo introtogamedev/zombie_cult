@@ -1,3 +1,15 @@
+zombies = [spr_kyle_idle, spr_markus_idle];
+
+function random_zombie_sprite(){
+	randomize();
+	var i = irandom_range(0,1);
+	
+	return i;
+}
+
+name = random_zombie_sprite();
+
+
 sprite_index = spr_kyle_idle
 image_xscale = 1.5;
 image_yscale = 1.5;
