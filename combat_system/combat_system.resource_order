@@ -18,6 +18,7 @@
     {"name":"shelves","order":7,"path":"folders/Rooms/shelves.yy",},
     {"name":"Markus","order":3,"path":"folders/COMBAT/Enemy/Markus.yy",},
     {"name":"Barbara","order":4,"path":"folders/COMBAT/Enemy/Barbara.yy",},
+    {"name":"Bg","order":9,"path":"folders/COMBAT/Bg.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Bath_Body","order":13,"path":"rooms/Bath_Body/Bath_Body.yy",},
