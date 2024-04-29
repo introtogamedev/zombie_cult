@@ -41,8 +41,15 @@ if obj_god.in_shelf{
 	select_icon();
 	
 	//THIS IS THE TIME IT TAKES TO GET THE OBJECT CODE
-	if keyboard_check(vk_return){
+	if ((keyboard_check(vk_return)) && (pickup_time < 17 )) {
 		pickup_time += .1;
+	}
+	if keyboard_check_released(vk_return){
+		pickup_time = 0;
+		u_got_an_item = false;
+	}
+	if pickup_time > 17{
+		u_got_an_item = true;
 	}
 		
 
