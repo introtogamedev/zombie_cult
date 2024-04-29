@@ -1,7 +1,11 @@
 //do a for loop 
 
 	
+<<<<<<< HEAD
 
+=======
+//show_debug_message(scav[1])
+>>>>>>> 281fcaaf1006dd6848110c5f6c046c97413af9ed
 		
 		/*what = scav[i];
 		array_push(plz,what);

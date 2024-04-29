@@ -1,4 +1,4 @@
-old_placement = x;
+obj_god.old_hand_placement = x;
 
 
 

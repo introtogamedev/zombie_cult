@@ -19,6 +19,7 @@
     {"name":"Sprites","order":3,"path":"folders/EXPLORE/Sprites.yy",},
     {"name":"Tiles","order":40,"path":"folders/EXPLORE/Sprites/Tiles.yy",},
     {"name":"shelves","order":7,"path":"folders/Rooms/shelves.yy",},
+    {"name":"Radish Sprites","order":42,"path":"folders/EXPLORE/Sprites/Radish Sprites.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Bath_Body","order":13,"path":"rooms/Bath_Body/Bath_Body.yy",},

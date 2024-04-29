@@ -1,3 +1,4 @@
+
 //annoying shelf code just ignore (it makes all the shelves into shelves)
 if 	(current_state = BAKERY ||
 	current_state = FREEZER ||
@@ -46,8 +47,10 @@ else{
 	zomb_hand_speed = 0;
 	if instance_exists(L){instance_destroy(L);}
 	if instance_exists(R){instance_destroy(R);}
-	
 
 }
 
+if current_state == COMBAT{
+	old_hand_placement = 0;
+}
 

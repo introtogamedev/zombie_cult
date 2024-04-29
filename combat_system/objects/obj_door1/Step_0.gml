@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 if (global.win == 5)
 	{
 		instance_destroy(my_door);
@@ -5,10 +6,8 @@ if (global.win == 5)
 	}
 /*if obj_god.checks > obj_god.total_checks{
 	//show_debug_message(my_door)
+=======
+if (obj_manager.win > 5){
+>>>>>>> 281fcaaf1006dd6848110c5f6c046c97413af9ed
 	instance_destroy(my_door);
 }
-
-
-
-
-
