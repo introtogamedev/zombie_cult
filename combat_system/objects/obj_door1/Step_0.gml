@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 if (global.win == 5)
 	{
 		instance_destroy(my_door);
