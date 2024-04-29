@@ -1,3 +1,4 @@
 
-win = obj_manager.win;
+win = global.win;
+
 item = global.item_list.burger;
