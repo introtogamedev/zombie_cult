@@ -1,3 +1,5 @@
+//wahoo zombie time
+
 vsp = 0;
 hsp = 0;
 
