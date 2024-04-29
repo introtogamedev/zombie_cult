@@ -37,10 +37,14 @@ if obj_god.in_shelf{
 	if y_pos != _y_pos {
 		y_pos = _y_pos;
 	}
-	//show_debug_message(string(x_pos)+" ,"+string(y_pos));
-	
 	
 	select_icon();
+	
+	//THIS IS THE TIME IT TAKES TO GET THE OBJECT CODE
+	if keyboard_check(vk_return){
+		pickup_time += .1;
+	}
+		
 
 }
 
