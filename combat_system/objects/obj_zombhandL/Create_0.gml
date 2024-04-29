@@ -7,8 +7,6 @@ if obj_god.old_hand_placement == 0{
 	x = 0;
 }
 else{
-	x == obj_god.old_hand_placement;
+	x = obj_god.old_hand_placement;
 }
-
-
 

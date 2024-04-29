@@ -80,7 +80,7 @@ if (((current_state = LIST) || (in_shelf)) && make_dem_hands && a_z.ambush ) {
 	
 }
 
-	
+if old_hand_placement > 0 {old_hand_placement -= 1;}	
 
 #region room controller
 if current_state != new_state {
@@ -113,8 +113,9 @@ if current_state != new_state {
 	//boy if you dont make more clear comments I know who you are
 	//hey hey. what if we were somewhere else
 	//hey hey what if we made BETTER COMMENTS
+	//hey hey what if i kept doing what i do best forever :)
 	current_state = new_state;
 }
 #endregion
 
-
+show_debug_message(old_hand_placement);

@@ -1,7 +1,7 @@
 //do a for loop 
 
 	
-show_debug_message(scav[1])
+//show_debug_message(scav[1])
 		
 		/*what = scav[i];
 		array_push(plz,what);

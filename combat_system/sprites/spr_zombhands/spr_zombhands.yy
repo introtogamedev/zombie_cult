@@ -4,7 +4,7 @@
   "name": "spr_zombhands",
   "bbox_bottom": 559,
   "bbox_left": 0,
-  "bbox_right": 639,
+  "bbox_right": 839,
   "bbox_top": 60,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 640,
+  "width": 840,
 }
