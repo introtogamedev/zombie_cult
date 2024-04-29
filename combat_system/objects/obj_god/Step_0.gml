@@ -76,7 +76,7 @@ if (((current_state = LIST) || (in_shelf)) && make_dem_hands && a_z.ambush ) {
 	
 	//show_debug_message("made hands :)");
 	
-	if (L.x > 639) {new_state = COMBAT;}
+	if (L.x > 800) {new_state = COMBAT;}
 	
 }
 
