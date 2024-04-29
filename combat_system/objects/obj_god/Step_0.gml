@@ -109,8 +109,10 @@ if current_state != new_state {
 	if new_state = CLOTHING {room_goto(Clothing);}
 	
 	//HEY WHAT DO U MEAN THAT PERFECTLY COMMUNICAED WHAT'S HAPPENING
+	//NO >:/
 	//boy if you dont make more clear comments I know who you are
 	//hey hey. what if we were somewhere else
+	//hey hey what if we made BETTER COMMENTS
 	current_state = new_state;
 }
 #endregion

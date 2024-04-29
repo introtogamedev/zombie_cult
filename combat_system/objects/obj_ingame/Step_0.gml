@@ -7,7 +7,18 @@ sprite_index = item.sprite;
 if (place_meeting(x,y,obj_select)&& keyboard_check(vk_enter))
 	{
 		
+		if (array_contains(obj_list.scav,item.sprite,0,array_length(obj_list.scav)))
+			{
+				show_debug_message(array_get_index(obj_list.scav,item.sprite,0,array_length(obj_list.scav)));
+				
+				instance_destroy();
+				
+			}
+		else {
 		array_push(obj_manager.slot,item);
+		Inventory_add(obj_manager,item);
+		instance_destroy();
+		}
 		obj_manager.win ++;
 		show_debug_message(win);
 		/*
@@ -21,7 +32,7 @@ if (place_meeting(x,y,obj_select)&& keyboard_check(vk_enter))
 				show_debug_message(slot[i])
 			}
 	}*/
-			Inventory_add(obj_manager,item);
-			instance_destroy();
+			
+			
 			
 	}
