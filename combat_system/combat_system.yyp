@@ -51,6 +51,7 @@
     {"id":{"name":"obj_zombhandL","path":"objects/obj_zombhandL/obj_zombhandL.yy",},},
     {"id":{"name":"atk_emotional_trauma","path":"objects/atk_emotional_trauma/atk_emotional_trauma.yy",},},
     {"id":{"name":"hp_enemy","path":"objects/hp_enemy/hp_enemy.yy",},},
+    {"id":{"name":"List","path":"rooms/List/List.yy",},},
     {"id":{"name":"hp_player","path":"objects/hp_player/hp_player.yy",},},
     {"id":{"name":"item_axe_spray","path":"objects/item_axe_spray/item_axe_spray.yy",},},
     {"id":{"name":"item_bar","path":"objects/item_bar/item_bar.yy",},},
@@ -166,7 +167,6 @@
     {"roomId":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"roomId":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"roomId":{"name":"Death","path":"rooms/Death/Death.yy",},},
-    {"roomId":{"name":"List","path":"rooms/List/List.yy",},},
     {"roomId":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
     {"roomId":{"name":"Victory","path":"rooms/Victory/Victory.yy",},},
     {"roomId":{"name":"Bakery","path":"rooms/Bakery/Bakery.yy",},},
@@ -184,6 +184,7 @@
     {"roomId":{"name":"Cosmetics","path":"rooms/Cosmetics/Cosmetics.yy",},},
     {"roomId":{"name":"Bath_Body","path":"rooms/Bath_Body/Bath_Body.yy",},},
     {"roomId":{"name":"Jewelery","path":"rooms/Jewelery/Jewelery.yy",},},
+    {"roomId":{"name":"List","path":"rooms/List/List.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
