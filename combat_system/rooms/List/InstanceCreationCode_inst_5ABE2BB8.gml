@@ -1,0 +1,1 @@
+show_me_the_way = obj_list.scav[3].sprite;
