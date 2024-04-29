@@ -1,5 +1,5 @@
 depth = -999
-
+global.win = 0;
 #macro INVENTORY_SLOTS 10
 row_length = 5;
 
@@ -12,7 +12,7 @@ function create_item(_name,_desc,_spr, _effect) constructor//, _execute_Function
 		effect = _effect;
 		//execute_function = _execute_Function;
 	}
-win = 0;
+
 //create items
 
 global.item_list = 

@@ -30,6 +30,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/EXPLORE/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/EXPLORE/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/EXPLORE/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Radish Sprites","folderPath":"folders/EXPLORE/Sprites/Radish Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tiles","folderPath":"folders/EXPLORE/Sprites/Tiles.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"shelves","folderPath":"folders/Rooms/shelves.yy",},
@@ -38,7 +39,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
     {"id":{"name":"Bath_Body","path":"rooms/Bath_Body/Bath_Body.yy",},},
@@ -96,6 +97,7 @@
     {"id":{"name":"Victory","path":"rooms/Victory/Victory.yy",},},
     {"id":{"name":"item_functions","path":"scripts/item_functions/item_functions.yy",},},
     {"id":{"name":"select_icon","path":"scripts/select_icon/select_icon.yy",},},
+    {"id":{"name":"spr_radish_idle","path":"sprites/spr_radish_idle/spr_radish_idle.yy",},},
     {"id":{"name":"Setup_Macros","path":"scripts/Setup_Macros/Setup_Macros.yy",},},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},},
     {"id":{"name":"Clothing","path":"rooms/Clothing/Clothing.yy",},},

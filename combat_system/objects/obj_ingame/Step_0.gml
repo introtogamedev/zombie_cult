@@ -7,10 +7,11 @@ sprite_index = item.sprite;
 if (place_meeting(x,y,obj_select)&& keyboard_check(vk_enter))
 	{
 		
-		if (array_contains(obj_list.scav,item.sprite,0,array_length(obj_list.scav)))
+		if (item == obj_list.scav[0] || item == obj_list.scav[1] || item == obj_list.scav[2] || item == obj_list.scav[3] || item == obj_list.scav[4] )
 			{
-				show_debug_message(array_get_index(obj_list.scav,item.sprite,0,array_length(obj_list.scav)));
 				
+				global.win ++;
+				show_debug_message("AHH");
 				instance_destroy();
 				
 			}
@@ -19,8 +20,9 @@ if (place_meeting(x,y,obj_select)&& keyboard_check(vk_enter))
 		Inventory_add(obj_manager,item);
 		instance_destroy();
 		}
-		obj_manager.win ++;
-		show_debug_message(win);
+		
+		
+		show_debug_message(global.win);
 		/*
 		for (var i = 0; i < INVENTORY_SLOTS; i+= 1)
 	{			
