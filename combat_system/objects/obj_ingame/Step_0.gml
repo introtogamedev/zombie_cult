@@ -4,7 +4,7 @@ sprite_index = item.sprite;
 	var _yy = camera_get_view_y(view_camera[0]);
 		
 		
-if (place_meeting(x,y,obj_select)&& keyboard_check(vk_enter))
+if ((place_meeting(x,y,obj_select)) && (obj_select.u_got_an_item == true))
 	{
 		
 		if (item == obj_list.scav[0] || item == obj_list.scav[1] || item == obj_list.scav[2] || item == obj_list.scav[3] || item == obj_list.scav[4] )
