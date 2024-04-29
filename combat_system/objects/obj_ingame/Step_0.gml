@@ -3,13 +3,46 @@ sprite_index = item.sprite;
 	var _xx = camera_get_view_x(view_camera[0]) ;
 	var _yy = camera_get_view_y(view_camera[0]);
 		
-		
-if ((place_meeting(x,y,obj_select)) && (obj_select.u_got_an_item == true))
+		show_debug_message(global.three);
+if (place_meeting(x,y,obj_select)&& keyboard_check(vk_enter))
 	{
 		
-		if (item == obj_list.scav[0] || item == obj_list.scav[1] || item == obj_list.scav[2] || item == obj_list.scav[3] || item == obj_list.scav[4] )
+		if (item == obj_list.scav[0] )
 			{
+				global.zero = true;
+				global.win ++;
+				show_debug_message("AHH");
+				instance_destroy();
 				
+			}
+		
+			else if (item == obj_list.scav[1] )
+			{
+				global.one = true;
+				global.win ++;
+				show_debug_message("AHH");
+				instance_destroy();
+				
+			}
+			else if (item == obj_list.scav[2] )
+			{
+				global.two = true;
+				global.win ++;
+				show_debug_message(global.two);
+				instance_destroy();
+				
+			}
+			else if (item == obj_list.scav[3] )
+			{
+				global.three = true;
+				global.win ++;
+				
+				instance_destroy();
+				
+			}
+			else if (item == obj_list.scav[4] )
+			{
+				global.four = true;
 				global.win ++;
 				show_debug_message("AHH");
 				instance_destroy();
@@ -22,7 +55,6 @@ if ((place_meeting(x,y,obj_select)) && (obj_select.u_got_an_item == true))
 		}
 		
 		
-		//show_debug_message(global.win);
 		/*
 		for (var i = 0; i < INVENTORY_SLOTS; i+= 1)
 	{			

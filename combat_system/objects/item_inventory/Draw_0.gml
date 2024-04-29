@@ -28,7 +28,7 @@ for (var i = display_start_index; i < maximum_display_index; i++)
 			draw_text(global.AxPos[0] + 150, global.AyPos[i - offset_index]," -" + obj_manager.inv[i].description);
 		}	
 
-		show_debug_message(offset_index);
+		//show_debug_message(offset_index);
 	}
 	else
 	{

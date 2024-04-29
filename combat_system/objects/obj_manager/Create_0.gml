@@ -2,7 +2,11 @@ depth = -999
 global.win = 0;
 #macro INVENTORY_SLOTS 10
 row_length = 5;
-
+global.one = false;
+global.two = false;
+global.three = false;
+global.four = false;
+global.zero = false;
 //item constructer
 function create_item(_name,_desc,_spr, _effect) constructor//, _execute_Function = function(){}) constructor
 	{
