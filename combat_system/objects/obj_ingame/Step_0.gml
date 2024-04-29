@@ -22,7 +22,7 @@ if (place_meeting(x,y,obj_select)&& keyboard_check(vk_enter))
 		}
 		
 		
-		show_debug_message(global.win);
+		//show_debug_message(global.win);
 		/*
 		for (var i = 0; i < INVENTORY_SLOTS; i+= 1)
 	{			
