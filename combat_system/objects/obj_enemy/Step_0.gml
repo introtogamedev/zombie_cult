@@ -2,6 +2,24 @@ enemy_attack_text = "ANGRY MAN SLAPS YOU IN THE FACE!\nHE DEALS " + string(enemy
 
 
 
+sprite_index = zombies[name];
+
+/*
+if (snap_timer = 0){
+	randomize();
+	snap =  irandom_range(0,500);
+	if (snap = 197){
+		sprite_index = spr_kyle_wuh_oh;
+		show_debug_message("SNAP")
+		snap_timer = 5;
+	
+	}else{
+		sprite_index = spr_kyle_idle;
+	}
+}
+
+*/
+
 if (global.enemy_health < 1){
 	sprite_index = spr_enemy_dead;
 }
@@ -13,7 +31,7 @@ if (obj_player.status_resistance = true){
 
 //show_debug_message(global.status_resistance);
 
-if (sprite_index = spr_enemy_idle && obj_text.timer = 0 && obj_text.player_turn = false && keyboard_check_released(vk_enter)){
+if (sprite_index = zombies[name] && obj_text.timer = 0 && obj_text.player_turn = false && keyboard_check_released(vk_enter)){
 
 	if (obj_text.current != enemy_start){
 		obj_text.timer += 10;
@@ -58,6 +76,10 @@ if (global.enemy_health < 1 && keyboard_check_released(vk_enter)){
 		obj_text.timer += 10;
 		obj_text.current = enemy_death;
 	}
+}
+
+if (snap_timer > 0){
+	snap_timer--;
 }
 
 

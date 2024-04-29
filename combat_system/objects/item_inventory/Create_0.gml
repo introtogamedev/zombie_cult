@@ -2,6 +2,7 @@ selected_index = 0;
 
 offset_index = 0;
 
+inv = obj_manager.inv;
 
 
 

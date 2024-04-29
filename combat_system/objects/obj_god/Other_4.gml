@@ -1,7 +1,4 @@
-
-
-
-//annoying shelf code
+//annoying shelf code just ignore (it makes all the shelves into shelves)
 if 	(current_state = BAKERY ||
 	current_state = FREEZER ||
 	current_state = PRODUCE ||
@@ -36,13 +33,11 @@ if current_state == LIST || in_shelf{
 	if a_z.chasing{		
 		//hand speed = half the width of the room (the distance the hands need to travel)
 		// multiplied by the approach speed of the approaching zombie
-		var h_s = ((room_width/2 * a_z.APPROACH_SPD)/200);
+		var h_s = ((room_width/2 * a_z.APPROACH_SPD)/HAND_START_SPD_DIVIDE);
 		zomb_hand_speed = h_s;
 		
 		//we makin some handsssss
-		make_dem_hands = true;
-		show_debug_message("making hands...")
-		
+		make_dem_hands = true;	
 	}
 	
 }
@@ -54,7 +49,5 @@ else{
 	
 
 }
-
-if in_shelf{show_debug_message("in chslef")}
 
 

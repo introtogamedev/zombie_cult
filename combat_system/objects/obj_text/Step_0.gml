@@ -59,6 +59,7 @@ if ((keyboard_check_released(vk_enter) && timer = 0)){
 
 
 //DISPLAY THE CURRENT TEXT
+
 obj_textbox.Activate_Text_Box(current);
 
 
