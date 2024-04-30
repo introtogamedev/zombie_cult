@@ -38,6 +38,7 @@
     {"name":"Pharmacy","order":2,"path":"rooms/Pharmacy/Pharmacy.yy",},
     {"name":"obj_attack","order":1,"path":"objects/obj_attack/obj_attack.yy",},
     {"name":"obj_cake","order":8,"path":"objects/obj_cake/obj_cake.yy",},
+    {"name":"spr_end","order":43,"path":"sprites/spr_end/spr_end.yy",},
     {"name":"obj_cat","order":7,"path":"objects/obj_cat/obj_cat.yy",},
     {"name":"obj_shop","order":15,"path":"objects/obj_shop/obj_shop.yy",},
     {"name":"obj_door1","order":9,"path":"objects/obj_door1/obj_door1.yy",},
