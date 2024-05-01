@@ -1,8 +1,12 @@
 depth = -999
-
+global.win = 0;
 #macro INVENTORY_SLOTS 10 //-1 because array starts from 0
 row_length = 5;
-
+global.one = false;
+global.two = false;
+global.three = false;
+global.four = false;
+global.zero = false;
 //item constructer
 function create_item(_name,_desc,_spr, _effect, _execute_function) constructor//, _execute_Function = function(){}) constructor
 	{
@@ -12,7 +16,7 @@ function create_item(_name,_desc,_spr, _effect, _execute_function) constructor//
 		effect = _effect;
 		execute_function = _execute_function;
 	}
-win = 0;
+
 //create items
 
 global.item_list = 

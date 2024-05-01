@@ -76,11 +76,11 @@ if (((current_state = LIST) || (in_shelf)) && make_dem_hands && a_z.ambush ) {
 	
 	//show_debug_message("made hands :)");
 	
-	if (L.x > 639) {new_state = COMBAT;}
+	if (L.x > 800) {new_state = COMBAT;}
 	
 }
 
-	
+if old_hand_placement > 0 {old_hand_placement -= 1;}	
 
 #region room controller
 if current_state != new_state {
@@ -109,10 +109,12 @@ if current_state != new_state {
 	if new_state = CLOTHING {room_goto(Clothing);}
 	
 	//HEY WHAT DO U MEAN THAT PERFECTLY COMMUNICAED WHAT'S HAPPENING
+	//NO >:/
 	//boy if you dont make more clear comments I know who you are
 	//hey hey. what if we were somewhere else
+	//hey hey what if we made BETTER COMMENTS
+	//hey hey what if i kept doing what i do best forever :)
 	current_state = new_state;
 }
 #endregion
-
 

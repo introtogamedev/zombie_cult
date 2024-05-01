@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player",
-    "path": "sprites/spr_player/spr_player.yy",
+    "name": "spr_radish_idle",
+    "path": "sprites/spr_radish_idle/spr_radish_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
