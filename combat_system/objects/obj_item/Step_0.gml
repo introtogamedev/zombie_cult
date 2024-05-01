@@ -21,6 +21,6 @@ if (obj_text.timer = 0 && obj_item.visible = true && obj_selection.selected_obje
 	}	
 }
 
-show_debug_message(string(obj_text.timer) + " " + string(empty));
+//show_debug_message(string(obj_text.timer) + " " + string(empty));
 
 
