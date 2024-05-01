@@ -1,18 +1,22 @@
 depth = -999
-
-#macro INVENTORY_SLOTS 10
+global.win = 0;
+#macro INVENTORY_SLOTS 10 //-1 because array starts from 0
 row_length = 5;
-
+global.one = false;
+global.two = false;
+global.three = false;
+global.four = false;
+global.zero = false;
 //item constructer
-function create_item(_name,_desc,_spr, _effect) constructor//, _execute_Function = function(){}) constructor
+function create_item(_name,_desc,_spr, _effect, _execute_function) constructor//, _execute_Function = function(){}) constructor
 	{
 		name = _name;
 		description = _desc;
 		sprite = _spr;
 		effect = _effect;
-		//execute_function = _execute_Function;
+		execute_function = _execute_function;
 	}
-win = 0;
+
 //create items
 
 global.item_list = 
@@ -24,14 +28,12 @@ burger :
 	"Burger",
 	"A burger (?)",
 	spr_burger,
-	"It's just a burger :|"
-	/*function()
+	"It's just a burger :|",
+	function ()
 	{
-		
 		obj_text.current = global.item_list.burger.effect;
-		obj_text.timer += 10;
-		
-	}*/
+		obj_text.timer += 10;		
+	}
 	),
 	//add more items here
 	
@@ -42,7 +44,22 @@ alarm_clock :
 	"Alarm",
 	"Ring ring" + "\n" + "(+6 DMG including you! , uses 3 mana)",
 	spr_alarm,
-	"The clock rings, making everyone's ears bleed!" + "\n" + "They take 4 damage!"
+	"The clock rings," + "\n" +  " making everyone's ears bleed!" + "\n" + "They take 4 damage!",
+	function()
+	{	
+		if(obj_meter.meter_value < 3)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.enemy_health -= 6;
+			obj_text.current = global.item_list.alarm_clock.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 3;
+		}	
+	}
 	),
 	
 nerf_gun :
@@ -50,7 +67,22 @@ nerf_gun :
 	"Nerf Gun",
 	"Pew Pew" + "\n" + "(+3 DMG , uses 3 mana)",
 	spr_nerf_gun,
-	"Bullseye! You shoot with the nerf gun" + "\n" + "and the enemy takes 3 damage!"
+	"Bullseye! You shoot with the nerf gun" + "\n" + "and the enemy takes 3 damage!",
+	function()
+	{
+		if(obj_meter.meter_value < 3)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.enemy_health -= 3;
+			obj_text.current = global.item_list.nerf_gun.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 3;
+		}	
+	}
 	),
 	
 soap :
@@ -58,15 +90,45 @@ soap :
 	"Soap",
 	"Slip and slide" + "\n" + "(Stuns, uses 2 mana)",
 	spr_soap,
-	"The enemy slips on the soap, losing its next turn!"
+	"The enemy slips on the soap," + "\n" +  " losing its next turn!",
+	function()
+	{
+		if(obj_meter.meter_value < 2)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			obj_text.current = global.item_list.soap.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 2;
+			
+		}		
+	}
 	),
 	
 ax_body_spray :
 	new create_item(
-	"Ax Body Spray",
+	"Ax Spray",
 	"Smells like pain" + "\n" + "(+9 DMG including you! , uses 4 mana)",
 	spr_ax_body_spray,
-	 "You spritz the axe body spray spray" + "\n" + " and the enemy takes 2 damage!."
+	 "You spritz the axe body spray spray" + "\n" + " and the enemy takes 2 damage!.",
+	function()
+	{
+		if(obj_meter.meter_value < 4)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.enemy_health -= 9;
+			obj_text.current = global.item_list.ax_body_spray.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 4;
+		}		
+	}	 
 	),
 	
 lotion :
@@ -74,7 +136,22 @@ lotion :
 	"Lotion",
 	"Smoooooooooooth" + "\n" + "(+5 HP, uses 2 mana)",
 	spr_lotion,
-	"You smear some lotion onto your skin! You feel moisturized for the day!" + "\n" + "You gain 5 HP!"
+	"You smear some lotion onto your skin! You feel moisturized for the day!" + "\n" + "You gain 5 HP!",
+	function()
+	{
+		if(obj_meter.meter_value < 2)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.player_health += 5;
+			obj_text.current = global.item_list.lotion.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 2;
+		}		
+	}	
 	),
 	
 powder_blush :
@@ -82,7 +159,22 @@ powder_blush :
 	"Powder Blush",
 	"Don't eat it" + "\n" + "(+4 HP, uses 2 mana)",
 	spr_powder_blush,
-	"You put on some powder blush. Makes you feel more self-confident!" + "\n" + "You gain +3 HP!"
+	"You put on some powder blush." + "\n" +  " Makes you feel more self-confident!" + "\n" + "You gain +3 HP!",
+	function()
+	{
+		if(obj_meter.meter_value < 2)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.player_health += 4;
+			obj_text.current = global.item_list.powder_blush.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 2;
+		}		
+	}	
 	),
 	
 dry_shampoo :
@@ -90,7 +182,22 @@ dry_shampoo :
 	"Dry Shampoo",
 	"You lazy bum" + "\n" + "(+5 DMG, uses 3 mana)",
 	spr_dry_shampoo,
-	"You spritz some dry shampoo onto the enemy!" + "\n" + " It cleanses the enemy's soul, taking 5 damage!"
+	"You spritz some dry shampoo onto the enemy!" + "\n" + " It cleanses the enemy's soul, taking 5 damage!",
+	function()
+	{
+		if(obj_meter.meter_value < 3)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.enemy_health -= 5;
+			obj_text.current = global.item_list.dry_shampoo.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 3;
+		}		
+	}	
 	),
 	
 perfume :
@@ -98,7 +205,22 @@ perfume :
 	"Perfume",
 	"Smells nice" + "\n" + "(+3 DMG, uses 1 mana)",
 	spr_perfume,
-	"You spray the perfume, the enemy is allergic to it!" + "\n" + "It takes 3 damage!"
+	"You spray the perfume, the enemy is allergic to it!" + "\n" + "It takes 3 damage!",
+	function()
+	{
+		if(obj_meter.meter_value < 1)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.enemy_health -= 3;
+			obj_text.current = global.item_list.perfume.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 1;
+		}		
+	}
 	),
 	
 hairspray :
@@ -106,7 +228,21 @@ hairspray :
 	"Hairspray",
 	"Perfection or bush" + "\n" + "(Stuns, uses 3 mana)",
 	spr_hairspray,
-	"You use hairspray, covering the battlefield." + "\n" + "The enemy can't see and it loses its turn!"
+	"You use hairspray, covering the battlefield." + "\n" + "The enemy can't see and it loses its turn!",
+	function()
+	{
+		if(obj_meter.meter_value < 3)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			obj_text.current = global.item_list.hairspray.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 3;
+		}		
+	}	
 	),
 	
 cat :
@@ -114,7 +250,22 @@ cat :
 	"Cat",
 	"meow." + "\n" + "(+5 DMG, uses 2 mana)",
 	spr_cat,
-	"You let the cat loose and it sprints up to the enemy!" + "\n" + "The cat tries to scratch its eyes out, the enemy takes 5 damage!"
+	"You let the cat loose and it sprints up to the enemy!" + "\n" + "The cat tries to scratch its eyes out," + "/n" + "the enemy takes 5 damage!",
+	function()
+	{
+		if(obj_meter.meter_value < 2)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.enemy_health -= 5;
+			obj_text.current = global.item_list.cat.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 2;
+		}		
+	}	
 	),
 	
 bunny :
@@ -122,7 +273,21 @@ bunny :
 	"Bunny",
 	"squeak squeak motherfucker." + "\n" + "(Distracts, uses 2 mana)",
 	spr_bunny,
-	"The bunny hops in front of the enemy. The enemy is too distracted by its cuteness!" + "\n" + "It loses its turn!"
+	"The bunny hops in front of the enemy." + "\n" +  " The enemy is too distracted by its cuteness!" + "\n" + "It loses its turn!",
+	function()
+	{
+		if(obj_meter.meter_value < 2)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			obj_text.current = global.item_list.bunny.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 2;
+		}		
+	}	
 	),
 	
 squirrel :
@@ -130,7 +295,22 @@ squirrel :
 	"Squirrel",
 	"Does it have rabies?" + "\n" + "(+6 dmg depending on chance, uses 2 mana)",
 	spr_squirrel,
-	"You lunge the squirrel onto the enemy!" + "\n" + "The enemy takes 6 damage!"
+	"You lunge the squirrel onto the enemy!" + "\n" + "The enemy takes 6 damage!",
+	function()
+	{
+		if(obj_meter.meter_value < 2)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.enemy_health -= 6;
+			obj_text.current = global.item_list.squirrel.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 2;
+		}		
+	}	
 	),
 	
 dog :
@@ -138,7 +318,22 @@ dog :
 	"Dog",
 	"yap yap." + "\n" + "(+10 HP, uses 5 mana)",
 	spr_dog,
-	"You hold in the dog in your arms. You feel emotionally stable and content wih life!" + "\n" + "You gain 10 HP!"
+	"You hold in the dog in your arms." + "\n" +  " You feel emotionally stable and content wih life!" + "\n" + "You gain 10 HP!",
+	function()
+	{
+		if(obj_meter.meter_value < 5)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.player_health += 10;
+			obj_text.current = global.item_list.dog.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 5;
+		}		
+	}	
 	),
 
 rat :
@@ -146,7 +341,22 @@ rat :
 	"Rat",
 	"nibble nibble." + "\n" + "(+3 DMG, uses 1 mana)",
 	spr_rat,
-	"The rat begins to nibble on the enemy's leg. " + "\n" + "The enemy takes 3 damage!"
+	"The rat begins to nibble on the enemy's leg. " + "\n" + "The enemy takes 3 damage!",
+	function()
+	{
+		if(obj_meter.meter_value < 1)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.enemy_health -= 3;
+			obj_text.current = global.item_list.rat.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 1;
+		}		
+	}	
 	),
 
 earrings :
@@ -154,7 +364,22 @@ earrings :
 	"Earrings",
 	"Made out of 90% fake gold" + "\n" + "(+4 HP, uses 1 mana)",
 	spr_earrings,
-	"You clip on some earrings. You feel better about your appearance." + "\n" + "You gain 4 HP!"
+	"You clip on some earrings." + "\n" +  " You feel better about your appearance." + "\n" + "You gain 4 HP!",
+	function()
+	{
+		if(obj_meter.meter_value < 1)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.player_health += 4;
+			obj_text.current = global.item_list.earrings.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 1;
+		}		
+	}	
 	),
 
 phone :
@@ -162,15 +387,45 @@ phone :
 	"Phone",
 	"*insert elevator music*" + "\n" + "(+15 DMG, uses 5 mana)",
 	spr_phone,
-	"You call the enemy's mom and give it to the enemy. The enemy patiently waits" + "\n" + "for its response but the phone suddenly hangs up." + "\n" + "They gain emotional trauma and takes 15 damage!"
+	"You call the enemy's mom and give it to the enemy. The enemy patiently waits" + "\n" + "for its response but the phone suddenly hangs up." + "\n" + "They gain emotional trauma and takes 15 damage!",
+	function()
+	{
+		if(obj_meter.meter_value < 5)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.enemy_health -= 15;
+			obj_text.current = global.item_list.phone.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 5;
+		}		
+	}
 	),
 	
 walkie_talkie :
 	new create_item(
-	"Walkie Talkie",
+	"Radio",
 	"Yipee." + "\n" + "(+6 HP, uses 2 mana)",
 	spr_walkie_talkie,
-	"You turn on the walkie talkie. Someone randomly joins" + "\n" + "saying 'I love you' then only static rings." + "\n" + "You appreciate the gesture, gaining 6 HP!"
+	"You turn on the radio. Someone randomly joins" + "\n" + "saying 'I love you' then only static rings." + "\n" + "You appreciate the gesture, gaining 6 HP!",
+	function()
+	{
+		if(obj_meter.meter_value < 2)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.player_health += 6;
+			obj_text.current = global.item_list.walkie_talkie.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 2;
+		}		
+	}	
 	),
 
 
@@ -179,7 +434,22 @@ hoodie :
 	"Hoodie",
 	"thicc." + "\n" + "(+8 HP, uses 3 mana)",
 	spr_hoodie,
-	"You put on the hoodie. It's very comfy." + "\n" + "You gain 8 HP"
+	"You put on the hoodie. It's very comfy." + "\n" + "You gain 8 HP",
+	function()
+	{
+		if(obj_meter.meter_value < 3)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.player_health += 4;
+			obj_text.current = global.item_list.hoodie.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 3;
+		}		
+	}	
 	),
 
 cake :
@@ -187,7 +457,21 @@ cake :
 	"Cake",
 	"It's a lie. Or is it?" + "\n" + "(Distracts, uses 2 mana)",
 	spr_cake,
-	"You give the enemy some cake. It's apparently their birthday!" + "\n" + "The enemy is mesmerized by the sweetness of the dessert." + "\n" + "The enemy loses its turn!"
+	"You give the enemy some cake." + "\n" + "It's apparently their birthday!" + "\n" + "The enemy is mesmerized by" + "\n" + "the sweetness of the dessert." + "\n" + "The enemy loses its turn!",
+	function()
+	{
+		if(obj_meter.meter_value < 2)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			obj_text.current = global.item_list.cake.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 2;
+		}		
+	}	
 	),
 
 cookies :
@@ -195,7 +479,22 @@ cookies :
 	"Cookie",
 	"From Mom" + "\n" + "(+8 HP, uses 3 mana)",
 	spr_cookies,
-	"You snack on the cookie that your mother made just for you." + "\n" + "The warmth brings you joy" + "\n" + "and you gain 8 HP!"
+	"You snack on the cookie that" + "\n" +  " your mother made just for you." + "\n" + "The warmth brings you joy" + "\n" + "and you gain 8 HP!",
+	function()
+	{
+		if(obj_meter.meter_value < 3)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.player_health += 8;
+			obj_text.current = global.item_list.cookies.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 3;
+		}		
+	}	
 	),
 
 danish :
@@ -203,7 +502,22 @@ danish :
 	"Danish",
 	"A sugary treat!" + "\n" + "(+5 HP, uses 1 mana)",
 	spr_danish,
-	"You eat the danish. It's unbelievably sweet. /n You gain 3 HP!"
+	"You eat the danish. It's unbelievably sweet. /n You gain 3 HP!",
+	function()
+	{
+		if(obj_meter.meter_value < 1)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.player_health += 5;
+			obj_text.current = global.item_list.danish.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 1;
+		}		
+	}	
 	),
 	
 drugs :
@@ -211,7 +525,12 @@ drugs :
 	"Drugs",
 	"Finally. (?)",
 	spr_drugs,
-	"Nothing happened. Huh..."
+	"Nothing happened. Huh...",
+	function()
+	{
+		obj_text.current = global.item_list.drugs.effect;
+		obj_text.timer += 10;	
+	}	
 	),
 	
 healthboosts :
@@ -219,7 +538,22 @@ healthboosts :
 	"Healthboosts",
 	"Good when used properly" + "\n" + "(+10 HP, uses 4 mana)",
 	spr_healthboost,
-	"You take some healthboosts." + "\n" + "You feel extremely healthy! You gain 10 HP!"
+	"You take some healthboosts." + "\n" + "You feel extremely healthy!" + "\n" +  "You gain 10 HP!",
+	function()
+	{
+		if(obj_meter.meter_value < 4)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.player_health += 10;
+			obj_text.current = global.item_list.healthboosts.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 4;
+		}		
+	}	
 	),
 	
 cliff_bar :
@@ -227,7 +561,22 @@ cliff_bar :
 	"Cliff Bar",
 	"Good for your body" + "\n" + "(+8 HP, uses 3 mana)",
 	spr_cliff_bar,
-	"You bite into the cliff bar." + "\n" + "MMmmmm, delicious. You gain 8 HP!"
+	"You bite into the cliff bar." + "\n" + "MMmmmm, delicious." + "\n" +  "You gain 8 HP!",
+	function()
+	{
+		if(obj_meter.meter_value < 1)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+		}
+		else
+		{
+			global.player_health += 2;
+			obj_text.current = global.item_list.cliff_bar.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 1;
+		}		
+	}	
 	),
 	
 pizza :
@@ -235,7 +584,12 @@ pizza :
 	"Pizza",
 	"Pizza Pizza (?)",
 	spr_pizza,
-	"You open the lid, the smell of Little Caeser's" + "\n" + "wafts in the air. You close the box, no thanks."
+	"You open the lid, the smell of Little Caeser's" + "\n" + "wafts in the air." + "\n" +  " You close the box, no thanks.",
+	function()
+	{
+		obj_text.current = global.item_list.pizza.effect;
+		obj_text.timer += 10;	
+	}	
 	),
 	}
 	;
@@ -247,6 +601,7 @@ inv = array_create(INVENTORY_SLOTS, -1);
 slot = array_create(0);
 
 //selected_item = -1;
+//item_inventory.chosen_item = -1;
 	
 screen_border = 16;
 sep = 16;

@@ -118,4 +118,3 @@ if current_state != new_state {
 }
 #endregion
 
-show_debug_message(old_hand_placement);

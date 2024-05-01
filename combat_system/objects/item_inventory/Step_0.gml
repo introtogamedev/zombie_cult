@@ -1,41 +1,35 @@
-if (obj_text.current = obj_item.text){
+for (i = 0; i < array_length(obj_manager.inv) - 1; i++) //sort inventory
+{
+	var _temp = 0;
+	
+	if (obj_manager.inv[i] == -1) 
+	{
+		obj_manager.inv[i] = obj_manager.inv[i+1];
+		obj_manager.inv[i+1] = -1;
+		
+		_temp = 0;
+	}
+}
+
+if (obj_text.current = obj_item.text)
+{
 	visible = true;
 
-	if(obj_text.timer = 0 && keyboard_check_released(vk_enter))
+	for(var i = 0; i < array_length(inv); i++)
 	{
-		#region alarm
-		if(array_contains(obj_manager.inv, global.item_list.alarm_clock, 0, array_length(obj_manager.inv)))
+		chosen_item = i;
+		
+		if(obj_text.timer = 0 && chosen_item != 1 && keyboard_check_released(vk_enter))
 		{
-			if(obj_meter.meter_value < 3)
-			{
-				obj_text.current = obj_text.no_stamina;
-				obj_text.timer += 10;
-			}
-			else
-			{
-				global.enemy_health -= 6;
-				obj_text.current = global.item_list.alarm_clock.effect;
-				obj_text.timer += 10;
-				obj_meter.meter_value -= 3;
-			}
+			inv[current_selection].execute_function();
+			array_set(inv, current_selection, -1);
 		}
-		#endregion
-		#region ax
-		if(array_contains(obj_manager.inv, global.item_list.ax_body_spray, 0, array_length(obj_manager.inv)))
+		
+		for (var i = 0; i < array_length(obj_manager.inv); i++;)
 		{
-			if(obj_meter.meter_value < 4)
-			{
-				obj_text.current = obj_text.no_stamina;
-				obj_text.timer += 10;
-			}
-			else
-			{
-				global.enemy_health -= 9;
-				obj_text.current = global.item_list.ax_body_spray.effect;
-				obj_text.timer += 10;
-				obj_meter.meter_value -= 4;
-			}
+			show_debug_message("slot " + string(i) + " includes " + string(obj_manager.inv[i]));	
 		}
+
 		#endregion
 		#region bunny
 		if(array_contains(obj_manager.inv, global.item_list.bunny, 0, array_length(obj_manager.inv)))
@@ -417,6 +411,13 @@ if (obj_text.current = obj_item.text){
 		#endregion
 	}	
 }else{
+=======
+		
+	}
+}
+else 
+{
+>>>>>>> 45d7fa9bc9bd6ab8a81db5815dd2c35c74297d71
 	visible = false;
 }
 
