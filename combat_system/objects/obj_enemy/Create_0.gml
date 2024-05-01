@@ -9,6 +9,8 @@ function random_zombie_sprite(){
 
 name = random_zombie_sprite();
 
+skip_enemy = false;
+
 
 sprite_index = spr_kyle_idle
 image_xscale = 1.5;

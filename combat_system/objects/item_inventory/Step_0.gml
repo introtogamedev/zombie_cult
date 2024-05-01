@@ -74,6 +74,7 @@ if (obj_text.current = obj_item.text){
 			else
 			{
 				obj_text.current = global.item_list.cake;
+				obj_enemy.skip_enemy = true;
 				obj_text.timer += 10;
 				obj_meter.meter_value -= 2;
 			}
@@ -453,6 +454,8 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.cake.effect  && key
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+
+	
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.cat.effect  && keyboard_check_released(vk_enter))
