@@ -10,12 +10,7 @@
     {"name":"inst_D860ECE_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
     {"name":"inst_8B6023D_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
     {"name":"inst_3B04590C_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
-    {"name":"inst_401BB001_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
-    {"name":"inst_1E1A050F_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
-    {"name":"inst_6D74F9C9_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
     {"name":"inst_3B04590C_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
-    {"name":"inst_29FEF46C_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
-    {"name":"inst_2073A65D_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
   ],
   "isDnd": false,
   "layers": [

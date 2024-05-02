@@ -12,10 +12,6 @@
     {"name":"inst_8B6023D_1_1_1_1_1_1_5","path":"rooms/Electronics/Electronics.yy",},
     {"name":"inst_401BB001_1_1_1_1_1_1_5","path":"rooms/Electronics/Electronics.yy",},
     {"name":"inst_61FCD29","path":"rooms/Electronics/Electronics.yy",},
-    {"name":"inst_6D74F9C9_1_1_1_1_1_1_5","path":"rooms/Electronics/Electronics.yy",},
-    {"name":"inst_3B04590C_1_1_1_1_1_1_5","path":"rooms/Electronics/Electronics.yy",},
-    {"name":"inst_29FEF46C_1_1_1_1_1_1_5","path":"rooms/Electronics/Electronics.yy",},
-    {"name":"inst_2073A65D_1_1_1_1_1_1_5","path":"rooms/Electronics/Electronics.yy",},
   ],
   "isDnd": false,
   "layers": [
