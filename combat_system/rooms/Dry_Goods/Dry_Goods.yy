@@ -13,6 +13,9 @@
     {"name":"inst_401BB001_1_1_1_1","path":"rooms/Dry_Goods/Dry_Goods.yy",},
     {"name":"inst_1E1A050F_1_1_1_1","path":"rooms/Dry_Goods/Dry_Goods.yy",},
     {"name":"inst_29FEF46C_1_1_1_1","path":"rooms/Dry_Goods/Dry_Goods.yy",},
+    {"name":"inst_3B04590C_1_1_1_1","path":"rooms/Dry_Goods/Dry_Goods.yy",},
+    {"name":"inst_29FEF46C_1_1_1_1","path":"rooms/Dry_Goods/Dry_Goods.yy",},
+    {"name":"inst_2073A65D_1_1_1_1","path":"rooms/Dry_Goods/Dry_Goods.yy",},
   ],
   "isDnd": false,
   "layers": [
