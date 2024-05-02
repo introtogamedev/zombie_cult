@@ -57,6 +57,12 @@ if ((keyboard_check_released(vk_enter) && timer = 0)){
 
 }
 
+if (obj_text.timer = 0 && obj_text.current = obj_item.no_items && keyboard_check_released(vk_enter))
+{
+	obj_selection.selected_object = obj_selection;
+	obj_text.timer += 10;
+	obj_text.current = obj_text.action;
+}
 
 //DISPLAY THE CURRENT TEXT
 

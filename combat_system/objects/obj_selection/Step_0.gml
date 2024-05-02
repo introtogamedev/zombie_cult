@@ -11,7 +11,7 @@ if obj_god.current_state == COMBAT{
 			modifier -= 1;
 		}
 
-		if ((keyboard_check_released(ord("S"))) && modifier < global.array_limit){
+		if ((keyboard_check_released(ord("S"))) && modifier < 8){
 			modifier += 1;
 		}
 	}
@@ -23,9 +23,9 @@ if obj_god.current_state == COMBAT{
 		if (keyboard_check_released(ord("S"))){
 			if (modifier < global.array_limit){
 				modifier += 1;
-			}else if (item_inventory.offset_index +  modifier < array_length(obj_manager.inv) - 1){
-					item_inventory.offset_index += 1;
-				}
+			}else if (item_inventory.offset_index + modifier < 8 && !item_inventory.last_item){//array_length(obj_manager.inv) - 1){
+				item_inventory.offset_index += 1;
+			}
 			 show_debug_message([modifier, global.array_limit,  item_inventory.offset_index]);
 		}
 
@@ -87,11 +87,4 @@ if  (obj_text.current = obj_item.text){
 	//show_debug_message(global.selected_object);
 
 }
-
-
-
-
-
-
-
 
