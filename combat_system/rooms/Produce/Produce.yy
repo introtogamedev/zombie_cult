@@ -14,6 +14,8 @@
     {"name":"inst_1E1A050F_1_1_1_1_1","path":"rooms/Produce/Produce.yy",},
     {"name":"inst_29FEF46C_1_1_1_1_1","path":"rooms/Produce/Produce.yy",},
     {"name":"inst_2073A65D_1_1_1_1_1","path":"rooms/Produce/Produce.yy",},
+    {"name":"inst_29FEF46C_1_1_1_1_1","path":"rooms/Produce/Produce.yy",},
+    {"name":"inst_2073A65D_1_1_1_1_1","path":"rooms/Produce/Produce.yy",},
   ],
   "isDnd": false,
   "layers": [
