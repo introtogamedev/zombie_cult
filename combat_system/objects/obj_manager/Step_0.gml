@@ -1,6 +1,18 @@
-//get slected item
+//PRINT INVENTORY WITH NUMBERS
+for (var i = 0; i < array_length(obj_manager.inv); i++;)
+{
+	if (obj_manager.inv[i] != -1)
+	{
+		temporary[i] = "O";	
+	}
+	else 
+	{
+		temporary[i] = "X";	
+	}
+}
+show_debug_message(string(temporary));
 
-
+//get selected item
 selected_item = -1;
 for (var i = 0; i < array_length(inv); i++)
 	{

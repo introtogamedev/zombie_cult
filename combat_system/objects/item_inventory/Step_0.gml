@@ -36,15 +36,11 @@ if (obj_text.current = obj_item.text)
 			show_debug_message(inv[current_selection]);
 			array_set(inv, current_selection, -1);
 		}
-		
-		
-
 	}
 
 }
 else 
 {
-
 	visible = false;
 }
 
