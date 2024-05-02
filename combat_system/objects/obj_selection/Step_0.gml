@@ -22,7 +22,7 @@ if obj_god.current_state == COMBAT{
 
 		if (keyboard_check_released(ord("S")))
 		{
-			if (modifier < global.array_limit){
+			if (modifier < global.array_limit && !item_inventory.last_item){
 				modifier += 1;
 			}else if (item_inventory.offset_index + modifier < 7 && !item_inventory.last_item)//array_length(obj_manager.inv) - 1){
 			{

@@ -60,6 +60,7 @@ alarm_clock :
 			obj_text.current = global.item_list.alarm_clock.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
+		
 		}	
 	}
 	),
@@ -76,6 +77,7 @@ nerf_gun :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -83,6 +85,7 @@ nerf_gun :
 			obj_text.current = global.item_list.nerf_gun.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
+			item_inventory.empty_stamina = false;
 		}	
 	}
 	),
@@ -99,13 +102,14 @@ soap :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
 			obj_text.current = global.item_list.soap.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
-			
+			item_inventory.empty_stamina = false;
 		}		
 	}
 	),
@@ -122,6 +126,7 @@ ax_body_spray :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -129,6 +134,7 @@ ax_body_spray :
 			obj_text.current = global.item_list.ax_body_spray.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 4;
+			item_inventory.empty_stamina = false;
 		}		
 	}	 
 	),
@@ -145,6 +151,7 @@ lotion :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -152,6 +159,7 @@ lotion :
 			obj_text.current = global.item_list.lotion.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -168,6 +176,7 @@ powder_blush :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -175,6 +184,7 @@ powder_blush :
 			obj_text.current = global.item_list.powder_blush.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -191,6 +201,7 @@ dry_shampoo :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -198,6 +209,7 @@ dry_shampoo :
 			obj_text.current = global.item_list.dry_shampoo.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -214,6 +226,7 @@ perfume :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -221,6 +234,7 @@ perfume :
 			obj_text.current = global.item_list.perfume.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 1;
+			item_inventory.empty_stamina = false;
 		}		
 	}
 	),
@@ -237,12 +251,14 @@ hairspray :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
 			obj_text.current = global.item_list.hairspray.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -259,6 +275,7 @@ cat :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -266,6 +283,7 @@ cat :
 			obj_text.current = global.item_list.cat.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -282,12 +300,14 @@ bunny :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
 			obj_text.current = global.item_list.bunny.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -304,6 +324,7 @@ squirrel :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -311,6 +332,7 @@ squirrel :
 			obj_text.current = global.item_list.squirrel.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -327,6 +349,7 @@ dog :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -334,6 +357,7 @@ dog :
 			obj_text.current = global.item_list.dog.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 5;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -350,6 +374,7 @@ rat :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -357,6 +382,7 @@ rat :
 			obj_text.current = global.item_list.rat.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 1;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -373,6 +399,7 @@ earrings :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -380,6 +407,7 @@ earrings :
 			obj_text.current = global.item_list.earrings.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 1;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -396,6 +424,7 @@ phone :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -403,6 +432,7 @@ phone :
 			obj_text.current = global.item_list.phone.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 5;
+			item_inventory.empty_stamina = false;
 		}		
 	}
 	),
@@ -419,6 +449,7 @@ walkie_talkie :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -426,6 +457,7 @@ walkie_talkie :
 			obj_text.current = global.item_list.walkie_talkie.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -443,6 +475,7 @@ hoodie :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -450,6 +483,7 @@ hoodie :
 			obj_text.current = global.item_list.hoodie.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -466,12 +500,14 @@ cake :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
 			obj_text.current = global.item_list.cake.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -488,6 +524,7 @@ cookies :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -495,6 +532,7 @@ cookies :
 			obj_text.current = global.item_list.cookies.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -511,6 +549,7 @@ danish :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -518,6 +557,7 @@ danish :
 			obj_text.current = global.item_list.danish.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 1;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -547,6 +587,7 @@ healthboosts :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -554,6 +595,7 @@ healthboosts :
 			obj_text.current = global.item_list.healthboosts.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 4;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
@@ -570,6 +612,7 @@ cliff_bar :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
@@ -577,6 +620,7 @@ cliff_bar :
 			obj_text.current = global.item_list.cliff_bar.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 1;
+			item_inventory.empty_stamina = false;
 		}		
 	}	
 	),
