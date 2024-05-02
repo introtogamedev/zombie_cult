@@ -34,7 +34,10 @@ if (obj_text.current = obj_item.text)
 			show_debug_message(inv[current_selection]);
 			obj_selection.modifier = 0;
 			offset_index = 0;
-			array_set(inv, current_selection, -1);
+			if(!empty_stamina)
+			{
+				array_set(inv, current_selection, -1);
+			}
 		}
 	}
 
