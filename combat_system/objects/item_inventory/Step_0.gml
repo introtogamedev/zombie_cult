@@ -38,8 +38,7 @@ if (obj_text.current = obj_item.text)
 		}
 		
 		
-=======
->>>>>>> 0016ccdba39b6af143ddc3eedc9cef0ec3690eb6
+
 	}
 
 }
