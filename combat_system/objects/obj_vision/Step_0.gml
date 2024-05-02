@@ -1,5 +1,5 @@
-x = mouse_x - sprite_width/2;
-y = mouse_y - sprite_height/2;
+x = obj_player_1.x - sprite_width/2;
+y = obj_player_1.y - sprite_height/2;
 
 
 
