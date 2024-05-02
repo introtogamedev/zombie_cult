@@ -25,7 +25,7 @@ if (current = obj_item.text){
 }
 
 if ((keyboard_check_released(vk_enter) && timer = 0)){
-	if (current = obj_enemy.enemy_attack_text || current = obj_enemy.enemy_heal_text || current = obj_enemy.enemy_skip_text){
+	if (current = obj_enemy.enemy_skipp || current = obj_enemy.enemy_attack_text || current = obj_enemy.enemy_heal_text || current = obj_enemy.enemy_skip_text){
 		if (player_turn = true){
 			current = player_start;
 		

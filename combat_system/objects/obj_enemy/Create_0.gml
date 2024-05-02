@@ -9,6 +9,8 @@ function random_zombie_sprite(){
 
 name = random_zombie_sprite();
 
+skip_enemy = false;
+
 
 sprite_index = spr_kyle_idle
 image_xscale = 1.5;
@@ -19,8 +21,6 @@ enemy_start = "IT'S THE ZOMBIE'S TURN NOW!"
 enemy_selection = 4;
 
 
-snap = 0;
-snap_timer = 0;
 
 function random_enemy_turn(){
 	randomise();
@@ -38,7 +38,12 @@ enemy_heal_text = "THE ZOMBIE CLICKS ANGERILY, RESTORING 3 HP!"
 
 enemy_skip_text = "THE ZOMBIE TRIPS OVER HIS OWN LEGS!\nHE SKIPS HIS TURN!"
 
+enemy_attack_text = "THE ZOMBIE SLAPS YOU IN THE FACE!\nHE DEALS " + string(enemy_dmg) + " DMG!"
+
 enemy_death = "THE ZOMBIE PERISHES! HE GIVES\nONE LAST DYING SCREAM FOR HIS FAMILY..";
+	
+enemy_skipp = "THE ZOMBIE'S TURN IS PASSED!";
+	
 	
 function enemy_heal(){
 	

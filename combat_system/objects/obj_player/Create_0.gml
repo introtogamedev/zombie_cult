@@ -4,4 +4,7 @@ player_dead = false;
 
 sprite_index = spr_player_idle;
 
+x = 287;
+y = 270;
+
 

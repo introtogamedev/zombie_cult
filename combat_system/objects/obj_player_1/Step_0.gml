@@ -8,7 +8,7 @@ if obj_god.current_state == EXPLORE{
 	hsp = 0;
 	vsp = 0;
 
-	if (!place_meeting(self.x, self.y - 3, obj_solid))
+	if (!place_meeting(self.x, self.y - 2, obj_solid))
 		{
 		if obj_god.up {
 			vsp = -PLR_WALK_SPD;
@@ -31,6 +31,13 @@ if obj_god.current_state == EXPLORE{
 		if obj_god.right {
 			hsp = PLR_WALK_SPD;
 		}
+	}
+	
+	if (obj_god.up || obj_god.down || obj_god.right || obj_god.left	){
+		walking = true;
+	}
+	else{
+		walking = false;
 	}
 
 	_new_x += hsp;
@@ -55,3 +62,15 @@ if obj_god.current_state == EXPLORE{
 
 }
 
+//SOUND SECTION
+if (walking && !walk_sound){
+	audio_pause_sound(Player_Walk)
+	audio_sound_gain(Player_Walk, 1, 0);
+	audio_play_sound(Player_Walk, 1, true);
+	walk_sound = true;
+}
+else if !walking && walk_sound{
+	audio_sound_gain(Player_Walk, 0, 500);
+	walk_sound = false;
+}
+	
