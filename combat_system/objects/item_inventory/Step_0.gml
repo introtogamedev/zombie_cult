@@ -1,13 +1,14 @@
+//show_debug_message(current_selection);
+//show_debug_message("last item: " + string(last_item));
+
 for (i = 0; i < array_length(obj_manager.inv) - 1; i++) //sort inventory
 {
-	var _temp = 0;
-	
+
 	if (obj_manager.inv[i] == -1) 
 	{
 		obj_manager.inv[i] = obj_manager.inv[i+1];
 		obj_manager.inv[i+1] = -1;
 		
-		_temp = 0;
 	}
 }
 
@@ -15,20 +16,30 @@ if (obj_text.current = obj_item.text)
 {
 	visible = true;
 
+
 	for(var i = 0; i < array_length(inv); i++)
 	{
 		chosen_item = i;
 		
-		if(obj_text.timer = 0 && chosen_item != 1 && keyboard_check_released(vk_enter))
-		{
-			inv[current_selection].execute_function();
-			array_set(inv, current_selection, -1);
-		}
-		
+	/*
+		//PRINT INVENTORY CODE IS HERE!!
 		for (var i = 0; i < array_length(obj_manager.inv); i++;)
 		{
 			show_debug_message("slot " + string(i) + " includes " + string(obj_manager.inv[i]));	
 		}
+<<<<<<< HEAD
+		*/
+		
+		if(obj_text.timer = 0 && chosen_item != 1 && keyboard_check_released(vk_enter))
+		{
+			inv[current_selection].execute_function();
+			show_debug_message(inv[current_selection]);
+			array_set(inv, current_selection, -1);
+		}
+		
+		
+=======
+>>>>>>> 0016ccdba39b6af143ddc3eedc9cef0ec3690eb6
 	}
 
 }
@@ -58,6 +69,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.bunny.effect  && ke
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.skip_enemy = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.burger.effect  && keyboard_check_released(vk_enter))
@@ -72,7 +84,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.cake.effect  && key
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
-	obj_enemy.skip_enemy = true
+	obj_enemy.skip_enemy = true;
 
 	
 }
@@ -138,6 +150,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.hairspray.effect  &
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.skip_enemy = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.healthboosts.effect  && keyboard_check_released(vk_enter))
@@ -208,6 +221,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.soap.effect  && key
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.skip_enemy = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.squirrel.effect  && keyboard_check_released(vk_enter))

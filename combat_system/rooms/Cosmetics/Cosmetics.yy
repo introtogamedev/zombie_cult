@@ -14,6 +14,8 @@
     {"name":"inst_6D74F9C9_1_1_1_1_1_1_6","path":"rooms/Cosmetics/Cosmetics.yy",},
     {"name":"inst_29FEF46C_1_1_1_1_1_1_6","path":"rooms/Cosmetics/Cosmetics.yy",},
     {"name":"inst_2073A65D_1_1_1_1_1_1_6","path":"rooms/Cosmetics/Cosmetics.yy",},
+    {"name":"inst_29FEF46C_1_1_1_1_1_1_6","path":"rooms/Cosmetics/Cosmetics.yy",},
+    {"name":"inst_2073A65D_1_1_1_1_1_1_6","path":"rooms/Cosmetics/Cosmetics.yy",},
   ],
   "isDnd": false,
   "layers": [
