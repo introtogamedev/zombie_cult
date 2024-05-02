@@ -13,9 +13,7 @@
     {"name":"inst_401BB001_1","path":"rooms/Bakery/Bakery.yy",},
     {"name":"inst_1E1A050F_1","path":"rooms/Bakery/Bakery.yy",},
     {"name":"inst_29FEF46C_1","path":"rooms/Bakery/Bakery.yy",},
-    {"name":"inst_3B04590C_1","path":"rooms/Bakery/Bakery.yy",},
     {"name":"inst_29FEF46C_1","path":"rooms/Bakery/Bakery.yy",},
-    {"name":"inst_2073A65D_1","path":"rooms/Bakery/Bakery.yy",},
   ],
   "isDnd": false,
   "layers": [

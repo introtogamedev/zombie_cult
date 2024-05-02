@@ -1,3 +1,5 @@
+temporary = array_create(9,0);
+
 depth = -1001
 global.win = 0;
 #macro INVENTORY_SLOTS 10 //-1 because array starts from 0
