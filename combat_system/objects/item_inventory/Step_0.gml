@@ -34,6 +34,7 @@ if (obj_text.current = obj_item.text)
 		{
 			inv[current_selection].execute_function();
 			show_debug_message(inv[current_selection]);
+			obj_selection.modifier = 0;
 			array_set(inv, current_selection, -1);
 		}
 	}
