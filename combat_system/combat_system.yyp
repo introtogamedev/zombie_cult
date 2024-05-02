@@ -69,6 +69,7 @@
     {"id":{"name":"obj_god","path":"objects/obj_god/obj_god.yy",},},
     {"id":{"name":"obj_gods_light","path":"objects/obj_gods_light/obj_gods_light.yy",},},
     {"id":{"name":"obj_ingame","path":"objects/obj_ingame/obj_ingame.yy",},},
+    {"id":{"name":"spr_radish_up","path":"sprites/spr_radish_up/spr_radish_up.yy",},},
     {"id":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},},
     {"id":{"name":"obj_list","path":"objects/obj_list/obj_list.yy",},},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},},
