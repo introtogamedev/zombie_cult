@@ -1,1 +1,1 @@
-item = global.item_list.powder_blush
+item = global.item_list.powder_blush;

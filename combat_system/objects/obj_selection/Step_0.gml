@@ -11,7 +11,7 @@ if obj_god.current_state == COMBAT{
 			modifier -= 1;
 		}
 
-		if ((keyboard_check_released(ord("S"))) && modifier < 8){
+		if ((keyboard_check_released(ord("S"))) && modifier < 3){
 			modifier += 1;
 		}
 	}
@@ -20,13 +20,15 @@ if obj_god.current_state == COMBAT{
 		x = global.AxPos[0] - 10;
 		y = global.AyPos[0 + modifier] + 10;
 
-		if (keyboard_check_released(ord("S"))){
+		if (keyboard_check_released(ord("S")))
+		{
 			if (modifier < global.array_limit){
 				modifier += 1;
-			}else if (item_inventory.offset_index + modifier < 8 && !item_inventory.last_item){//array_length(obj_manager.inv) - 1){
+			}else if (item_inventory.offset_index + modifier < 7 && !item_inventory.last_item)//array_length(obj_manager.inv) - 1){
+			{
 				item_inventory.offset_index += 1;
 			}
-			 show_debug_message([modifier, global.array_limit,  item_inventory.offset_index]);
+			 //show_debug_message([modifier, global.array_limit,  item_inventory.offset_index]);
 		}
 
 		if (keyboard_check_released(ord("W"))){
@@ -35,7 +37,7 @@ if obj_god.current_state == COMBAT{
 			}else if (item_inventory.offset_index +  modifier > 0){
 					item_inventory.offset_index -= 1;
 				}
-			 show_debug_message([modifier, global.array_limit,  item_inventory.offset_index]);
+			 //show_debug_message([modifier, global.array_limit,  item_inventory.offset_index]);
 		}
 	}
 	else

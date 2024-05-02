@@ -1,1 +1,1 @@
-item = global.item_list.cliff_bar
+item = global.item_list.cliff_bar;
