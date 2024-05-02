@@ -10,6 +10,7 @@
     {"name":"inst_D860ECE_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
     {"name":"inst_8B6023D_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
     {"name":"inst_2B2662D2","path":"rooms/Crafts/Crafts.yy",},
+    {"name":"inst_3B04590C_1_1_1_1_1_1_1","path":"rooms/Crafts/Crafts.yy",},
   ],
   "isDnd": false,
   "layers": [

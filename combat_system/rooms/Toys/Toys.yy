@@ -11,6 +11,7 @@
     {"name":"inst_2302BE95_1_1_1_1_1_1_2","path":"rooms/Toys/Toys.yy",},
     {"name":"inst_8B6023D_1_1_1_1_1_1_2","path":"rooms/Toys/Toys.yy",},
     {"name":"inst_2389D012","path":"rooms/Toys/Toys.yy",},
+    {"name":"inst_3B04590C_1_1_1_1_1_1_2","path":"rooms/Toys/Toys.yy",},
   ],
   "isDnd": false,
   "layers": [
