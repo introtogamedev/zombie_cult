@@ -1,4 +1,4 @@
-enemy_attack_text = "ANGRY MAN SLAPS YOU IN THE FACE!\nHE DEALS " + string(enemy_dmg) + " DMG!"
+
 
 
 
@@ -29,47 +29,51 @@ if (obj_player.status_resistance = true){
 }
 
 if (skip_enemy = true){
-	show_debug_message("NONONONONONO");
+	show_debug_message("HI");
+	
 }
 
 //show_debug_message(global.status_resistance);
 
-if (skip_enemy = false && sprite_index = zombies[name] && obj_text.timer = 0 && obj_text.player_turn = false && keyboard_check_released(vk_enter)){
+if (sprite_index = zombies[name] && obj_text.timer = 0 && obj_text.player_turn = false && keyboard_check_released(vk_enter)){
+	if (skip_enemy = false){
+		if (obj_text.current != enemy_start){
+			obj_text.timer += 10;
+			obj_text.current = enemy_start;
+		}else{
+			obj_text.timer += 10;
+			enemy_selection = random_enemy_turn();
+			show_debug_message(enemy_selection);
+			if (enemy_selection = 1){
+				enemy_heal();
 
-	if (obj_text.current != enemy_start){
-		obj_text.timer += 10;
-		obj_text.current = enemy_start;
-	}else{
-		obj_text.timer += 10;
-		enemy_selection = random_enemy_turn();
-		show_debug_message(enemy_selection);
-		if (enemy_selection = 1){
-			enemy_heal();
 
-
-		}
-		if (enemy_selection = 2){
-			enemy_attack();
+			}
+			if (enemy_selection = 2){
+				enemy_attack();
 
 		
-		}
-		if (enemy_selection = 3){
-			enemy_skip();
+			}
+			if (enemy_selection = 3){
+				enemy_skip();
 	
 
-		}
-		obj_text.timer += 10;
+			}
+			obj_text.timer += 10;
 		
-		if (obj_player.player_dead = false){
-			obj_text.player_turn = true;
+			if (obj_player.player_dead = false){
+				obj_text.player_turn = true;
+			}
 		}
-		
+	}
+	else if (skip_enemy = true){
+	obj_text.current = enemy_skipp;
+	obj_text.timer += 10;
+	obj_text.player_turn = true;
+	skip_enemy = false;
 	}
 
-}//else if (skip_enemy = true){
-	//obj_text.current = "NONONONONOSTOSTOP";
-	//obj_text.timer += 10;
-//}
+}
 
 if (global.enemy_health < 1 && keyboard_check_released(vk_enter)){
 	if (obj_text.current = enemy_death){
@@ -84,8 +88,6 @@ if (global.enemy_health < 1 && keyboard_check_released(vk_enter)){
 	}
 }
 
-if (snap_timer > 0){
-	snap_timer--;
-}
+
 
 

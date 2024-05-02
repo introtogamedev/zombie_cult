@@ -22,6 +22,8 @@ prev_state = EXPLORE;
 
 in_shelf = false;
 
+coming_from_combat = true;
+
 total_checks = 1;
 checks = 0;
 

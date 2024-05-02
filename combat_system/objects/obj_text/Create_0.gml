@@ -15,7 +15,7 @@ no_stamina = "YOU RAN OUT OF STAMINA";
 
 player_start = "IT'S YOUR TURN!"
 
-dead = "YOU DIED L BOZO"
+dead = "THE ZOMBIE LUNGES AT YOU FOR THE KILLING\nBLOW, AND YOUR VISION SNAPS TO BLACK.."
 
 timer = 0;
 

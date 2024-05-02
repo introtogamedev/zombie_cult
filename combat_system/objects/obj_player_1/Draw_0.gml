@@ -3,7 +3,7 @@ if obj_god.current_state == EXPLORE{
 	draw_self();
 
 	if (obj_god.up){
-		//whkdnjkcnkj
+		sprite_index = spr_radish_up;
 		
 	}
 	else if(obj_god.down){
