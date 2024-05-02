@@ -8,7 +8,6 @@ for (i = 0; i < array_length(obj_manager.inv) - 1; i++) //sort inventory
 	{
 		obj_manager.inv[i] = obj_manager.inv[i+1];
 		obj_manager.inv[i+1] = -1;
-		
 	}
 }
 
@@ -27,7 +26,6 @@ if (obj_text.current = obj_item.text)
 		{
 			show_debug_message("slot " + string(i) + " includes " + string(obj_manager.inv[i]));	
 		}
-<<<<<<< HEAD
 		*/
 		
 		if(obj_text.timer = 0 && chosen_item != 1 && keyboard_check_released(vk_enter))
@@ -35,7 +33,11 @@ if (obj_text.current = obj_item.text)
 			inv[current_selection].execute_function();
 			show_debug_message(inv[current_selection]);
 			obj_selection.modifier = 0;
-			array_set(inv, current_selection, -1);
+			offset_index = 0;
+			if(!empty_stamina)
+			{
+				array_set(inv, current_selection, -1);
+			}
 		}
 	}
 

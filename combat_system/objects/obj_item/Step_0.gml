@@ -18,6 +18,7 @@ if (obj_text.timer = 0 && obj_item.visible = true && obj_selection.selected_obje
 		obj_text.current = no_items;
 		obj_text.timer += 10;	
 		obj_selection.modifier = 0;	
+		
 	}	
 }
 
