@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_hairspray",
-  "bbox_bottom": 14,
-  "bbox_left": 6,
-  "bbox_right": 9,
+  "name": "spr_vision",
+  "bbox_bottom": 1999,
+  "bbox_left": 0,
+  "bbox_right": 1999,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3febecec-ec28-4677-b000-53da59d8ecdd",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"62a82fa8-d08f-47ce-9c05-6725d4cf8040",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 16,
+  "height": 2000,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bcd799ec-19fc-4adb-b222-493ef5b5bcf2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4befd005-24c3-4b39-8fbf-4ac8b8f24622","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Item sprites",
-    "path": "folders/EXPLORE/Sprites/Item sprites.yy",
+    "name": "Sprites",
+    "path": "folders/EXPLORE/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_hairspray",
+    "name": "spr_vision",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3febecec-ec28-4677-b000-53da59d8ecdd","path":"sprites/spr_hairspray/spr_hairspray.yy",},},},"Disabled":false,"id":"fb8e312e-4200-4a18-869a-f1f8f96c8463","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"62a82fa8-d08f-47ce-9c05-6725d4cf8040","path":"sprites/spr_vision/spr_vision.yy",},},},"Disabled":false,"id":"34e4f7d9-20ff-4583-a88b-4ee35b9cde4e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 16,
+  "width": 2000,
 }

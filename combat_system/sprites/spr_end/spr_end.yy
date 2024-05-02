@@ -43,8 +43,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/EXPLORE/Sprites.yy",
+    "name": "Item sprites",
+    "path": "folders/EXPLORE/Sprites/Item sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
