@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings": [
+    {"name":"audio","order":3,"path":"folders/audio.yy",},
     {"name":"COMBAT","order":1,"path":"folders/COMBAT.yy",},
     {"name":"Actions","order":6,"path":"folders/COMBAT/Actions.yy",},
     {"name":"Attacks","order":8,"path":"folders/COMBAT/Attacks.yy",},
@@ -71,6 +72,7 @@
     {"name":"rm_inst","order":4,"path":"rooms/rm_inst/rm_inst.yy",},
     {"name":"Victory","order":6,"path":"rooms/Victory/Victory.yy",},
     {"name":"select_icon","order":1,"path":"scripts/select_icon/select_icon.yy",},
+    {"name":"Radio_Station","order":2,"path":"sounds/Radio_Station/Radio_Station.yy",},
     {"name":"Setup_Macros","order":2,"path":"scripts/Setup_Macros/Setup_Macros.yy",},
     {"name":"Clothing","order":5,"path":"rooms/Clothing/Clothing.yy",},
     {"name":"bkg_death","order":4,"path":"sprites/bkg_death/bkg_death.yy",},
@@ -95,6 +97,7 @@
     {"name":"spr_hairspray","order":14,"path":"sprites/spr_hairspray/spr_hairspray.yy",},
     {"name":"spr_healthboost","order":15,"path":"sprites/spr_healthboost/spr_healthboost.yy",},
     {"name":"spr_hoodie","order":16,"path":"sprites/spr_hoodie/spr_hoodie.yy",},
+    {"name":"Store_Music_Normal","order":1,"path":"sounds/Store_Music_Normal/Store_Music_Normal.yy",},
     {"name":"spr_list","order":36,"path":"sprites/spr_list/spr_list.yy",},
     {"name":"Crafts","order":6,"path":"rooms/Crafts/Crafts.yy",},
     {"name":"spr_lotion","order":18,"path":"sprites/spr_lotion/spr_lotion.yy",},
@@ -126,6 +129,7 @@
     {"name":"spr_soap","order":25,"path":"sprites/spr_soap/spr_soap.yy",},
     {"name":"spr_solid","order":30,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"spr_squirrel","order":26,"path":"sprites/spr_squirrel/spr_squirrel.yy",},
+    {"name":"Store_Music_Fucked","order":3,"path":"sounds/Store_Music_Fucked/Store_Music_Fucked.yy",},
     {"name":"spr_textbox","order":4,"path":"sprites/spr_textbox/spr_textbox.yy",},
     {"name":"spr_tile_explore","order":33,"path":"sprites/spr_tile_explore/spr_tile_explore.yy",},
     {"name":"spr_walkie_talkie","order":27,"path":"sprites/spr_walkie_talkie/spr_walkie_talkie.yy",},
