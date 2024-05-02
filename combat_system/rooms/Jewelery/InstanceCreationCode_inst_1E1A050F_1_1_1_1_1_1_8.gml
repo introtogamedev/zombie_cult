@@ -1,1 +1,1 @@
-item = global.item_list.cake
+item = global.item_list.perfume;

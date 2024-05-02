@@ -1,1 +1,1 @@
-item = global.item_list.perfume;
+item = global.item_list.hairspray;

@@ -3,7 +3,7 @@ sprite_index = item.sprite;
 	var _xx = camera_get_view_x(view_camera[0]) ;
 	var _yy = camera_get_view_y(view_camera[0]);
 		
-		show_debug_message(global.three);
+		//show_debug_message(global.three);
 if (place_meeting(x,y,obj_select)&& obj_select.u_got_an_item)
 	{
 		
@@ -28,7 +28,7 @@ if (place_meeting(x,y,obj_select)&& obj_select.u_got_an_item)
 			{
 				global.two = true;
 				global.win ++;
-				show_debug_message(global.two);
+				//show_debug_message(global.two);
 				instance_destroy();
 				
 			}
