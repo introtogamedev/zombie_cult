@@ -27,7 +27,7 @@ function Setup_Macros(){
 	
 	#macro PLR_WALK_SPD 2
 	
-	#macro ZOMB_TRIGGER_RANGE 500
+	#macro ZOMB_TRIGGER_RANGE 200
 	
 	#macro APPROACH_SPD_OFFSET 2
 	

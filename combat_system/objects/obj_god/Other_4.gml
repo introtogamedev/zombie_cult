@@ -52,5 +52,24 @@ else{
 
 if current_state == COMBAT{
 	old_hand_placement = 0;
+	coming_from_combat = true;
+	
+	audio_pause_all();
+	
+	audio_play_sound(Store_Music_Fucked,1,true);
 }
 
+if current_state = EXPLORE{
+	
+	
+	if coming_from_combat = true{
+		audio_pause_all();
+	
+		audio_play_sound(Store_Music_Normal,1,true);
+	
+		var radio_time = irandom_range(1,20);
+		alarm_set(0, 60*radio_time);
+	}
+	
+	coming_from_combat = false;
+}
