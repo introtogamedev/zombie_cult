@@ -50,6 +50,7 @@ if obj_god.in_shelf{
 	}
 	if pickup_time > 16.5{
 		u_got_an_item = true;
+		pickup_time = 0;
 	}
 		
 show_debug_message(u_got_an_item);
