@@ -28,10 +28,13 @@ if (obj_player.status_resistance = true){
 	enemy_dmg = 2;
 }
 
+if (skip_enemy = true){
+	show_debug_message("NONONONONONO");
+}
 
 //show_debug_message(global.status_resistance);
 
-if (sprite_index = zombies[name] && obj_text.timer = 0 && obj_text.player_turn = false && keyboard_check_released(vk_enter)){
+if (skip_enemy = false && sprite_index = zombies[name] && obj_text.timer = 0 && obj_text.player_turn = false && keyboard_check_released(vk_enter)){
 
 	if (obj_text.current != enemy_start){
 		obj_text.timer += 10;
@@ -63,7 +66,10 @@ if (sprite_index = zombies[name] && obj_text.timer = 0 && obj_text.player_turn =
 		
 	}
 
-}
+}//else if (skip_enemy = true){
+	//obj_text.current = "NONONONONOSTOSTOP";
+	//obj_text.timer += 10;
+//}
 
 if (global.enemy_health < 1 && keyboard_check_released(vk_enter)){
 	if (obj_text.current = enemy_death){
