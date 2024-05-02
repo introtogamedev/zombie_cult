@@ -32,6 +32,13 @@ if obj_god.current_state == EXPLORE{
 			hsp = PLR_WALK_SPD;
 		}
 	}
+	
+	if (obj_god.up || obj_god.down || obj_god.right || obj_god.left	){
+		walking = true;
+	}
+	else{
+		walking = false;
+	}
 
 	_new_x += hsp;
 	_new_y += vsp;
@@ -55,3 +62,15 @@ if obj_god.current_state == EXPLORE{
 
 }
 
+//SOUND SECTION
+if (walking && !walk_sound){
+	audio_pause_sound(Player_Walk)
+	audio_sound_gain(Player_Walk, 1, 0);
+	audio_play_sound(Player_Walk, 1, true);
+	walk_sound = true;
+}
+else if !walking && walk_sound{
+	audio_sound_gain(Player_Walk, 0, 500);
+	walk_sound = false;
+}
+	
