@@ -66,10 +66,10 @@ if (skip_enemy = false && sprite_index = zombies[name] && obj_text.timer = 0 && 
 		
 	}
 
-}else if (skip_enemy = true){
-	obj_text.current = "NONONONONOSTOSTOP";
-	obj_text.timer += 10;
-}
+}//else if (skip_enemy = true){
+	//obj_text.current = "NONONONONOSTOSTOP";
+	//obj_text.timer += 10;
+//}
 
 if (global.enemy_health < 1 && keyboard_check_released(vk_enter)){
 	if (obj_text.current = enemy_death){
