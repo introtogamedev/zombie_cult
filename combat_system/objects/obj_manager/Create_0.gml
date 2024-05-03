@@ -259,6 +259,7 @@ hairspray :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
 			item_inventory.empty_stamina = false;
+			
 		}		
 	}	
 	),
