@@ -236,3 +236,5 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.walkie_talkie.effec
 	obj_text.current = obj_text.action;
 }
 #endregion
+
+show_debug_message(array_length(obj_manager.inv));

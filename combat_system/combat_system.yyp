@@ -86,6 +86,7 @@
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"Electronics","path":"rooms/Electronics/Electronics.yy",},},
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},},
+    {"id":{"name":"snd_click","path":"sounds/snd_click/snd_click.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
     {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},},
     {"id":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
