@@ -73,4 +73,6 @@ else if !walking && walk_sound{
 	audio_sound_gain(Player_Walk, 0, 500);
 	walk_sound = false;
 }
+
+show_debug_message(global.win);
 	
