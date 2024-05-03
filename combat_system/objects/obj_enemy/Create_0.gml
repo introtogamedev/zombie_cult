@@ -32,15 +32,20 @@ function random_enemy_turn(){
 }
 
 enemy_dmg = 4;
+angy_enemy_dmg = 6;
+
+angy_enemy = false;
 
 
 enemy_heal_text = "THE ZOMBIE CLICKS ANGERILY, RESTORING 3 HP!"
 
-enemy_skip_text = "THE ZOMBIE TRIPS OVER HIS OWN LEGS!\nHE SKIPS HIS TURN!"
+enemy_skip_text = "THE ZOMBIE TRIPS OVER HIS OWN LEGS!\nIT SKIPS HIS TURN!"
 
-enemy_attack_text = "THE ZOMBIE SLAPS YOU IN THE FACE!\nHE DEALS " + string(enemy_dmg) + " DMG!"
+enemy_attack_text = "THE ZOMBIE SLAPS YOU IN THE FACE!\nIT DEALS " + string(enemy_dmg) + " DMG!"
+angy_enemy_attack_text =  "THE ZOMBIE TRAMPLES YOU OUT OF RAGE!\nIT DEALS " + string(angy_enemy_dmg) + " DMG!"
 
-enemy_death = "THE ZOMBIE PERISHES! HE GIVES\nONE LAST DYING SCREAM FOR HIS FAMILY..";
+
+enemy_death = "THE ZOMBIE PERISHES! IT GIVES\nONE LAST DYING SCREAM FOR THEIR FAMILY..";
 	
 enemy_skipp = "THE ZOMBIE'S TURN IS PASSED!";
 	
@@ -54,8 +59,17 @@ function enemy_heal(){
 
 function enemy_attack(){
 	
-	obj_text.current = enemy_attack_text;
-	global.player_health -= enemy_dmg;
+	if(angy_enemy)
+	{
+		obj_text.current = angy_enemy_attack_text;
+		global.player_health -= angy_enemy_dmg;
+		angy_enemy = false;
+	}
+	else
+	{
+		global.player_health -= enemy_dmg;
+		obj_text.current = enemy_attack_text;
+	}
 
 }
 

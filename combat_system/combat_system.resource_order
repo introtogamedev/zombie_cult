@@ -1,4 +1,7 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_arrow","order":1,"path":"sprites/spr_arrow/spr_arrow.yy",},
+    {"name":"obj_arrow","order":2,"path":"objects/obj_arrow/obj_arrow.yy",},
+  ],
 }

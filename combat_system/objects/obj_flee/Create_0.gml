@@ -4,5 +4,8 @@ visible = false;
 xPos = global.AxPos[0];
 yPos = global.AyPos[1];
 
-text = "YOU RUN, LOSING SOME OF YOUR SUPPLIES\nIN THE PROCESS."
+text = "YOU RUN AWAY, LEAVING THE ZOMBIE BEHIND."
+failed_text = "YOU COULDN'T ESCAPE!";
+
+sum = 0;
 
