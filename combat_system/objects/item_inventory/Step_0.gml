@@ -31,7 +31,7 @@ if (obj_text.current = obj_item.text)
 		if(obj_text.timer = 0 && chosen_item != 1 && keyboard_check_released(vk_enter))
 		{
 			inv[current_selection].execute_function();
-			show_debug_message(inv[current_selection]);
+			//show_debug_message(inv[current_selection]);
 			obj_selection.modifier = 0;
 			offset_index = 0;
 			if(!empty_stamina)

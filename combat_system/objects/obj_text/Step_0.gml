@@ -5,6 +5,11 @@ if (keyboard_check_released(vk_enter) && current = battle_start){
 	timer += 10;
 }
 
+if(current = battle_start)
+{
+	obj_arrow.visible = false;
+}
+
 if(keyboard_check_released(ord("E")))
 {
 	timer += 10;
@@ -25,7 +30,7 @@ if (current = obj_item.text){
 }
 
 if ((keyboard_check_released(vk_enter) && timer = 0)){
-	if (current = obj_enemy.enemy_skipp || current = obj_enemy.enemy_attack_text || current = obj_enemy.enemy_heal_text || current = obj_enemy.enemy_skip_text){
+	if (current = obj_enemy.enemy_skipp || current = obj_enemy.enemy_attack_text || current = obj_enemy.enemy_heal_text || current = obj_enemy.enemy_skip_text || current = obj_flee.failed_text || current = obj_enemy.angy_enemy_attack_text){
 		if (player_turn = true){
 			current = player_start;
 		

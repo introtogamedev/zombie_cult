@@ -8,7 +8,7 @@
 //animation
 if self.is_dead{
 	image_speed = 0;
-	image_index = DEAD_FRAME;
+	sprite_index = spr_zombie_dead;
 }
 else{
 	if image_index = END_FRAME{

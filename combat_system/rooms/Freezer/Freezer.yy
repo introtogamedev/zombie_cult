@@ -14,8 +14,6 @@
     {"name":"inst_77C35429","path":"rooms/Freezer/Freezer.yy",},
     {"name":"inst_13E947B3","path":"rooms/Freezer/Freezer.yy",},
     {"name":"inst_29FEF46C_1_1","path":"rooms/Freezer/Freezer.yy",},
-    {"name":"inst_2073A65D_1_1","path":"rooms/Freezer/Freezer.yy",},
-    {"name":"inst_2073A65D_1_1","path":"rooms/Freezer/Freezer.yy",},
   ],
   "isDnd": false,
   "layers": [

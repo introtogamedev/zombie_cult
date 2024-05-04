@@ -1,6 +1,6 @@
 temporary = array_create(9,0);
 
-depth = -1001
+depth = -1002
 global.win = 0;
 #macro INVENTORY_SLOTS 10 //-1 because array starts from 0
 row_length = 5;
@@ -53,13 +53,16 @@ alarm_clock :
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
 		}
 		else
 		{
 			global.enemy_health -= 6;
+			global.player_health -= 6;
 			obj_text.current = global.item_list.alarm_clock.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
+			item_inventory.empty_stamina = false;
 		
 		}	
 	}
@@ -68,9 +71,9 @@ alarm_clock :
 nerf_gun :
 	new create_item(
 	"Nerf Gun",
-	"Pew Pew" + "\n" + "(+3 DMG , uses 3 mana)",
+	"Pew Pew" + "\n" + "(+5 DMG , uses 3 mana)",
 	spr_nerf_gun,
-	"Bullseye! You shoot with the nerf gun" + "\n" + "and the enemy takes 3 damage!",
+	"Bullseye! You shoot with the nerf gun" + "\n" + "and the enemy takes 5 damage!",
 	function()
 	{
 		if(obj_meter.meter_value < 3)
@@ -81,7 +84,7 @@ nerf_gun :
 		}
 		else
 		{
-			global.enemy_health -= 3;
+			global.enemy_health -= 5;
 			obj_text.current = global.item_list.nerf_gun.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
@@ -110,6 +113,7 @@ soap :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
+			obj_enemy.skip_enemy = true;
 		}		
 	}
 	),
@@ -131,6 +135,7 @@ ax_body_spray :
 		else
 		{
 			global.enemy_health -= 9;
+			global.player_health -= 9;
 			obj_text.current = global.item_list.ax_body_spray.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 4;
@@ -169,7 +174,7 @@ powder_blush :
 	"Powder Blush",
 	"Don't eat it" + "\n" + "(+4 HP, uses 2 mana)",
 	spr_powder_blush,
-	"You put on some powder blush." + "\n" +  " Makes you feel more self-confident!" + "\n" + "You gain +3 HP!",
+	"You put on some powder blush." + "\n" +  " Makes you feel more self-confident!" + "\n" + "You gain +4 HP!",
 	function()
 	{
 		if(obj_meter.meter_value < 2)
@@ -242,12 +247,12 @@ perfume :
 hairspray :
 	new create_item(
 	"Hairspray",
-	"Perfection or bush" + "\n" + "(Stuns, uses 3 mana)",
+	"Perfection or bush" + "\n" + "(Stuns, uses 2 mana)",
 	spr_hairspray,
 	"You use hairspray, covering the battlefield." + "\n" + "The enemy can't see and it loses its turn!",
 	function()
 	{
-		if(obj_meter.meter_value < 3)
+		if(obj_meter.meter_value < 2)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -257,9 +262,9 @@ hairspray :
 		{
 			obj_text.current = global.item_list.hairspray.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 3;
+			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
-			
+			obj_enemy.skip_enemy = true;
 		}		
 	}	
 	),
@@ -309,6 +314,7 @@ bunny :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
+			obj_enemy.skip_enemy = true;
 		}		
 	}	
 	),

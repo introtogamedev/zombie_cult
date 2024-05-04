@@ -13,7 +13,6 @@
     {"name":"inst_401BB001_1_1_1_1","path":"rooms/Dry_Goods/Dry_Goods.yy",},
     {"name":"inst_1E1A050F_1_1_1_1","path":"rooms/Dry_Goods/Dry_Goods.yy",},
     {"name":"inst_12AF29D3","path":"rooms/Dry_Goods/Dry_Goods.yy",},
-    {"name":"inst_29FEF46C_1_1_1_1","path":"rooms/Dry_Goods/Dry_Goods.yy",},
   ],
   "isDnd": false,
   "layers": [

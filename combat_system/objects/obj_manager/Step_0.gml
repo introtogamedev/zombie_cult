@@ -10,7 +10,7 @@ for (var i = 0; i < array_length(obj_manager.inv); i++;)
 		temporary[i] = "X";	
 	}
 }
-show_debug_message(string(temporary));
+//show_debug_message(string(temporary));
 
 //get selected item
 selected_item = -1;
