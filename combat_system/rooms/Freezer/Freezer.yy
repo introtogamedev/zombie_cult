@@ -10,10 +10,9 @@
     {"name":"inst_D860ECE_1_1","path":"rooms/Freezer/Freezer.yy",},
     {"name":"inst_2302BE95_1_1","path":"rooms/Freezer/Freezer.yy",},
     {"name":"inst_6D74F9C9_1_1","path":"rooms/Freezer/Freezer.yy",},
-    {"name":"inst_29FEF46C_1_1","path":"rooms/Freezer/Freezer.yy",},
     {"name":"inst_77C35429","path":"rooms/Freezer/Freezer.yy",},
     {"name":"inst_13E947B3","path":"rooms/Freezer/Freezer.yy",},
-    {"name":"inst_29FEF46C_1_1","path":"rooms/Freezer/Freezer.yy",},
+    {"name":"inst_45F7167F","path":"rooms/Freezer/Freezer.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -21,10 +20,10 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2302BE95_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ingame","path":"objects/obj_ingame/obj_ingame.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":16.0,"x":32.0,"y":80.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D74F9C9_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ingame","path":"objects/obj_ingame/obj_ingame.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":16.0,"x":992.0,"y":400.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_29FEF46C_1_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ingame","path":"objects/obj_ingame/obj_ingame.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":16.0,"x":672.0,"y":400.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_77C35429","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ingame","path":"objects/obj_ingame/obj_ingame.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":16.0,"x":32.0,"y":400.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D860ECE_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_select","path":"objects/obj_select/obj_select.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":16.0,"x":16.0,"y":-48.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_13E947B3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ingame","path":"objects/obj_ingame/obj_ingame.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":16.0,"x":672.0,"y":80.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_45F7167F","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ingame","path":"objects/obj_ingame/obj_ingame.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":16.0,"x":672.0,"y":400.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_shelf","path":"sprites/spr_shelf/spr_shelf.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
