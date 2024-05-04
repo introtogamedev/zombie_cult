@@ -48,11 +48,12 @@ else
 }
 
 #region putting text back to normal I hate this please set me free from this ctrl c ctrl v hell lmao
-if(obj_text.timer = 0 && obj_text.current = global.item_list.alarm_clock.effect  && keyboard_check_released(vk_enter))
+if(obj_text.timer = 0 && obj_text.current = global.item_list.alarm_clock.effect && keyboard_check_released(vk_enter))
 {
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.getting_hit = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.ax_body_spray.effect  && keyboard_check_released(vk_enter))
@@ -60,6 +61,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.ax_body_spray.effec
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.getting_hit = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.bunny.effect  && keyboard_check_released(vk_enter))
@@ -92,6 +94,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.cat.effect  && keyb
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.getting_hit = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.cliff_bar.effect  && keyboard_check_released(vk_enter))
@@ -134,6 +137,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.dry_shampoo.effect 
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.getting_hit = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.earrings.effect  && keyboard_check_released(vk_enter))
@@ -177,6 +181,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.nerf_gun.effect  &&
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.getting_hit = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.perfume.effect  && keyboard_check_released(vk_enter))
@@ -184,6 +189,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.perfume.effect  && 
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.getting_hit = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.phone.effect  && keyboard_check_released(vk_enter))
@@ -191,6 +197,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.phone.effect  && ke
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.getting_hit = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.pizza.effect  && keyboard_check_released(vk_enter))
@@ -212,6 +219,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.rat.effect  && keyb
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.getting_hit = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.soap.effect  && keyboard_check_released(vk_enter))
@@ -227,6 +235,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.squirrel.effect  &&
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_enemy.getting_hit = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.walkie_talkie.effect  && keyboard_check_released(vk_enter))

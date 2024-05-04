@@ -89,6 +89,47 @@ if (global.enemy_health < 1 && keyboard_check_released(vk_enter)){
 	}
 }
 
+if(healing_alpha > 0)
+{
+	healing_alpha -= 0.03;
+}
+
+//hit effect
+if(obj_text.current = global.item_list.alarm_clock.effect || 
+   obj_text.current = global.item_list.nerf_gun.effect ||
+   obj_text.current = global.item_list.ax_body_spray.effect ||
+   obj_text.current = global.item_list.dry_shampoo.effect ||
+   obj_text.current = global.item_list.perfume.effect ||
+   obj_text.current = global.item_list.cat.effect ||
+   obj_text.current = global.item_list.squirrel.effect||
+   obj_text.current = global.item_list.rat.effect ||
+   obj_text.current = global.item_list.phone.effect ||
+   obj_text.current = atk_barbed_wire_bat.bat_effect  ||
+   obj_text.current = atk_emotional_trauma.trauma_effect)
+{
+	if(global.enemy_health > 0 && getting_hit)
+	{
+		x = x + sin(current_time / 30) * 3;
+		hit_alpha = .55;
+		be_red = true;
+		enemy_hit_timer ++;
 
 
+	}
+}
+else
+{
+	if(global.enemy_health >= 0)
+	{
+		be_red = false;
+	}
+}
 
+if(enemy_hit_timer > enemy_hit_timer_cap && getting_hit)
+{
+	x = 928;
+	enemy_hit_timer = 0;
+	getting_hit = false;
+}
+
+show_debug_message(string("TIMER") + string(enemy_hit_timer));

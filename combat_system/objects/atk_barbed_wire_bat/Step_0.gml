@@ -18,6 +18,8 @@ if (obj_text.timer = 0 && atk_barbed_wire_bat.visible = true && obj_selection.se
 		obj_meter.meter_value -= 2;
 		obj_text.timer += 10;
 		global.enemy_health -= 3;
+		audio_play_sound(snd_bat_attack, 1, false);
+		obj_enemy.getting_hit = true;
 	}
 }
 if(obj_text.timer = 0 && obj_text.current = bat_effect && keyboard_check_released(vk_enter))

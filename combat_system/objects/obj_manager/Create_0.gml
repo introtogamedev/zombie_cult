@@ -44,7 +44,7 @@ burger :
 alarm_clock :
 	new create_item(
 	"Alarm",
-	"Ring ring" + "\n" + "(+6 DMG including you! , uses 3 mana)",
+	"Ring ring" + "\n" + "(+6 DMG including you!" + "\n" + ", uses 3 mana)",
 	spr_alarm,
 	"The clock rings," + "\n" +  " making everyone's ears bleed!" + "\n" + "They take 4 damage!",
 	function()
@@ -63,6 +63,8 @@ alarm_clock :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
 			item_inventory.empty_stamina = false;
+			obj_player.player_hit = true;
+			obj_enemy.getting_hit = true;
 		
 		}	
 	}
@@ -89,6 +91,7 @@ nerf_gun :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
 			item_inventory.empty_stamina = false;
+			obj_enemy.getting_hit = true;
 		}	
 	}
 	),
@@ -140,6 +143,8 @@ ax_body_spray :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 4;
 			item_inventory.empty_stamina = false;
+			obj_player.player_hit = true;
+			obj_enemy.getting_hit = true;
 		}		
 	}	 
 	),
@@ -165,6 +170,7 @@ lotion :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
+			got_hp = true;
 		}		
 	}	
 	),
@@ -190,6 +196,7 @@ powder_blush :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
+			got_hp = true;
 		}		
 	}	
 	),
@@ -215,6 +222,7 @@ dry_shampoo :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
 			item_inventory.empty_stamina = false;
+			obj_enemy.getting_hit = true;
 		}		
 	}	
 	),
@@ -240,6 +248,7 @@ perfume :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 1;
 			item_inventory.empty_stamina = false;
+			obj_enemy.getting_hit = true;
 		}		
 	}
 	),
@@ -290,6 +299,7 @@ cat :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
+			obj_enemy.getting_hit = true;
 		}		
 	}	
 	),
@@ -322,7 +332,7 @@ bunny :
 squirrel :
 	new create_item(
 	"Squirrel",
-	"Does it have rabies?" + "\n" + "(+6 dmg depending on chance, uses 2 mana)",
+	"Does it have rabies?" + "\n" + "(+6 dmg, uses 2 mana)",
 	spr_squirrel,
 	"You lunge the squirrel onto the enemy!" + "\n" + "The enemy takes 6 damage!",
 	function()
@@ -340,6 +350,7 @@ squirrel :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
+			obj_enemy.getting_hit = true;
 		}		
 	}	
 	),
@@ -365,6 +376,7 @@ dog :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 5;
 			item_inventory.empty_stamina = false;
+			got_hp = true;
 		}		
 	}	
 	),
@@ -390,6 +402,7 @@ rat :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 1;
 			item_inventory.empty_stamina = false;
+			obj_enemy.getting_hit = true;
 		}		
 	}	
 	),
@@ -415,6 +428,7 @@ earrings :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 1;
 			item_inventory.empty_stamina = false;
+			got_hp = true;
 		}		
 	}	
 	),
@@ -440,6 +454,7 @@ phone :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 5;
 			item_inventory.empty_stamina = false;
+			obj_enemy.getting_hit = true;
 		}		
 	}
 	),
@@ -465,6 +480,7 @@ walkie_talkie :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
+			got_hp = true;
 		}		
 	}	
 	),
@@ -486,7 +502,8 @@ hoodie :
 		}
 		else
 		{
-			global.player_health += 4;
+			got_hp = true;
+			global.player_health += 8;
 			obj_text.current = global.item_list.hoodie.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
@@ -540,6 +557,7 @@ cookies :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
 			item_inventory.empty_stamina = false;
+			got_hp = true;
 		}		
 	}	
 	),
@@ -565,6 +583,7 @@ danish :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 1;
 			item_inventory.empty_stamina = false;
+			got_hp = true;
 		}		
 	}	
 	),
@@ -603,6 +622,7 @@ healthboosts :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 4;
 			item_inventory.empty_stamina = false;
+			got_hp = true;
 		}		
 	}	
 	),
@@ -628,6 +648,7 @@ cliff_bar :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 1;
 			item_inventory.empty_stamina = false;
+			got_hp = true;
 		}		
 	}	
 	),
