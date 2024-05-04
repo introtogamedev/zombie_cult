@@ -86,6 +86,7 @@ if (global.enemy_health < 1 && keyboard_check_released(vk_enter)){
 	{
 		obj_text.timer += 10;
 		obj_text.current = enemy_death;
+		audio_play_sound(snd_death, 1, false);
 	}
 }
 

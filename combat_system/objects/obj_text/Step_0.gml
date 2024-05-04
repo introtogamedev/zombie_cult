@@ -47,6 +47,7 @@ if ((keyboard_check_released(vk_enter) && timer = 0)){
 		if (obj_player.player_dead = true){
 			current = dead;
 			timer += 10;
+			audio_play_sound(snd_death, 1, false);
 		}
 	
 	
