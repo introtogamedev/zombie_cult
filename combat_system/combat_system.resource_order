@@ -1,9 +1,8 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
-    {"name":"spr_zombie_dead","order":2,"path":"sprites/spr_zombie_dead/spr_zombie_dead.yy",},
-    {"name":"spr_zombieR","order":1,"path":"sprites/spr_zombieR/spr_zombieR.yy",},
     {"name":"snd_click","order":3,"path":"sounds/snd_click/snd_click.yy",},
+    {"name":"spr_zombieR","order":1,"path":"sprites/spr_zombieR/spr_zombieR.yy",},
     {"name":"spr_arrow","order":1,"path":"sprites/spr_arrow/spr_arrow.yy",},
     {"name":"obj_arrow","order":2,"path":"objects/obj_arrow/obj_arrow.yy",},
   ],

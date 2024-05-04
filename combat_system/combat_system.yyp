@@ -62,7 +62,6 @@
     {"id":{"name":"spr_end","path":"sprites/spr_end/spr_end.yy",},},
     {"id":{"name":"obj_cat","path":"objects/obj_cat/obj_cat.yy",},},
     {"id":{"name":"obj_shop","path":"objects/obj_shop/obj_shop.yy",},},
-    {"id":{"name":"spr_zombie_dead","path":"sprites/spr_zombie_dead/spr_zombie_dead.yy",},},
     {"id":{"name":"obj_door1","path":"objects/obj_door1/obj_door1.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"spr_radish_side","path":"sprites/spr_radish_side/spr_radish_side.yy",},},

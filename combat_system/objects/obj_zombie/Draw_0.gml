@@ -1,6 +1,6 @@
-#macro DEAD_FRAME 4
+#macro DEAD_FRAME 6
 #macro START_FRAME 0
-#macro END_FRAME 4
+#macro END_FRAME 5
 
 
 
@@ -8,7 +8,7 @@
 //animation
 if self.is_dead{
 	image_speed = 0;
-	sprite_index = spr_zombie_dead;
+	image_index = DEAD_FRAME;
 }
 else{
 	if image_index = END_FRAME{
