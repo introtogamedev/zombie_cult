@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3bcb912e-fcab-4f80-925f-3639b6796aac",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f883c818-5d2e-4e9a-8fa8-f754df1fd568",},
   ],
   "gridX": 128,
   "gridY": 128,
   "height": 720,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3233e821-6ec3-48d6-bdea-b6f95ae4b1c7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"450f6358-1726-4266-b3fb-4d9fa73d6e8b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3bcb912e-fcab-4f80-925f-3639b6796aac","path":"sprites/spr_shelf/spr_shelf.yy",},},},"Disabled":false,"id":"f28d08a1-75e1-4599-afa9-95036c73b6e2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f883c818-5d2e-4e9a-8fa8-f754df1fd568","path":"sprites/spr_shelf/spr_shelf.yy",},},},"Disabled":false,"id":"c4f512c9-29e3-4798-94d9-650d13068882","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
