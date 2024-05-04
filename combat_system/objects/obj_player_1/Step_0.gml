@@ -74,5 +74,5 @@ else if !walking && walk_sound{
 	walk_sound = false;
 }
 
-show_debug_message(global.win);
+
 	

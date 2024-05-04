@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_tile_explore",
-  "bbox_bottom": 222,
+  "bbox_bottom": 271,
   "bbox_left": 0,
   "bbox_right": 63,
   "bbox_top": 0,
