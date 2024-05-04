@@ -1,6 +1,6 @@
-#macro DEAD_FRAME 4
+#macro DEAD_FRAME 6
 #macro START_FRAME 0
-#macro END_FRAME 4
+#macro END_FRAME 5
 
 
 

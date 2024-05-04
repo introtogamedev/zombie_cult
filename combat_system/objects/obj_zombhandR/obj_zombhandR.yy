@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_zombhands",
-    "path": "sprites/spr_zombhands/spr_zombhands.yy",
+    "name": "spr_zombieR",
+    "path": "sprites/spr_zombieR/spr_zombieR.yy",
   },
   "spriteMaskId": null,
   "visible": true,

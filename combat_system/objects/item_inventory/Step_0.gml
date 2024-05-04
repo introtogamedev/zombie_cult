@@ -69,7 +69,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.bunny.effect  && ke
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
-	obj_enemy.skip_enemy = true;
+	
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.burger.effect  && keyboard_check_released(vk_enter))
@@ -84,7 +84,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.cake.effect  && key
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
-	obj_enemy.skip_enemy = true;
+
 
 	
 }
@@ -152,7 +152,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.hairspray.effect  &
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
-	obj_enemy.skip_enemy = true;
+
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.healthboosts.effect  && keyboard_check_released(vk_enter))
@@ -227,7 +227,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.soap.effect  && key
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
-	obj_enemy.skip_enemy = true;
+	
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.squirrel.effect  && keyboard_check_released(vk_enter))

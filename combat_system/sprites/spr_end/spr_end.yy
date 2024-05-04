@@ -20,6 +20,8 @@
   "height": 768,
   "HTile": false,
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"43179009-0ccd-4e79-ac75-158cd2351159","blendMode":0,"displayName":"Layer 20","isLocked":false,"opacity":100.0,"visible":false,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"28fa0932-9809-4fdd-beb8-02445d592109","blendMode":0,"displayName":"Layer 19","isLocked":false,"opacity":100.0,"visible":false,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"36150d19-e2fd-42c4-90d8-f5a97cfd21b1","blendMode":0,"displayName":"Layer 16","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9178fdd3-2f3f-4593-984f-4d2485fc5490","blendMode":0,"displayName":"Layer 3","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f441f602-5988-4acc-b8c8-77dc7f1eae54","blendMode":0,"displayName":"Layer 17","isLocked":false,"opacity":100.0,"visible":true,},
@@ -38,6 +40,8 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ea2ccd7e-50cc-44ae-8bd5-c75f6259bc1d","blendMode":0,"displayName":"Layer 6","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"758ee290-4fad-4202-ac21-54ea483588a9","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dca0dea3-b9ff-4474-8466-1e3aa384bbf1","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"357365da-aeff-4f2e-8c88-0592b83840e9","blendMode":0,"displayName":"Layer 21","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a190ed76-958d-4b65-9b4b-ba32f59448ea","blendMode":0,"displayName":"Layer 22","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2a89df8a-ea54-4847-b264-a246a7c8b936","blendMode":0,"displayName":"Layer 18","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,

@@ -7,6 +7,7 @@
     {"name":"snd_bat_attack","order":4,"path":"sounds/snd_bat_attack/snd_bat_attack.yy",},
     {"name":"snd_heal","order":5,"path":"sounds/snd_heal/snd_heal.yy",},
     {"name":"spr_player_hurt","order":1,"path":"sprites/spr_player_hurt/spr_player_hurt.yy",},
+    {"name":"spr_zombieR","order":1,"path":"sprites/spr_zombieR/spr_zombieR.yy",},
     {"name":"spr_arrow","order":1,"path":"sprites/spr_arrow/spr_arrow.yy",},
     {"name":"obj_arrow","order":2,"path":"objects/obj_arrow/obj_arrow.yy",},
   ],
