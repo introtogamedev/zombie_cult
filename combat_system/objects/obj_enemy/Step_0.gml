@@ -82,7 +82,8 @@ if (global.enemy_health < 1 && keyboard_check_released(vk_enter)){
 		obj_god.zombie_death = true;
 		show_debug_message("help :(");
 	}
-	else{
+	else
+	{
 		obj_text.timer += 10;
 		obj_text.current = enemy_death;
 	}

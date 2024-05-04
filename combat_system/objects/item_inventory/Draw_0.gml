@@ -28,6 +28,7 @@ for (var i = display_start_index; i < maximum_display_index; i++)
 	if (current_selection + 2 > actual_inventory_length)
 	{
 		last_item = true;
+		obj_arrow.visible = false;
 		//draw_text(global.AxPos[0], global.AyPos[i - offset_index], obj_manager.inv[i].name);
 		/*
 		if (obj_selection.y == global.AyPos[i - offset_index] + 10)
@@ -40,6 +41,7 @@ for (var i = display_start_index; i < maximum_display_index; i++)
 	else
 	{
 		last_item = false;
+		obj_arrow.visible = true;
 	}
 	
 	if (obj_manager.inv[i] != -1)
@@ -48,7 +50,7 @@ for (var i = display_start_index; i < maximum_display_index; i++)
 	
 		if (obj_selection.y == global.AyPos[i - offset_index] + 10)
 		{	
-			draw_text(global.AxPos[0] + 150, global.AyPos[i - offset_index]," -" + obj_manager.inv[i].description);
+			draw_text(global.AxPos[0] + 250, global.AyPos[i - offset_index]," -" + obj_manager.inv[i].description);
 			current_selection = i;
 		}
 	}

@@ -7,8 +7,9 @@ sprite_index = item.sprite;
 if (place_meeting(x,y,obj_select)&& obj_select.u_got_an_item)
 	{
 		
-		if (item == obj_list.scav[0] )
+		if (item == obj_list.scav[0] && global.zero = false)
 			{
+				
 				global.zero = true;
 				global.win ++;
 				show_debug_message("AHH");
@@ -16,7 +17,7 @@ if (place_meeting(x,y,obj_select)&& obj_select.u_got_an_item)
 				
 			}
 		
-			else if (item == obj_list.scav[1] )
+			else if (item == obj_list.scav[1] && global.one = false)
 			{
 				global.one = true;
 				global.win ++;
@@ -24,7 +25,7 @@ if (place_meeting(x,y,obj_select)&& obj_select.u_got_an_item)
 				instance_destroy();
 				
 			}
-			else if (item == obj_list.scav[2] )
+			else if (item == obj_list.scav[2] && global.two = false)
 			{
 				global.two = true;
 				global.win ++;
@@ -32,7 +33,7 @@ if (place_meeting(x,y,obj_select)&& obj_select.u_got_an_item)
 				instance_destroy();
 				
 			}
-			else if (item == obj_list.scav[3] )
+			else if (item == obj_list.scav[3] && global.three = false)
 			{
 				global.three = true;
 				global.win ++;
@@ -40,7 +41,7 @@ if (place_meeting(x,y,obj_select)&& obj_select.u_got_an_item)
 				instance_destroy();
 				
 			}
-			else if (item == obj_list.scav[4] )
+			else if (item == obj_list.scav[4] && global.four = false)
 			{
 				global.four = true;
 				global.win ++;

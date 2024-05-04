@@ -6,27 +6,33 @@ if obj_god.current_state == COMBAT{
 		visible = true;
 		x = global.AxPos[0] - 10;
 		y = global.AyPos[0 + modifier] + 10;
+		obj_arrow.visible = false;
 
 		if ((keyboard_check_released(ord("W"))) && modifier > 0){
 			modifier -= 1;
+			audio_play_sound(snd_click, 1, false);
 		}
 
 		if ((keyboard_check_released(ord("S"))) && modifier < 3){
 			modifier += 1;
+			audio_play_sound(snd_click, 1, false);
 		}
 	}
 	else if (obj_text.current = obj_item.text)
 	{
 		x = global.AxPos[0] - 10;
 		y = global.AyPos[0 + modifier] + 10;
+		obj_arrow.visible = true;
 
 		if (keyboard_check_released(ord("S")))
 		{
 			if (modifier < global.array_limit && !item_inventory.last_item){
 				modifier += 1;
-			}else if (item_inventory.offset_index + modifier < 7 && !item_inventory.last_item)//array_length(obj_manager.inv) - 1){
+				audio_play_sound(snd_click, 1, false);
+			}else if (item_inventory.offset_index + modifier < 10 && !item_inventory.last_item)//array_length(obj_manager.inv) - 1){
 			{
 				item_inventory.offset_index += 1;
+				audio_play_sound(snd_click, 1, false);
 			}
 			 //show_debug_message([modifier, global.array_limit,  item_inventory.offset_index]);
 		}
@@ -34,8 +40,10 @@ if obj_god.current_state == COMBAT{
 		if (keyboard_check_released(ord("W"))){
 			if (modifier > 0){
 				modifier -= 1;
+				audio_play_sound(snd_click, 1, false);
 			}else if (item_inventory.offset_index +  modifier > 0){
 					item_inventory.offset_index -= 1;
+					audio_play_sound(snd_click, 1, false);
 				}
 			 //show_debug_message([modifier, global.array_limit,  item_inventory.offset_index]);
 		}

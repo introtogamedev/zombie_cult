@@ -1,5 +1,6 @@
 if (obj_text.current = obj_text.action){
 	visible = true;
+	obj_arrow.visible = false;
 }else{
 	visible = false;
 }
