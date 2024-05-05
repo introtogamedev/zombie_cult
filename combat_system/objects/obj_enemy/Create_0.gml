@@ -18,21 +18,22 @@ image_yscale = 1.5;
 
 enemy_start = "IT'S THE ZOMBIE'S TURN NOW!"
 
-enemy_selection = 4;
+enemy_selection = 11;
 
 
 
 function random_enemy_turn(){
 	randomise();
-	var i = irandom_range(1,3);
-	i = round(i);
+	var i = irandom_range(1,10);
+	//i = round(i);
 	
 	return i;
 	
+	//show_debug_message(i);
 }
 
-enemy_dmg = 4;
-angy_enemy_dmg = 6;
+enemy_dmg = 5;
+angy_enemy_dmg = 7;
 
 angy_enemy = false;
 

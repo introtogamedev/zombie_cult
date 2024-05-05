@@ -42,19 +42,20 @@ if (sprite_index = zombies[name] && obj_text.timer = 0 && obj_text.player_turn =
 			obj_text.current = enemy_start;
 		}else{
 			obj_text.timer += 10;
+			randomise();
 			enemy_selection = random_enemy_turn();
 			//show_debug_message(enemy_selection);
-			if (enemy_selection = 1){
-				enemy_heal();
+			if (enemy_selection <= 6){
+				enemy_attack();
 
 
 			}
-			if (enemy_selection = 2){
-				enemy_attack();
+			if (enemy_selection > 6 && enemy_selection <= 8){
+				enemy_heal();
 
 		
 			}
-			if (enemy_selection = 3){
+			if (enemy_selection > 8){
 				enemy_skip();
 	
 
@@ -94,6 +95,7 @@ if(healing_alpha > 0)
 {
 	healing_alpha -= 0.03;
 }
+//show_debug_message(enemy_selection);
 
 //hit effect
 if(obj_text.current = global.item_list.alarm_clock.effect || 
