@@ -7,6 +7,7 @@ function Setup_Macros(){
 	#macro COMBAT 3
 	#macro LIST 4
 	#macro VICTORY 5
+	#macro TITLE 21
 	
 	//so many goddamn shelves
 	#macro BAKERY 6

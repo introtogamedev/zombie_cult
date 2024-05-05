@@ -95,6 +95,7 @@
     {"id":{"name":"Freezer","path":"rooms/Freezer/Freezer.yy",},},
     {"id":{"name":"spr_item_box","path":"sprites/spr_item_box/spr_item_box.yy",},},
     {"id":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
+    {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"id":{"name":"Dry_Goods","path":"rooms/Dry_Goods/Dry_Goods.yy",},},
     {"id":{"name":"rm_inst","path":"rooms/rm_inst/rm_inst.yy",},},
     {"id":{"name":"Shelf","path":"rooms/Shelf/Shelf.yy",},},
@@ -188,6 +189,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_inst","path":"rooms/rm_inst/rm_inst.yy",},},
+    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"roomId":{"name":"Explore","path":"rooms/Explore/Explore.yy",},},
     {"roomId":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"roomId":{"name":"Death","path":"rooms/Death/Death.yy",},},

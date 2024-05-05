@@ -5,6 +5,7 @@
   "ResourceOrderSettings": [
     {"name":"snd_death","order":1,"path":"sounds/snd_death/snd_death.yy",},
     {"name":"snd_click","order":3,"path":"sounds/snd_click/snd_click.yy",},
+    {"name":"Title","order":1,"path":"rooms/Title/Title.yy",},
     {"name":"shader_healing","order":2,"path":"shaders/shader_healing/shader_healing.yy",},
     {"name":"spr_zombieR","order":1,"path":"sprites/spr_zombieR/spr_zombieR.yy",},
     {"name":"Produce","order":2,"path":"rooms/Produce/Produce.yy",},
