@@ -35,13 +35,13 @@ if ((keyboard_check_released(vk_enter) && timer = 0)){
 			current = player_start;
 		
 			//meter cap
-			if(obj_meter.meter_value + 3 >= 5)
+			if(obj_meter.meter_value + 2 >= 5)
 			{
 				obj_meter.meter_value = 5;
 			}
 			else
 			{
-				obj_meter.meter_value += 3;
+				obj_meter.meter_value += 2;
 			}
 		}
 		if (obj_player.player_dead = true){
