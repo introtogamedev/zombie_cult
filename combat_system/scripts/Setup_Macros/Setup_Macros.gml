@@ -2,11 +2,13 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Setup_Macros(){
 	#macro DEATH 0
+	#macro TITLE 0.5
 	#macro EXPLORE 1
 	#macro SHELF 2
 	#macro COMBAT 3
 	#macro LIST 4
 	#macro VICTORY 5
+
 	
 	//so many goddamn shelves
 	#macro BAKERY 6

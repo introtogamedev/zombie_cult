@@ -1,10 +1,21 @@
 {
   "FolderOrderSettings": [
     {"name":"Tile sprites","order":2,"path":"folders/EXPLORE/Sprites/Tile sprites.yy",},
+    {"name":"shelves","order":7,"path":"folders/Rooms/shelves.yy",},
+    {"name":"TITLE SHIT","order":3,"path":"folders/EXPLORE/Sprites/TITLE SHIT.yy",},
+    {"name":"title shit","order":1,"path":"folders/EXPLORE/Objects/title shit.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"List","order":6,"path":"rooms/List/List.yy",},
     {"name":"snd_death","order":1,"path":"sounds/snd_death/snd_death.yy",},
+    {"name":"Title","order":8,"path":"rooms/Title/Title.yy",},
+    {"name":"obj_enter","order":1,"path":"objects/obj_enter/obj_enter.yy",},
     {"name":"snd_click","order":3,"path":"sounds/snd_click/snd_click.yy",},
+    {"name":"Combat","order":4,"path":"rooms/Combat/Combat.yy",},
+    {"name":"Death","order":2,"path":"rooms/Death/Death.yy",},
+    {"name":"Explore","order":5,"path":"rooms/Explore/Explore.yy",},
+    {"name":"rm_inst","order":3,"path":"rooms/rm_inst/rm_inst.yy",},
+    {"name":"Shelf","order":1,"path":"rooms/Shelf/Shelf.yy",},
     {"name":"shader_healing","order":2,"path":"shaders/shader_healing/shader_healing.yy",},
     {"name":"spr_zombieR","order":1,"path":"sprites/spr_zombieR/spr_zombieR.yy",},
     {"name":"Produce","order":2,"path":"rooms/Produce/Produce.yy",},
@@ -17,5 +28,6 @@
     {"name":"spr_arrow","order":1,"path":"sprites/spr_arrow/spr_arrow.yy",},
     {"name":"signs_tiles","order":1,"path":"tilesets/signs_tiles/signs_tiles.yy",},
     {"name":"obj_arrow","order":2,"path":"objects/obj_arrow/obj_arrow.yy",},
+    {"name":"spr_enter","order":1,"path":"sprites/spr_enter/spr_enter.yy",},
   ],
 }
