@@ -16,22 +16,21 @@ if (obj_text.timer = 0 && atk_barbed_wire_bat.visible = true && obj_selection.se
 	{
 		bat_chance();
 		
-		if(bat_sum == 0 || bat_sum == 2)
-		{	
+		if(bat_sum == 4)
+		{				
+			obj_text.current = failed_bat;
+			obj_meter.meter_value -= 3;
+			obj_text.timer += 10;
+			audio_play_sound(snd_bat_attack, 1, false);
+		}
+		else
+		{
 			obj_text.current = bat_effect;
 			obj_meter.meter_value -= 3;
 			obj_text.timer += 10;
 			global.enemy_health -= 3;
 			audio_play_sound(snd_bat_attack, 1, false);
 			obj_enemy.getting_hit = true;
-		}
-		else
-		{
-			obj_text.current = failed_bat;
-			obj_meter.meter_value -= 3;
-			obj_text.timer += 10;
-			audio_play_sound(snd_bat_attack, 1, false);
-			
 		}
 	}
 }
@@ -56,7 +55,7 @@ if(obj_text.timer = 0 && obj_text.current = failed_bat && keyboard_check_release
 
 function bat_chance()
 {
-	bat_sum = irandom_range(0,3);
+	bat_sum = irandom_range(0,5);
 	return bat_sum;
 }
 
