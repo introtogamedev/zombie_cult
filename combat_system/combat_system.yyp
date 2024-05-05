@@ -186,6 +186,7 @@
     {"id":{"name":"Store_Music_Fucked","path":"sounds/Store_Music_Fucked/Store_Music_Fucked.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
     {"id":{"name":"spr_tile_explore","path":"sprites/spr_tile_explore/spr_tile_explore.yy",},},
+    {"id":{"name":"bg_death","path":"sprites/bg_death/bg_death.yy",},},
     {"id":{"name":"spr_markus_idle","path":"sprites/spr_markus_idle/spr_markus_idle.yy",},},
     {"id":{"name":"spr_walkie_talkie","path":"sprites/spr_walkie_talkie/spr_walkie_talkie.yy",},},
     {"id":{"name":"spr_zombie","path":"sprites/spr_zombie/spr_zombie.yy",},},

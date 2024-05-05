@@ -9,7 +9,7 @@ else{
 }
 
 if current_state == VICTORY || current_state = DEATH{
-	draw_text(300, 300, "press R to restart");
+	//draw_text(300, 300, "press R to restart");
 }
 	
 	

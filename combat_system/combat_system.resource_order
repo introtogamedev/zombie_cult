@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"bg_death","order":1,"path":"sprites/bg_death/bg_death.yy",},
+  ],
 }
