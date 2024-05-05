@@ -7,3 +7,4 @@ walk_sound = false;
 
 image_xscale = .69;
 image_yscale = .69;
+

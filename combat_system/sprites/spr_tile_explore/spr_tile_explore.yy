@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_tile_explore",
-  "bbox_bottom": 222,
+  "bbox_bottom": 287,
   "bbox_left": 0,
   "bbox_right": 63,
   "bbox_top": 0,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/EXPLORE/Sprites.yy",
+    "name": "Tile sprites",
+    "path": "folders/EXPLORE/Sprites/Tile sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

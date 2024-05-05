@@ -1,1 +1,1 @@
-item = global.item_list.burger
+item = global.item_list.burger;

@@ -59,5 +59,5 @@ function chance()
 	return ed_sum;
 }
 
-show_debug_message(ed_sum);
+//show_debug_message(ed_sum);
 

@@ -31,7 +31,7 @@ a_z = obj_player_1.closest_zombie;
 
 if current_state == LIST || in_shelf{
 	
-	if a_z.chasing{		
+	if (a_z.chasing && !a_z.is_dead){		
 		//hand speed = half the width of the room (the distance the hands need to travel)
 		// multiplied by the approach speed of the approaching zombie
 		var h_s = ((room_width/2 * a_z.APPROACH_SPD)/HAND_START_SPD_DIVIDE);

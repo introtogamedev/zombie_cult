@@ -43,7 +43,7 @@ if (sprite_index = zombies[name] && obj_text.timer = 0 && obj_text.player_turn =
 		}else{
 			obj_text.timer += 10;
 			enemy_selection = random_enemy_turn();
-			show_debug_message(enemy_selection);
+			//show_debug_message(enemy_selection);
 			if (enemy_selection = 1){
 				enemy_heal();
 
