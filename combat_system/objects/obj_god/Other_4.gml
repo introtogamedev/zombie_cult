@@ -72,3 +72,16 @@ if current_state = EXPLORE{
 	
 	coming_from_combat = false;
 }
+
+if current_state = TITLE{
+	
+	
+	if coming_from_combat = true{
+		audio_pause_all();
+	
+		audio_play_sound(Store_Music_Normal,1,true);
+	
+	}
+	
+	coming_from_combat = false;
+}
