@@ -84,8 +84,6 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.cake.effect  && key
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
-
-
 	
 }
 
@@ -102,6 +100,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.cliff_bar.effect  &
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_player.got_hp = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.cookies.effect  && keyboard_check_released(vk_enter))
@@ -109,6 +108,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.cookies.effect  && 
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_player.got_hp = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.danish.effect  && keyboard_check_released(vk_enter))
@@ -116,6 +116,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.danish.effect  && k
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_player.got_hp = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.dog.effect  && keyboard_check_released(vk_enter))
@@ -123,6 +124,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.dog.effect  && keyb
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_player.got_hp = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.drugs.effect  && keyboard_check_released(vk_enter))
@@ -145,6 +147,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.earrings.effect  &&
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_player.got_hp = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.hairspray.effect  && keyboard_check_released(vk_enter))
@@ -160,6 +163,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.healthboosts.effect
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_player.got_hp = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.hoodie.effect  && keyboard_check_released(vk_enter))
@@ -167,6 +171,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.hoodie.effect  && k
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_player.got_hp = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.lotion.effect  && keyboard_check_released(vk_enter))
@@ -174,6 +179,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.lotion.effect  && k
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_player.got_hp = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.nerf_gun.effect  && keyboard_check_released(vk_enter))
@@ -212,6 +218,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.powder_blush.effect
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_player.got_hp = true;
 }
 
 if(obj_text.timer = 0 && obj_text.current = global.item_list.rat.effect  && keyboard_check_released(vk_enter))
@@ -243,6 +250,7 @@ if(obj_text.timer = 0 && obj_text.current = global.item_list.walkie_talkie.effec
 	obj_selection.selected_object = obj_selection;
 	obj_text.timer += 10;
 	obj_text.current = obj_text.action;
+	obj_player.got_hp = true;
 }
 #endregion
 
