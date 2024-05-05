@@ -16,8 +16,8 @@ left = false;
 //possible game states
 Setup_Macros();
 
-current_state = EXPLORE;
-new_state = EXPLORE;
+current_state = TITLE;
+new_state = TITLE;
 prev_state = EXPLORE;
 
 in_shelf = false;

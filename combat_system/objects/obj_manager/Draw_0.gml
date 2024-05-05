@@ -1,5 +1,5 @@
 //sprite_index = item.sprite;
-if(room == Explore)
+if(obj_god.current_state == EXPLORE)
 {
 	draw_set_font(fnt_des);
 	for (var i = 0; i < INVENTORY_SLOTS; i+= 1)
