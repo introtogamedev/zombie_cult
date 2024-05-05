@@ -132,5 +132,3 @@ if(enemy_hit_timer > enemy_hit_timer_cap && getting_hit)
 	enemy_hit_timer = 0;
 	getting_hit = false;
 }
-
-show_debug_message(string("TIMER") + string(enemy_hit_timer));
