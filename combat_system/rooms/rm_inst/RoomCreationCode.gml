@@ -1,1 +1,1 @@
-room_goto(EXPLORE);
+room_goto(Title);

@@ -22,14 +22,13 @@ else{
 
 }
 
-
 //ambush controls
 L = obj_zombhandL;
 R = obj_zombhandR;
-a_z = obj_player_1.closest_zombie;
-
 
 if current_state == LIST || in_shelf{
+	
+	a_z = obj_player_1.closest_zombie;
 	
 	if (a_z.chasing && !a_z.is_dead){		
 		//hand speed = half the width of the room (the distance the hands need to travel)

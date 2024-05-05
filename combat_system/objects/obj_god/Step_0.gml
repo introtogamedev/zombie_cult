@@ -107,6 +107,7 @@ if current_state != new_state {
 	if new_state = BATH_BODY {room_goto(Bath_Body);}
 	if new_state = JEWELERY {room_goto(Jewelery);}
 	if new_state = CLOTHING {room_goto(Clothing);}
+	//if new_state = TITLE {room_goto(Title);}
 	
 	//HEY WHAT DO U MEAN THAT PERFECTLY COMMUNICAED WHAT'S HAPPENING
 	//NO >:/
