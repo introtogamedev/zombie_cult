@@ -152,7 +152,7 @@ ax_body_spray :
 lotion :
 	new create_item(
 	"Lotion",
-	"Smoooooooooooth" + "\n" + "(+5 HP, uses 2 mana)",
+	"Smoooooooooooth" + "\n" + "(+3 HP, uses 2 mana)",
 	spr_lotion,
 	"You smear some lotion onto your skin! You feel moisturized for the day!" + "\n" + "You gain 5 HP!",
 	function()
@@ -165,7 +165,7 @@ lotion :
 		}
 		else
 		{
-			global.player_health += 5;
+			global.player_health += 3;
 			obj_text.current = global.item_list.lotion.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
@@ -178,12 +178,12 @@ lotion :
 powder_blush :
 	new create_item(
 	"Powder Blush",
-	"Don't eat it" + "\n" + "(+4 HP, uses 2 mana)",
+	"Don't eat it" + "\n" + "(+4 HP, uses 3 mana)",
 	spr_powder_blush,
 	"You put on some powder blush." + "\n" +  " Makes you feel more self-confident!" + "\n" + "You gain +4 HP!",
 	function()
 	{
-		if(obj_meter.meter_value < 2)
+		if(obj_meter.meter_value < 3)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -194,7 +194,7 @@ powder_blush :
 			global.player_health += 4;
 			obj_text.current = global.item_list.powder_blush.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 2;
+			obj_meter.meter_value -= 3;
 			item_inventory.empty_stamina = false;
 			got_hp = true;
 		}		
@@ -358,9 +358,9 @@ squirrel :
 dog :
 	new create_item(
 	"Dog",
-	"yap yap." + "\n" + "(+10 HP, uses 5 mana)",
+	"yap yap." + "\n" + "(+9 HP, uses 5 mana)",
 	spr_dog,
-	"You hold in the dog in your arms." + "\n" +  " You feel emotionally stable and content wih life!" + "\n" + "You gain 10 HP!",
+	"You hold in the dog in your arms." + "\n" +  " You feel emotionally stable and content wih life!" + "\n" + "You gain 9 HP!",
 	function()
 	{
 		if(obj_meter.meter_value < 5)
@@ -371,7 +371,7 @@ dog :
 		}
 		else
 		{
-			global.player_health += 10;
+			global.player_health += 9;
 			obj_text.current = global.item_list.dog.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 5;
@@ -410,12 +410,12 @@ rat :
 earrings :
 	new create_item(
 	"Earrings",
-	"Made out of 90% fake gold" + "\n" + "(+4 HP, uses 1 mana)",
+	"Made out of 90% fake gold" + "\n" + "(+4 HP, uses 3 mana)",
 	spr_earrings,
 	"You clip on some earrings." + "\n" +  " You feel better about your appearance." + "\n" + "You gain 4 HP!",
 	function()
 	{
-		if(obj_meter.meter_value < 1)
+		if(obj_meter.meter_value < 3)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -426,7 +426,7 @@ earrings :
 			global.player_health += 4;
 			obj_text.current = global.item_list.earrings.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 1;
+			obj_meter.meter_value -= 3;
 			item_inventory.empty_stamina = false;
 			got_hp = true;
 		}		
@@ -436,9 +436,9 @@ earrings :
 phone :
 	new create_item(
 	"Phone",
-	"*insert elevator music*" + "\n" + "(+15 DMG, uses 5 mana)",
+	"*insert elevator music*" + "\n" + "(+10 DMG, uses 5 mana)",
 	spr_phone,
-	"You call the enemy's mom and give it to the enemy. The enemy patiently waits" + "\n" + "for its response but the phone suddenly hangs up." + "\n" + "They gain emotional trauma and takes 15 damage!",
+	"You call the enemy's mom and give it to the enemy. The enemy patiently waits" + "\n" + "for its response but the phone suddenly hangs up." + "\n" + "They gain emotional trauma and takes 10 damage!",
 	function()
 	{
 		if(obj_meter.meter_value < 5)
@@ -449,7 +449,7 @@ phone :
 		}
 		else
 		{
-			global.enemy_health -= 15;
+			global.enemy_health -= 10;
 			obj_text.current = global.item_list.phone.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 5;
@@ -462,36 +462,9 @@ phone :
 walkie_talkie :
 	new create_item(
 	"Radio",
-	"Yipee." + "\n" + "(+6 HP, uses 2 mana)",
+	"Yipee." + "\n" + "(+6 HP, uses 3 mana)",
 	spr_walkie_talkie,
 	"You turn on the radio. Someone randomly joins" + "\n" + "saying 'I love you' then only static rings." + "\n" + "You appreciate the gesture, gaining 6 HP!",
-	function()
-	{
-		if(obj_meter.meter_value < 2)
-		{
-			obj_text.current = obj_text.no_stamina;
-			obj_text.timer += 10;
-			item_inventory.empty_stamina = true;
-		}
-		else
-		{
-			global.player_health += 6;
-			obj_text.current = global.item_list.walkie_talkie.effect;
-			obj_text.timer += 10;
-			obj_meter.meter_value -= 2;
-			item_inventory.empty_stamina = false;
-			got_hp = true;
-		}		
-	}	
-	),
-
-
-hoodie :
-	new create_item(
-	"Hoodie",
-	"thicc." + "\n" + "(+8 HP, uses 3 mana)",
-	spr_hoodie,
-	"You put on the hoodie. It's very comfy." + "\n" + "You gain 8 HP",
 	function()
 	{
 		if(obj_meter.meter_value < 3)
@@ -502,11 +475,38 @@ hoodie :
 		}
 		else
 		{
-			got_hp = true;
-			global.player_health += 8;
-			obj_text.current = global.item_list.hoodie.effect;
+			global.player_health += 6;
+			obj_text.current = global.item_list.walkie_talkie.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
+			item_inventory.empty_stamina = false;
+			got_hp = true;
+		}		
+	}	
+	),
+
+
+hoodie :
+	new create_item(
+	"Hoodie",
+	"thicc." + "\n" + "(+3 HP, uses 2 mana)",
+	spr_hoodie,
+	"You put on the hoodie. It's very comfy." + "\n" + "You gain 3 HP",
+	function()
+	{
+		if(obj_meter.meter_value < 2)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
+		}
+		else
+		{
+			got_hp = true;
+			global.player_health += 3;
+			obj_text.current = global.item_list.hoodie.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
 		}		
 	}	
@@ -540,9 +540,9 @@ cake :
 cookies :
 	new create_item(
 	"Cookie",
-	"From Mom" + "\n" + "(+8 HP, uses 3 mana)",
+	"From Mom" + "\n" + "(+4 HP, uses 3 mana)",
 	spr_cookies,
-	"You snack on the cookie that" + "\n" +  " your mother made just for you." + "\n" + "The warmth brings you joy" + "\n" + "and you gain 8 HP!",
+	"You snack on the cookie that" + "\n" +  " your mother made just for you." + "\n" + "The warmth brings you joy" + "\n" + "and you gain 4 HP!",
 	function()
 	{
 		if(obj_meter.meter_value < 3)
@@ -553,7 +553,7 @@ cookies :
 		}
 		else
 		{
-			global.player_health += 8;
+			global.player_health += 4;
 			obj_text.current = global.item_list.cookies.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 3;
@@ -566,12 +566,12 @@ cookies :
 danish :
 	new create_item(
 	"Danish",
-	"A sugary treat!" + "\n" + "(+5 HP, uses 1 mana)",
+	"A sugary treat!" + "\n" + "(+3 HP, uses 2 mana)",
 	spr_danish,
 	"You eat the danish. It's unbelievably sweet. /n You gain 3 HP!",
 	function()
 	{
-		if(obj_meter.meter_value < 1)
+		if(obj_meter.meter_value < 2)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -579,10 +579,10 @@ danish :
 		}
 		else
 		{
-			global.player_health += 5;
+			global.player_health += 3;
 			obj_text.current = global.item_list.danish.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 1;
+			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
 			got_hp = true;
 		}		
@@ -605,12 +605,12 @@ drugs :
 healthboosts :
 	new create_item(
 	"Healthboosts",
-	"Good when used properly" + "\n" + "(+10 HP, uses 4 mana)",
+	"Good when used properly" + "\n" + "(+9 HP, uses 5 mana)",
 	spr_healthboost,
-	"You take some healthboosts." + "\n" + "You feel extremely healthy!" + "\n" +  "You gain 10 HP!",
+	"You take some healthboosts." + "\n" + "You feel extremely healthy!" + "\n" +  "You gain 9 HP!",
 	function()
 	{
-		if(obj_meter.meter_value < 4)
+		if(obj_meter.meter_value < 5)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -618,10 +618,10 @@ healthboosts :
 		}
 		else
 		{
-			global.player_health += 10;
+			global.player_health += 9;
 			obj_text.current = global.item_list.healthboosts.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 4;
+			obj_meter.meter_value -= 5;
 			item_inventory.empty_stamina = false;
 			got_hp = true;
 		}		
@@ -631,12 +631,12 @@ healthboosts :
 cliff_bar :
 	new create_item(
 	"Cliff Bar",
-	"Good for your body" + "\n" + "(+8 HP, uses 3 mana)",
+	"Good for your body" + "\n" + "(+3 HP, uses 2 mana)",
 	spr_cliff_bar,
-	"You bite into the cliff bar." + "\n" + "MMmmmm, delicious." + "\n" +  "You gain 8 HP!",
+	"You bite into the cliff bar." + "\n" + "MMmmmm, delicious." + "\n" +  "You gain 3 HP!",
 	function()
 	{
-		if(obj_meter.meter_value < 1)
+		if(obj_meter.meter_value < 2)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -644,10 +644,10 @@ cliff_bar :
 		}
 		else
 		{
-			global.player_health += 2;
+			global.player_health += 3;
 			obj_text.current = global.item_list.cliff_bar.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 1;
+			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
 			got_hp = true;
 		}		
@@ -659,7 +659,7 @@ pizza :
 	"Pizza",
 	"Pizza Pizza (?)",
 	spr_pizza,
-	"You open the lid, the smell of Little Caeser's" + "\n" + "wafts in the air." + "\n" +  " You close the box, no thanks.",
+	"You open the lid, the smell of Little Caesar's" + "\n" + "wafts in the air." + "\n" +  " You close the box, no thanks.",
 	function()
 	{
 		obj_text.current = global.item_list.pizza.effect;
