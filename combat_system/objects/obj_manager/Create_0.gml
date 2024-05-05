@@ -532,6 +532,7 @@ cake :
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
+			obj_enemy.skip_enemy = true;
 		}		
 	}	
 	),
