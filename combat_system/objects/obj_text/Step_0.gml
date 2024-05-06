@@ -33,15 +33,22 @@ if ((keyboard_check_released(vk_enter) && timer = 0)){
 	if (current = obj_enemy.enemy_skipp || current = obj_enemy.enemy_attack_text || current = obj_enemy.enemy_heal_text || current = obj_enemy.enemy_skip_text || current = obj_flee.failed_text || current = obj_enemy.angy_enemy_attack_text){
 		if (player_turn = true){
 			current = player_start;
-		
-			//meter cap
-			if(obj_meter.meter_value + 2 >= 5)
+			
+			if(!obj_flee.attempted_flee)
 			{
-				obj_meter.meter_value = 5;
+				//meter cap
+				if(obj_meter.meter_value + 3 >= 5)
+				{
+					obj_meter.meter_value = 5;
+				}
+				else
+				{
+					obj_meter.meter_value += 3;
+				}
 			}
 			else
 			{
-				obj_meter.meter_value += 2;
+				obj_flee.attempted_flee = false;
 			}
 		}
 		if (obj_player.player_dead = true){

@@ -7,18 +7,18 @@ if (obj_text.current = obj_attack.text){
 
 if (atk_emotional_trauma.visible = true && obj_selection.selected_object = atk_emotional_trauma && keyboard_check_released(vk_enter)){
 	
-	if(obj_meter.meter_value = 5)
+	if(obj_meter.meter_value > 4)
 	{
 		chance();
 		
-		if(ed_sum == 5)
+		if(ed_sum == !1)
 		{
 			obj_text.current = trauma_effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 5;
+			obj_meter.meter_value -= 4;
 			obj_enemy.getting_hit = true;
 			//please for the love of god work I beg you
-			global.enemy_health -= 15;
+			global.enemy_health -= 10;
 		}
 		else
 		{

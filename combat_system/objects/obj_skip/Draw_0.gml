@@ -4,6 +4,6 @@ draw_text(xPos, yPos, "SKIP");
 
 if (obj_skip.visible = true && obj_selection.selected_object = obj_skip)
 {
-	draw_text(xPos + 150, yPos, "-" + "HOW POLITE OF YOU..." + "\n" + "(PASS YOUR TURN TO THE ZOMBIE)");
+	draw_text(xPos + 150, yPos, "-" + "HOW POLITE OF YOU..." + "\n" + "(PASS YOUR TURN AND REGEN +3 MANA)");
 }
 

@@ -20,6 +20,7 @@ if (obj_text.timer = 0 && obj_flee.visible = true && obj_selection.selected_obje
 	else
 	{
 		obj_text.current = failed_text;
+		attempted_flee = true;
 		obj_text.timer = 0;
 		sum = 0;
 	}

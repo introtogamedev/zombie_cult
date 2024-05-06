@@ -7,7 +7,7 @@ if (obj_text.current = obj_attack.text){
 
 
 if (obj_text.timer = 0 && atk_barbed_wire_bat.visible = true && obj_selection.selected_object = atk_barbed_wire_bat && keyboard_check_released(vk_enter)){
-	if(obj_meter.meter_value < 2)
+	if(obj_meter.meter_value < 3)
 	{
 		obj_text.current = obj_text.no_stamina;
 		obj_text.timer += 10;

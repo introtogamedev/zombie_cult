@@ -9,3 +9,5 @@ failed_text = "YOU COULDN'T ESCAPE!";
 
 sum = 0;
 
+attempted_flee = false;
+
