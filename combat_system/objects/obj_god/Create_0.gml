@@ -13,6 +13,9 @@ right = false;
 left = false;
 
 
+on_drugs = false;
+
+
 //possible game states
 Setup_Macros();
 

@@ -233,6 +233,7 @@
     {"name":"inst_726FB90B","path":"rooms/Explore/Explore.yy",},
     {"name":"inst_74AB136B","path":"rooms/Explore/Explore.yy",},
     {"name":"inst_394E5D99","path":"rooms/Explore/Explore.yy",},
+    {"name":"inst_60468495","path":"rooms/Explore/Explore.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -240,7 +241,8 @@
 -5982,-2147483648,3,28,29,30,-6,-2147483648,3,28,29,30,-36,-2147483648,2,24,25,-28,-2147483648,2,24,25,-2397,-2147483648,3,20,21,22,-524,-2147483648,3,4,5,6,-1159,-2147483648,4,16,17,18,19,-1243,-2147483648,3,4,5,6,-1619,-2147483648,4,16,17,18,19,-978,-2147483648,3,12,13,14,-2195,-2147483648,4,8,9,10,11,-670,-2147483648,3,12,13,14,-1805,-2147483648,2,1,2,-123,-2147483648,3,12,13,14,-6793,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"signs_tiles","path":"tilesets/signs_tiles/signs_tiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Vision_Layer","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A7657B7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_vision","path":"objects/obj_vision/obj_vision.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2400.0,"y":832.0,},
-      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":false,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_60468495","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_drug_filter","path":"objects/obj_drug_filter/obj_drug_filter.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1376.0,"y":2080.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Pin_Layer","depth":200,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"pin_bakery","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pin","path":"objects/obj_pin/obj_pin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2112.0,"y":2000.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"pin_produce","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pin","path":"objects/obj_pin/obj_pin.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1552.0,"y":1840.0,},
