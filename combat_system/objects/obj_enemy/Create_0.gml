@@ -32,8 +32,8 @@ function random_enemy_turn(){
 	//show_debug_message(i);
 }
 
-enemy_dmg = 5;
-angy_enemy_dmg = 7;
+enemy_dmg = 4;
+angy_enemy_dmg = 6;
 
 angy_enemy = false;
 
