@@ -1,19 +1,20 @@
 //END IT ALL
-if keyboard_check_pressed(ord("L")) {game_end()}
+if keyboard_check_pressed(ord("L")) {
+	//game_end()
+}
 
 //restart if R is pressed
-if keyboard_check_pressed(ord("R")) {
+if (keyboard_check_pressed(ord("R"))) && (current_state == DEATH || current_state == VICTORY)  {
 	game_restart()
 }
 
-if keyboard_check_pressed(ord("X")) {
-	new_state = VICTORY;
+if keyboard_check_pressed(ord("X")) { 
+	//new_state = VICTORY;
 }
 
 //T key toggles combat
 if keyboard_check_pressed(ord("T")) {
-	//game_restart()
-	new_state = COMBAT;
+	//new_state = COMBAT;
 	//show_debug_message("HI")
 }
 
@@ -30,8 +31,6 @@ left = keyboard_check(ord("A"))
 //e key opens list
 if (current_state == EXPLORE || in_shelf){
 	if keyboard_check(ord("E")){
-		//hold onto the previous state while in list
-		prev_state = current_state;
 		new_state = LIST;
 	}
 }
@@ -87,7 +86,11 @@ if current_state == COMBAT{
 }
 
 #region room controller
+
+
+
 if current_state != new_state {
+	
 	if new_state = DEATH {room_goto(Death);}
 	if new_state = EXPLORE {room_goto(Explore);}
 	if new_state = COMBAT {room_goto(Combat);}
@@ -111,7 +114,7 @@ if current_state != new_state {
 	if new_state = BATH_BODY {room_goto(Bath_Body);}
 	if new_state = JEWELERY {room_goto(Jewelery);}
 	if new_state = CLOTHING {room_goto(Clothing);}
-	//if new_state = TITLE {room_goto(Title);}
+	if new_state = TITLE {room_goto(Title);}
 	
 	//HEY WHAT DO U MEAN THAT PERFECTLY COMMUNICAED WHAT'S HAPPENING
 	//NO >:/
@@ -119,6 +122,7 @@ if current_state != new_state {
 	//hey hey. what if we were somewhere else
 	//hey hey what if we made BETTER COMMENTS
 	//hey hey what if i kept doing what i do best forever :)
+	prev_state = current_state;
 	current_state = new_state;
 }
 #endregion

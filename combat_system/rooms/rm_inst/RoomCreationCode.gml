@@ -1,1 +1,1 @@
-room_goto(Title);
+obj_god.new_state = TITLE;
