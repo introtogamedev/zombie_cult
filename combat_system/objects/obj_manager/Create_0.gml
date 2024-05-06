@@ -384,9 +384,9 @@ dog :
 rat :
 	new create_item(
 	"Rat",
-	"nibble nibble." + "\n" + "(+3 DMG, uses 2 mana)",
+	"nibble nibble." + "\n" + "(+4 DMG, uses 2 mana)",
 	spr_rat,
-	"The rat begins to nibble on the enemy's leg. " + "\n" + "The enemy takes 3 damage!",
+	"The rat begins to nibble on the enemy's leg. " + "\n" + "The enemy takes 4 damage!",
 	function()
 	{
 		if(obj_meter.meter_value < 2)
@@ -397,7 +397,7 @@ rat :
 		}
 		else
 		{
-			global.enemy_health -= 3;
+			global.enemy_health -= 4;
 			obj_text.current = global.item_list.rat.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
