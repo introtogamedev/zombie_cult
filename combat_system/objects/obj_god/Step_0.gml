@@ -82,6 +82,10 @@ if (((current_state = LIST) || (in_shelf)) && make_dem_hands && a_z.ambush ) {
 
 if old_hand_placement > 0 {old_hand_placement -= 1;}	
 
+if current_state == COMBAT{
+	if !(audio_is_playing(Store_Music_Fucked)){audio_play_sound(Store_Music_Fucked, 1, true);}
+}
+
 #region room controller
 if current_state != new_state {
 	if new_state = DEATH {room_goto(Death);}
@@ -119,6 +123,4 @@ if current_state != new_state {
 }
 #endregion
 
-
-show_debug_message(alarm_get(0))
 

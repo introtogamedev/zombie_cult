@@ -56,8 +56,6 @@ if obj_god.current_state == EXPLORE{
 
 	y = _new_y;
 	x = _new_x;
-	
-	show_debug_message(distance_to_object(obj_solid));
 
 	//show_debug_message(closest_zombie);
 	

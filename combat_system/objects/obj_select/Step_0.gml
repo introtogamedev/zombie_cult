@@ -45,17 +45,24 @@ if obj_god.in_shelf{
 	
 	if ((keyboard_check(vk_return)) && (pickup_time < 17) && (pickup_time != -1)) {
 		pickup_time += .1; //this number is the tuning one for select time
+		//play the rummaging sound
+		if !(audio_is_playing(Shelf_Rummage)){audio_play_sound(Shelf_Rummage,1,true);}
+		
 	}
+	
 	if keyboard_check_released(vk_return){
 		pickup_time = 0;
 		u_got_an_item = false;
+		//stop the rummaging sound
+		audio_stop_sound(Shelf_Rummage);
 	}
 	if pickup_time > 16.5{
 		u_got_an_item = true;
+		//plop sound
+		audio_play_sound(Item_Get, 1, false);
 		pickup_time = -1;
 	}
 		
-show_debug_message(u_got_an_item);
 }
 
 
