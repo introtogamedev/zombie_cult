@@ -49,6 +49,7 @@ else{
 
 }
 
+//combat
 if current_state == COMBAT{
 	old_hand_placement = 0;
 	coming_from_combat = true;
@@ -58,30 +59,32 @@ if current_state == COMBAT{
 	audio_play_sound(Store_Music_Fucked,1,true);
 }
 
+//explore
 if current_state = EXPLORE{
 	
-	
-	if coming_from_combat = true{
+	if coming_from_combat{
 		audio_pause_all();
-	
 		audio_play_sound(Store_Music_Normal,1,true);
-	
-		var radio_time = irandom_range(1,20);
-		alarm_set(0, 60*radio_time);
+		var radio_time = irandom_range(30,90);
 	}
 	
+	if coming_from_title{
+		var radio_time = irandom_range(1,20);
+	}
+	
+	alarm_set(0, 60*radio_time);
 	coming_from_combat = false;
+	coming_from_title = false;
 }
 
+//title music
 if current_state = TITLE{
+	audio_play_sound(Store_Music_Normal,1,true);
+}
+
+//death music
+if current_state == DEATH{
+	audio_pause_all();
 	
-	
-	if coming_from_combat = true{
-		audio_pause_all();
-	
-		audio_play_sound(Store_Music_Normal,1,true);
-	
-	}
-	
-	coming_from_combat = false;
+	audio_play_sound(Music_Death,1,false);
 }

@@ -1,8 +1,13 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"Music_Death","order":2,"path":"sounds/Music_Death/Music_Death.yy",},
+    {"name":"Item_Get","order":4,"path":"sounds/Item_Get/Item_Get.yy",},
     {"name":"spr_radish_credit","order":1,"path":"sprites/spr_radish_credit/spr_radish_credit.yy",},
+    {"name":"List_Open","order":3,"path":"sounds/List_Open/List_Open.yy",},
     {"name":"obj_title_gm","order":1,"path":"objects/obj_title_gm/obj_title_gm.yy",},
+    {"name":"Zombie_Walk","order":1,"path":"sounds/Zombie_Walk/Zombie_Walk.yy",},
+    {"name":"Shelf_Rummage","order":5,"path":"sounds/Shelf_Rummage/Shelf_Rummage.yy",},
     {"name":"bg_death","order":1,"path":"sprites/bg_death/bg_death.yy",},
   ],
 }
