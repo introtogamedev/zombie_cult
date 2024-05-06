@@ -65,14 +65,13 @@ if current_state = EXPLORE{
 	if coming_from_combat{
 		audio_pause_all();
 		audio_play_sound(Store_Music_Normal,1,true);
-		var radio_time = irandom_range(30,90);
 	}
 	
 	if coming_from_title{
 		var radio_time = irandom_range(1,20);
+		alarm_set(0, 60*radio_time);
 	}
 	
-	alarm_set(0, 60*radio_time);
 	coming_from_combat = false;
 	coming_from_title = false;
 }
