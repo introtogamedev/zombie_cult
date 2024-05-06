@@ -1,5 +1,10 @@
 closest_zombie = instance_nearest(x, y, obj_zombie);
 
+
+
+
+
+
 if obj_god.current_state == EXPLORE{
 	
 
@@ -43,6 +48,12 @@ if obj_god.current_state == EXPLORE{
 		walking = false;
 	}
 
+
+	//human walking code
+	//_new_x += hsp - (abs(vsp)/2)*sign(hsp);
+	//_new_y += vsp - (abs(hsp)/2)*sign(vsp);
+	
+	//FAST WALKING CODE
 	_new_x += hsp;
 	_new_y += vsp;
 	
@@ -78,6 +89,9 @@ if obj_god.current_state == EXPLORE{
 		audio_stop_sound(Zombie_Walk);
 	}
 
+}
+else{
+	walking = false;
 }
 
 

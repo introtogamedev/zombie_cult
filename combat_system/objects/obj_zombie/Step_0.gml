@@ -72,6 +72,11 @@ if (!is_dead && (_in_explore || _in_shelf || _in_list)){
 	if !(x_col_l && hsp < 0) && !(x_col_r && hsp > 0) && !(abs(_distance_x) < ZOMB_WALK_SPD) {new_x += hsp;}
 	if !(y_col_u && vsp > 0) && !(y_col_d && vsp < 0) && !(abs(_distance_y) < ZOMB_WALK_SPD){new_y += vsp;}
 	
+	//if we want the diagonals to not be as fast, add this in the brackets
+	//_new_x += hsp - (abs(vsp)/2)*sign(hsp);
+	//_new_y += vsp - (abs(hsp)/2)*sign(vsp);
+	
+	
 	//if we're close enough, go to ambush time (only applies when not in explore)
 	if ( (abs(_distance_x) < 10) && (abs(_distance_y) < 10) && (!_in_explore) ){
 		ambush = true;
