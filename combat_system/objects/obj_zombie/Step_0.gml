@@ -83,9 +83,4 @@ if (!is_dead && (_in_explore || _in_shelf || _in_list)){
 	//actually update things
 	y = new_y;
 	x = new_x;
-	
-}
-//also don't do anything if we're dead
-else if _in_explore && is_dead{
-	//show_debug_message("i am ded");
 }

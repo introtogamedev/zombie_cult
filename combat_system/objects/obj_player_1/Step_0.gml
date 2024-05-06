@@ -70,6 +70,13 @@ if obj_god.current_state == EXPLORE{
 		audio_play_sound(Player_Walk, 1, true);
 		walk_sound = true;
 	}
+	
+	if closest_zombie.chasing{
+		if (!audio_is_playing(Zombie_Walk)){audio_play_sound(Zombie_Walk,1,true);}
+	}
+	else{
+		audio_stop_sound(Zombie_Walk);
+	}
 
 }
 

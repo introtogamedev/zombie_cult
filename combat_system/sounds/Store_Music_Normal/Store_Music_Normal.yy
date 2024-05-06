@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "Store_Music_Normal.mp3",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.73,
 }

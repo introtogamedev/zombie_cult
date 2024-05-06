@@ -87,3 +87,7 @@ if current_state == DEATH{
 	
 	audio_play_sound(Music_Death,1,false);
 }
+
+if current_state == LIST{
+	audio_play_sound(List_Open,1,false);
+}
