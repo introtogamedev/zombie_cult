@@ -19,14 +19,11 @@ on_drugs = false;
 //possible game states
 Setup_Macros();
 
-current_state = TITLE;
-new_state = TITLE;
-prev_state = EXPLORE;
+current_state = -1;
+new_state = -1;
+prev_state = -1;
 
 in_shelf = false;
-
-coming_from_title = true;
-coming_from_combat = false;
 
 total_checks = 1;
 checks = 0;
