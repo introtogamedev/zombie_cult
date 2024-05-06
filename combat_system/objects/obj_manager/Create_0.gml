@@ -632,9 +632,9 @@ healthboosts :
 cliff_bar :
 	new create_item(
 	"Cliff Bar",
-	"Good for your body" + "\n" + "(+3 HP, uses 2 mana)",
+	"Good for your body" + "\n" + "(+4 HP, uses 2 mana)",
 	spr_cliff_bar,
-	"You bite into the cliff bar." + "\n" + "MMmmmm, delicious." + "\n" +  "You gain 3 HP!",
+	"You bite into the cliff bar." + "\n" + "MMmmmm, delicious." + "\n" +  "You gain 4 HP!",
 	function()
 	{
 		if(obj_meter.meter_value < 2)
@@ -645,7 +645,7 @@ cliff_bar :
 		}
 		else
 		{
-			global.player_health += 3;
+			global.player_health += 4;
 			obj_text.current = global.item_list.cliff_bar.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
