@@ -54,7 +54,7 @@ if current_state == COMBAT{
 	old_hand_placement = 0;
 	coming_from_combat = true;
 	
-	audio_pause_all();
+	audio_stop_all();
 	
 	audio_play_sound(Store_Music_Fucked,1,true);
 }
@@ -63,7 +63,7 @@ if current_state == COMBAT{
 if current_state = EXPLORE{
 	
 	if coming_from_combat{
-		audio_pause_all();
+		audio_stop_all();
 		audio_play_sound(Store_Music_Normal,1,true);
 	}
 	
@@ -83,7 +83,7 @@ if current_state = TITLE{
 
 //death music
 if current_state == DEATH{
-	audio_pause_all();
+	audio_stop_all();
 	
 	audio_play_sound(Music_Death,1,false);
 }
