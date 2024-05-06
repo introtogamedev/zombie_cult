@@ -594,7 +594,7 @@ drugs :
 	"Drugs",
 	"Finally. (?)",
 	spr_drugs,
-	"Nothing... happened? Oh well..",
+	"AKJBVKLJBEWKJE4BK4JHBRKTJBHEWKJBEWHJKCBEWKJVBEKJEVN197EKCJWHEJK",
 	function()
 	{
 		obj_text.current = global.item_list.drugs.effect;
