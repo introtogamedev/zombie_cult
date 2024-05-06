@@ -78,7 +78,7 @@ if (!is_dead && (_in_explore || _in_shelf || _in_list)){
 	
 	
 	//if we're close enough, go to ambush time (only applies when not in explore)
-	if ( (abs(_distance_x) < 10) && (abs(_distance_y) < 10) && (!_in_explore) ){
+	if ( (abs(_distance_x) < 15) && (abs(_distance_y) < 15) && (!_in_explore) ){
 		ambush = true;
 	}
 	else{
