@@ -1,19 +1,20 @@
 //END IT ALL
-if keyboard_check_pressed(ord("L")) {game_end()}
+if keyboard_check_pressed(ord("L")) {
+	//game_end()
+}
 
 //restart if R is pressed
-if keyboard_check_pressed(ord("R")) {
+if (keyboard_check_pressed(ord("R"))) && (current_state == DEATH || current_state == VICTORY)  {
 	game_restart()
 }
 
-if keyboard_check_pressed(ord("X")) {
-	new_state = VICTORY;
+if keyboard_check_pressed(ord("X")) { 
+	//new_state = VICTORY;
 }
 
 //T key toggles combat
 if keyboard_check_pressed(ord("T")) {
-	//game_restart()
-	new_state = COMBAT;
+	//new_state = COMBAT;
 	//show_debug_message("HI")
 }
 
