@@ -27,4 +27,6 @@
     {"name":"spr_solid","order":1,"path":"sprites/spr_solid/spr_solid.yy",},
     {"name":"bg_death","order":19,"path":"sprites/bg_death/bg_death.yy",},
   ],
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [],
 }

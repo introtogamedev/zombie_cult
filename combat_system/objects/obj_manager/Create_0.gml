@@ -73,35 +73,9 @@ alarm_clock :
 nerf_gun :
 	new create_item(
 	"Nerf Gun",
-	"Pew Pew" + "\n" + "(+5 DMG , uses 3 mana)",
+	"Pew Pew" + "\n" + "(+5 DMG , uses 2 mana)",
 	spr_nerf_gun,
 	"Bullseye! You shoot with the nerf gun" + "\n" + "and the enemy takes 5 damage!",
-	function()
-	{
-		if(obj_meter.meter_value < 3)
-		{
-			obj_text.current = obj_text.no_stamina;
-			obj_text.timer += 10;
-			item_inventory.empty_stamina = true;
-		}
-		else
-		{
-			global.enemy_health -= 5;
-			obj_text.current = global.item_list.nerf_gun.effect;
-			obj_text.timer += 10;
-			obj_meter.meter_value -= 3;
-			item_inventory.empty_stamina = false;
-			obj_enemy.getting_hit = true;
-		}	
-	}
-	),
-	
-soap :
-	new create_item(
-	"Soap",
-	"Slip and slide" + "\n" + "(Stuns, uses 2 mana)",
-	spr_soap,
-	"The enemy slips on the soap," + "\n" +  " losing its next turn!",
 	function()
 	{
 		if(obj_meter.meter_value < 2)
@@ -112,9 +86,35 @@ soap :
 		}
 		else
 		{
-			obj_text.current = global.item_list.soap.effect;
+			global.enemy_health -= 5;
+			obj_text.current = global.item_list.nerf_gun.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
+			item_inventory.empty_stamina = false;
+			obj_enemy.getting_hit = true;
+		}	
+	}
+	),
+	
+soap :
+	new create_item(
+	"Soap",
+	"Slip and slide" + "\n" + "(Stuns, uses 1 mana)",
+	spr_soap,
+	"The enemy slips on the soap," + "\n" +  " losing its next turn!",
+	function()
+	{
+		if(obj_meter.meter_value < 1)
+		{
+			obj_text.current = obj_text.no_stamina;
+			obj_text.timer += 10;
+			item_inventory.empty_stamina = true;
+		}
+		else
+		{
+			obj_text.current = global.item_list.soap.effect;
+			obj_text.timer += 10;
+			obj_meter.meter_value -= 1;
 			item_inventory.empty_stamina = false;
 			obj_enemy.skip_enemy = true;
 		}		
@@ -256,12 +256,12 @@ perfume :
 hairspray :
 	new create_item(
 	"Hairspray",
-	"Perfection or bush" + "\n" + "(Stuns, uses 2 mana)",
+	"Perfection or bush" + "\n" + "(Stuns, uses 1 mana)",
 	spr_hairspray,
 	"You use hairspray, covering the battlefield." + "\n" + "The enemy can't see and it loses its turn!",
 	function()
 	{
-		if(obj_meter.meter_value < 2)
+		if(obj_meter.meter_value < 1)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -271,7 +271,7 @@ hairspray :
 		{
 			obj_text.current = global.item_list.hairspray.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 2;
+			obj_meter.meter_value -= 1;
 			item_inventory.empty_stamina = false;
 			obj_enemy.skip_enemy = true;
 		}		
@@ -307,12 +307,12 @@ cat :
 bunny :
 	new create_item(
 	"Bunny",
-	"squeak squeak motherfucker." + "\n" + "(Distracts, uses 2 mana)",
+	"squeak squeak motherfucker." + "\n" + "(Distracts, uses 1 mana)",
 	spr_bunny,
 	"The bunny hops in front of the enemy." + "\n" +  " The enemy is too distracted by its cuteness!" + "\n" + "It loses its turn!",
 	function()
 	{
-		if(obj_meter.meter_value < 2)
+		if(obj_meter.meter_value < 1)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -322,7 +322,7 @@ bunny :
 		{
 			obj_text.current = global.item_list.bunny.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 2;
+			obj_meter.meter_value -= 1;
 			item_inventory.empty_stamina = false;
 			obj_enemy.skip_enemy = true;
 		}		
@@ -332,12 +332,12 @@ bunny :
 squirrel :
 	new create_item(
 	"Squirrel",
-	"Does it have rabies?" + "\n" + "(+6 dmg, uses 2 mana)",
+	"Does it have rabies?" + "\n" + "(+6 dmg, uses 3 mana)",
 	spr_squirrel,
 	"You lunge the squirrel onto the enemy!" + "\n" + "The enemy takes 6 damage!",
 	function()
 	{
-		if(obj_meter.meter_value < 2)
+		if(obj_meter.meter_value < 3)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -348,7 +348,7 @@ squirrel :
 			global.enemy_health -= 6;
 			obj_text.current = global.item_list.squirrel.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 2;
+			obj_meter.meter_value -= 3;
 			item_inventory.empty_stamina = false;
 			obj_enemy.getting_hit = true;
 		}		
@@ -410,12 +410,12 @@ rat :
 earrings :
 	new create_item(
 	"Earrings",
-	"Made out of 90% fake gold" + "\n" + "(+4 HP, uses 3 mana)",
+	"Made out of 90% fake gold" + "\n" + "(+4 HP, uses 2 mana)",
 	spr_earrings,
 	"You clip on some earrings." + "\n" +  " You feel better about your appearance." + "\n" + "You gain 4 HP!",
 	function()
 	{
-		if(obj_meter.meter_value < 3)
+		if(obj_meter.meter_value < 2)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -426,7 +426,7 @@ earrings :
 			global.player_health += 4;
 			obj_text.current = global.item_list.earrings.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 3;
+			obj_meter.meter_value -= 2;
 			item_inventory.empty_stamina = false;
 			got_hp = true;
 		}		
@@ -489,12 +489,12 @@ walkie_talkie :
 hoodie :
 	new create_item(
 	"Hoodie",
-	"thicc." + "\n" + "(+3 HP, uses 2 mana)",
+	"thicc." + "\n" + "(+3 HP, uses 1 mana)",
 	spr_hoodie,
 	"You put on the hoodie. It's very comfy." + "\n" + "You gain 3 HP",
 	function()
 	{
-		if(obj_meter.meter_value < 2)
+		if(obj_meter.meter_value < 1)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -506,7 +506,7 @@ hoodie :
 			global.player_health += 3;
 			obj_text.current = global.item_list.hoodie.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 2;
+			obj_meter.meter_value -= 1;
 			item_inventory.empty_stamina = false;
 		}		
 	}	
@@ -515,12 +515,12 @@ hoodie :
 cake :
 	new create_item(
 	"Cake",
-	"It's a lie. Or is it?" + "\n" + "(Distracts, uses 2 mana)",
+	"It's a lie. Or is it?" + "\n" + "(Distracts, uses 1 mana)",
 	spr_cake,
 	"You give the enemy some cake." + "\n" + "It's apparently their birthday!" + "\n" + "The enemy is mesmerized by" + "\n" + "the sweetness of the dessert." + "\n" + "The enemy loses its turn!",
 	function()
 	{
-		if(obj_meter.meter_value < 2)
+		if(obj_meter.meter_value < 1)
 		{
 			obj_text.current = obj_text.no_stamina;
 			obj_text.timer += 10;
@@ -530,7 +530,7 @@ cake :
 		{
 			obj_text.current = global.item_list.cake.effect;
 			obj_text.timer += 10;
-			obj_meter.meter_value -= 2;
+			obj_meter.meter_value -= 1;
 			item_inventory.empty_stamina = false;
 			obj_enemy.skip_enemy = true;
 		}		
@@ -594,7 +594,7 @@ drugs :
 	"Drugs",
 	"Finally. (?)",
 	spr_drugs,
-	"Nothing... happened? Oh well..",
+	"AKJBVKLJBEWKJE4BK4JHBRKTJBHEWKJBEWHJKCBEWKJVBEKJEVN197EKCJWHEJK",
 	function()
 	{
 		obj_text.current = global.item_list.drugs.effect;
@@ -632,9 +632,9 @@ healthboosts :
 cliff_bar :
 	new create_item(
 	"Cliff Bar",
-	"Good for your body" + "\n" + "(+3 HP, uses 2 mana)",
+	"Good for your body" + "\n" + "(+4 HP, uses 2 mana)",
 	spr_cliff_bar,
-	"You bite into the cliff bar." + "\n" + "MMmmmm, delicious." + "\n" +  "You gain 3 HP!",
+	"You bite into the cliff bar." + "\n" + "MMmmmm, delicious." + "\n" +  "You gain 4 HP!",
 	function()
 	{
 		if(obj_meter.meter_value < 2)
@@ -645,7 +645,7 @@ cliff_bar :
 		}
 		else
 		{
-			global.player_health += 3;
+			global.player_health += 4;
 			obj_text.current = global.item_list.cliff_bar.effect;
 			obj_text.timer += 10;
 			obj_meter.meter_value -= 2;
