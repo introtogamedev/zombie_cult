@@ -119,3 +119,6 @@ if current_state != new_state {
 }
 #endregion
 
+
+show_debug_message(alarm_get(0))
+

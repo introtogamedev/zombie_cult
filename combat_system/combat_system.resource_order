@@ -1,8 +1,4 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [
-    {"name":"spr_radish_credit","order":1,"path":"sprites/spr_radish_credit/spr_radish_credit.yy",},
-    {"name":"obj_title_gm","order":1,"path":"objects/obj_title_gm/obj_title_gm.yy",},
-    {"name":"bg_death","order":1,"path":"sprites/bg_death/bg_death.yy",},
-  ],
+  "ResourceOrderSettings": [],
 }

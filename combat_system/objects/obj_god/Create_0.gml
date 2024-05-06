@@ -13,6 +13,9 @@ right = false;
 left = false;
 
 
+on_drugs = false;
+
+
 //possible game states
 Setup_Macros();
 
@@ -22,7 +25,8 @@ prev_state = EXPLORE;
 
 in_shelf = false;
 
-coming_from_combat = true;
+coming_from_title = true;
+coming_from_combat = false;
 
 total_checks = 1;
 checks = 0;

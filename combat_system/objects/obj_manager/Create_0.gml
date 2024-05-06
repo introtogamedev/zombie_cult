@@ -594,11 +594,12 @@ drugs :
 	"Drugs",
 	"Finally. (?)",
 	spr_drugs,
-	"Nothing happened. Huh...",
+	"Nothing... happened? Oh well..",
 	function()
 	{
 		obj_text.current = global.item_list.drugs.effect;
 		obj_text.timer += 10;	
+		obj_god.on_drugs = true;
 	}	
 	),
 	
