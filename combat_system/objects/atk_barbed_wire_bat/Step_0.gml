@@ -7,7 +7,7 @@ if (obj_text.current = obj_attack.text){
 
 
 if (obj_text.timer = 0 && atk_barbed_wire_bat.visible = true && obj_selection.selected_object = atk_barbed_wire_bat && keyboard_check_released(vk_enter)){
-	if(obj_meter.meter_value < 3)
+	if(obj_meter.meter_value < 2)
 	{
 		obj_text.current = obj_text.no_stamina;
 		obj_text.timer += 10;
@@ -19,14 +19,14 @@ if (obj_text.timer = 0 && atk_barbed_wire_bat.visible = true && obj_selection.se
 		if(bat_sum == 4)
 		{				
 			obj_text.current = failed_bat;
-			obj_meter.meter_value -= 3;
+			obj_meter.meter_value -= 2;
 			obj_text.timer += 10;
 			audio_play_sound(snd_bat_attack, 1, false);
 		}
 		else
 		{
 			obj_text.current = bat_effect;
-			obj_meter.meter_value -= 3;
+			obj_meter.meter_value -= 2;
 			obj_text.timer += 10;
 			global.enemy_health -= 3;
 			audio_play_sound(snd_bat_attack, 1, false);
