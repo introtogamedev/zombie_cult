@@ -14,7 +14,7 @@ if(obj_god.current_state == EXPLORE)
 				{
 				
 					//if (array_contains(slot,obj_list.scav,0,array_length(slot)-1)){win++}
-					draw_sprite(slot[i].sprite,inv[i],_xx,_yy);
+						draw_sprite(slot[i].sprite,inv[i],_xx,_yy);
 					//show_debug_message(slot);
 				}
 			
