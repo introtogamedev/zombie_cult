@@ -1,6 +1,6 @@
 //END IT ALL
 if keyboard_check_pressed(ord("L")) {
-	//game_end()
+	game_end()
 }
 
 //restart if R is pressed
