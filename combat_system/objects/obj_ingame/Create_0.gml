@@ -1,4 +1,4 @@
-
+show_debug_message(array_length(obj_manager.slot))
 win = global.win;
 one = global.one;
 two = global.two;

@@ -49,12 +49,15 @@ if (place_meeting(x,y,obj_select)&& obj_select.u_got_an_item)
 				instance_destroy();
 				
 			}
-		else {
+		else if (array_length(obj_manager.slot) = 0 || array_length(obj_manager.slot) <= 9)
+		{
+		
 		array_push(obj_manager.slot,item);
 		Inventory_add(obj_manager,item);
 		instance_destroy();
+		show_debug_message(array_length(obj_manager.slot));
 		}
-		
+	
 		
 		/*
 		for (var i = 0; i < INVENTORY_SLOTS; i+= 1)
