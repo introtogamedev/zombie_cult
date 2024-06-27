@@ -18,7 +18,7 @@ function create_item(_name,_desc,_spr, _effect, _execute_function) constructor//
 		effect = _effect;
 		execute_function = _execute_function;
 	}
-
+		
 //create items
 
 global.item_list = 
@@ -34,7 +34,7 @@ burger :
 	function ()
 	{
 		obj_text.current = global.item_list.burger.effect;
-		obj_text.timer += 10;		
+		obj_text.timer += 10;	
 	}
 	),
 	//add more items here
@@ -568,7 +568,7 @@ danish :
 	"Danish",
 	"A sugary treat!" + "\n" + "(+3 HP, uses 1 mana)",
 	spr_danish,
-	"You eat the danish. It's unbelievably sweet. /n You gain 3 HP!",
+	"You eat the danish. It's unbelievably sweet." + "\n" +  "You gain 3 HP!",
 	function()
 	{
 		if(obj_meter.meter_value < 1)

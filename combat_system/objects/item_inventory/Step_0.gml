@@ -1,6 +1,7 @@
 //show_debug_message(current_selection);
 //show_debug_message("last item: " + string(last_item));
 
+/*
 for (i = 0; i < array_length(obj_manager.inv) - 1; i++) //sort inventory
 {
 
@@ -10,6 +11,7 @@ for (i = 0; i < array_length(obj_manager.inv) - 1; i++) //sort inventory
 		obj_manager.inv[i+1] = -1;
 	}
 }
+*/
 
 if (obj_text.current = obj_item.text)
 {
@@ -20,13 +22,13 @@ if (obj_text.current = obj_item.text)
 	{
 		chosen_item = i;
 		
-	/*
+	
 		//PRINT INVENTORY CODE IS HERE!!
 		for (var i = 0; i < array_length(obj_manager.inv); i++;)
 		{
 			show_debug_message("slot " + string(i) + " includes " + string(obj_manager.inv[i]));	
 		}
-		*/
+		
 		
 		if(obj_text.timer = 0 && chosen_item != 1 && keyboard_check_released(vk_enter))
 		{
@@ -35,8 +37,10 @@ if (obj_text.current = obj_item.text)
 			obj_selection.modifier = 0;
 			offset_index = 0;
 			if(!empty_stamina)
-			{
-				array_set(inv, current_selection, -1);
+			{	
+				//array_set(inv, current_selection, -1);
+				array_delete(inv, current_selection, 1);
+				array_push(inv, -1);
 			}
 		}
 	}

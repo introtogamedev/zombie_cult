@@ -2,7 +2,7 @@ if obj_god.current_state == COMBAT{
 
 
 
-	if (obj_text.current = obj_text.action || obj_text.current = obj_attack.text){
+	if (obj_text.current = obj_text.action){
 		visible = true;
 		x = global.AxPos[0] - 10;
 		y = global.AyPos[0 + modifier] + 10;
@@ -14,6 +14,22 @@ if obj_god.current_state == COMBAT{
 		}
 
 		if ((keyboard_check_released(ord("S"))) && modifier < 3){
+			modifier += 1;
+			audio_play_sound(snd_click, 1, false);
+		}
+	}
+	else if (obj_text.current = obj_attack.text){
+		visible = true;
+		x = global.AxPos[0] - 10;
+		y = global.AyPos[0 + modifier] + 10;
+		obj_arrow.visible = false;
+
+		if ((keyboard_check_released(ord("W"))) && modifier > 0){
+			modifier -= 1;
+			audio_play_sound(snd_click, 1, false);
+		}
+
+		if ((keyboard_check_released(ord("S"))) && modifier < 1){
 			modifier += 1;
 			audio_play_sound(snd_click, 1, false);
 		}

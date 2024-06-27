@@ -7,7 +7,7 @@ if (obj_text.current = obj_attack.text){
 
 if (atk_emotional_trauma.visible = true && obj_selection.selected_object = atk_emotional_trauma && keyboard_check_released(vk_enter)){
 	
-	if(obj_meter.meter_value > 4)
+	if(obj_meter.meter_value >= 4)
 	{
 		chance();
 		
