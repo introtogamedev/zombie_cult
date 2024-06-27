@@ -57,6 +57,7 @@ if (place_meeting(x,y,obj_select)&& obj_select.u_got_an_item)
 		instance_destroy();
 		show_debug_message(array_length(obj_manager.slot));
 		}
+		
 	
 		
 		/*
