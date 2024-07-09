@@ -9,7 +9,7 @@ if(obj_text.current = obj_enemy.angy_enemy_attack_text && player_hit
    || obj_text.current = global.item_list.ax_body_spray.effect && player_hit)
 {
 	sprite_index = spr_player_hurt;
-	show_debug_message("You should be working");
+	//show_debug_message("You should be working");
 	player_hurt_timer ++;
 	
 	x = x + sin(current_time / 30) * 3;
@@ -53,4 +53,4 @@ if(player_hurt_timer > player_hurt_timer_cap && player_hit)
 	audio_play_sound(snd_hit, 1, false);
 }
 
-show_debug_message(got_hp);
+//show_debug_message(got_hp);

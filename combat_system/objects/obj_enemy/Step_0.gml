@@ -81,7 +81,6 @@ if (global.enemy_health < 1 && keyboard_check_released(vk_enter)){
 		//zombie dies! back to the store & hopefully zombie dies
 		obj_god.new_state = EXPLORE;
 		obj_god.zombie_death = true;
-		show_debug_message("help :(");
 	}
 	else
 	{
