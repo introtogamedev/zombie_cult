@@ -42,9 +42,9 @@ if (obj_text.current = obj_item.text)
 				array_delete(inv, current_selection, 1);
 				array_push(inv, -1);
 				
-				//HENRY'S TRYING TO FIX THE INVENTORY PRINTING BUG HI IT'S ME IDK WHAT I'M DOING
-				array_delete(obj_manager.inv, current_selection, 1);
-				array_push(obj_manager.inv, -1);
+				//this is the part we're adding! if it's worse it's this thing's fault!
+				array_delete(obj_manager.slot, current_selection, 1)
+				
 				
 			}
 		}
