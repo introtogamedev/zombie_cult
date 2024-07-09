@@ -1,6 +1,5 @@
 if (obj_god.on_drugs = true){
 	visible = true;
-	show_debug_message(random_range(1,4))
 
 }
 

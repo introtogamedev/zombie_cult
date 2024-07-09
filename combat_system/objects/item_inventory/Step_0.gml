@@ -26,7 +26,7 @@ if (obj_text.current = obj_item.text)
 		//PRINT INVENTORY CODE IS HERE!!
 		for (var i = 0; i < array_length(obj_manager.inv); i++;)
 		{
-			show_debug_message("slot " + string(i) + " includes " + string(obj_manager.inv[i]));	
+			//show_debug_message("slot " + string(i) + " includes " + string(obj_manager.inv[i]));	
 		}
 		
 		
@@ -41,6 +41,11 @@ if (obj_text.current = obj_item.text)
 				//array_set(inv, current_selection, -1);
 				array_delete(inv, current_selection, 1);
 				array_push(inv, -1);
+				
+				//this is the part we're adding! if it's worse it's this thing's fault!
+				array_delete(obj_manager.slot, current_selection, 1)
+				
+				
 			}
 		}
 	}
