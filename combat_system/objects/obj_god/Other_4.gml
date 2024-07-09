@@ -63,7 +63,7 @@ if current_state = EXPLORE{
 	
 	if prev_state == COMBAT{
 		audio_stop_all();
-		//audio_play_sound(Store_Music_Normal,1,true);
+		audio_play_sound(Store_Music_Normal,1,true);
 	}
 	
 	if prev_state == TITLE{
